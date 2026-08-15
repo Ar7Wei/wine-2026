@@ -76,7 +76,7 @@ td.t-白{background:#FDF9EC;}td.t-红{background:#FBF0EF;}td.t-起泡{background
 </head>
 <body>
 <header><h1>2026 预选赛酒款整理</h1><div class="sub" id="headSub"></div><div class="tabs"><div class="tab on" data-tab="master">酒款总表</div><div class="tab" data-tab="sites">各赛区明细</div></div></header>
-<div class="controls" id="controls"><input class="search" id="q" type="search" placeholder="搜索酒名 / 品种 / 国家 / 产区 / 年份"><div class="lbl">类型</div><div class="rowchips" id="chipsT"></div><div class="lbl">品种</div><div class="rowchips" id="chipsV"></div></div>
+<div class="controls" id="controls"><input class="search" id="q" type="search" placeholder="搜索酒名 / 品种 / 国家 / 产区 / 年份"><div class="lbl">类型</div><div class="rowchips" id="chipsT"></div><div class="lbl" id="lblV">品种</div><div class="rowchips" id="chipsV"></div></div>
 <div class="sortbar"><span id="count"></span><span class="sfield"><select id="sortField"><option value="idx">默认顺序</option><option value="cn">中文名称</option><option value="var2">品种</option><option value="vin">年份</option><option value="cnt">出现次数</option><option value="cty">国家</option></select></span><span class="dirbtn on" id="dirUp">升序 ↑</span><span class="dirbtn" id="dirDown">降序 ↓</span></div>
 <div id="masterView">
 <div class="card t-白" data-t="白" data-v="加卡耐卡" data-s="多米尼·威帝 科斯特经典索阿维干白 domini veneti coste soave classico 加卡耐卡/特雷比亚诺 garganega/trebbiano 加卡耐卡 意大利 威尼托 · 索阿维 soave 2023 资料表6  "><div class="h"><span class="idx">1</span><span class="cn">多米尼·威帝 科斯特经典索阿维干白</span><span class="vtag">加卡耐卡</span></div><div class="en">Domini Veneti Coste Soave Classico</div><div class="kv"><span><b>品种</b>加卡耐卡/特雷比亚诺 Garganega/Trebbiano</span><span><b>年份</b>2023</span><span><b>国家</b>意大利</span><span><b>产区</b>威尼托 · 索阿维 Soave</span><span><b>出现</b><span class="cnt">1 次</span></span><span><b>赛区</b>资料表6</span></div></div>
@@ -277,7 +277,7 @@ td.t-白{background:#FDF9EC;}td.t-红{background:#FBF0EF;}td.t-起泡{background
 
 (function(){
 "use strict";
-var META = {"total": 84, "total_cnt": 135, "typ_cnt": {"白": 35, "红": 45, "起泡": 2, "甜白": 2}, "varieties": ["霞多丽", "西拉/设拉子", "长相思", "赤霞珠", "雷司令", "黑皮诺", "丹魄", "赤霞珠混酿", "灰皮诺", "内比奥罗", "马尔贝克", "维奥娜", "蛇龙珠", "马瑟兰", "加卡耐卡", "勃艮第香瓜", "玛珊/瑚珊", "白诗南", "维欧尼", "阿里高特", "阿尔巴利诺", "巴贝拉", "晚红蜜", "佳美", "格雷拉", "威代尔", "小芒森"], "var_cnt": {"加卡耐卡": 1, "勃艮第香瓜": 1, "灰皮诺": 3, "玛珊/瑚珊": 1, "白诗南": 1, "维奥娜": 2, "维欧尼": 1, "长相思": 8, "阿里高特": 1, "雷司令": 6, "霞多丽": 10, "阿尔巴利诺": 1, "丹魄": 4, "内比奥罗": 3, "巴贝拉": 1, "晚红蜜": 1, "蛇龙珠": 2, "西拉/设拉子": 10, "赤霞珠": 8, "赤霞珠混酿": 4, "马尔贝克": 3, "马瑟兰": 2, "黑皮诺": 6, "佳美": 1, "格雷拉": 1, "威代尔": 1, "小芒森": 1}};
+var META = {"total": 84, "total_cnt": 135, "typ_cnt": {"白": 35, "红": 45, "起泡": 2, "甜白": 2}, "varieties": ["霞多丽", "西拉/设拉子", "长相思", "赤霞珠", "雷司令", "黑皮诺", "丹魄", "赤霞珠混酿", "灰皮诺", "内比奥罗", "马尔贝克", "维奥娜", "蛇龙珠", "马瑟兰", "加卡耐卡", "勃艮第香瓜", "玛珊/瑚珊", "白诗南", "维欧尼", "阿里高特", "阿尔巴利诺", "巴贝拉", "晚红蜜", "佳美", "格雷拉", "威代尔", "小芒森"], "var_cnt": {"加卡耐卡": 1, "勃艮第香瓜": 1, "灰皮诺": 3, "玛珊/瑚珊": 1, "白诗南": 1, "维奥娜": 2, "维欧尼": 1, "长相思": 8, "阿里高特": 1, "雷司令": 6, "霞多丽": 10, "阿尔巴利诺": 1, "丹魄": 4, "内比奥罗": 3, "巴贝拉": 1, "晚红蜜": 1, "蛇龙珠": 2, "西拉/设拉子": 10, "赤霞珠": 8, "赤霞珠混酿": 4, "马尔贝克": 3, "马瑟兰": 2, "黑皮诺": 6, "佳美": 1, "格雷拉": 1, "威代尔": 1, "小芒森": 1}, "typ_varieties": {"白": {"霞多丽": 9, "长相思": 8, "雷司令": 6, "灰皮诺": 3, "维奥娜": 2, "加卡耐卡": 1, "勃艮第香瓜": 1, "玛珊/瑚珊": 1, "白诗南": 1, "维欧尼": 1, "阿里高特": 1, "阿尔巴利诺": 1}, "红": {"西拉/设拉子": 10, "赤霞珠": 8, "黑皮诺": 6, "丹魄": 4, "赤霞珠混酿": 4, "内比奥罗": 3, "马尔贝克": 3, "蛇龙珠": 2, "马瑟兰": 2, "巴贝拉": 1, "晚红蜜": 1, "佳美": 1}, "起泡": {"格雷拉": 1, "霞多丽": 1}, "甜白": {"威代尔": 1, "小芒森": 1}}};
 var TYPE_ORDER=["白","红","起泡","甜白"];
 var state={q:"",typ:"全部",var2:"全部",field:"idx",dir:1};
 function $(s){return document.querySelector(s);}
@@ -340,29 +340,42 @@ function apply(){
 }
 // ---- 搜索 ----
 document.getElementById("q").addEventListener("input",function(e){state.q=e.target.value.trim().toLowerCase();apply();});
-// ---- 类型 chips ----
-(function(){
+// ---- 级联筛选: 类型(一级) → 品种(二级,随类型联动) ----
+function varietyList(){
+  // 返回当前类型下的品种列表 [[name,n],...] 按次数降序
+  if(state.typ==="全部"){
+    return META.varieties.map(function(v){return [v,META.var_cnt[v]||0];});
+  }
+  var tv=META.typ_varieties[state.typ]||{};
+  return Object.keys(tv).map(function(k){return [k,tv[k]];});
+}
+function buildTypeChips(){
   var box=document.getElementById("chipsT");
+  box.innerHTML="";
   var arr=[["全部",META.total]].concat(TYPE_ORDER.map(function(t){return [t,META.typ_cnt[t]||0];}));
   arr.forEach(function(x){
     var d=document.createElement("div");
-    d.className="chip"+(x[0]==="全部"?" on":"");
+    d.className="chip"+(x[0]===state.typ?" on":"");
     d.innerHTML=x[0]+'<span class="n">'+x[1]+'</span>';
     d.addEventListener("click",function(){
       state.typ=x[0];
+      state.var2="全部";          // 切换类型→重置品种(级联)
       Array.prototype.slice.call(box.children).forEach(function(c){c.classList.toggle("on",c===d);});
+      buildVarChips();
       apply();
     });
     box.appendChild(d);
   });
-})();
-// ---- 品种 chips ----
-(function(){
+}
+function buildVarChips(){
   var box=document.getElementById("chipsV");
-  var arr=[["全部",META.total]].concat(META.varieties.map(function(v){return [v,META.var_cnt[v]||0];}));
+  box.innerHTML="";
+  var allN = state.typ==="全部" ? META.total : (META.typ_cnt[state.typ]||0);
+  document.getElementById("lblV").textContent = state.typ==="全部" ? "品种" : ("品种 · "+state.typ);
+  var arr=[["全部",allN]].concat(varietyList());
   arr.forEach(function(x){
     var d=document.createElement("div");
-    d.className="chip"+(x[0]==="全部"?" on":"");
+    d.className="chip"+(x[0]===state.var2?" on":"");
     d.innerHTML=x[0]+'<span class="n">'+x[1]+'</span>';
     d.addEventListener("click",function(){
       state.var2=x[0];
@@ -371,7 +384,9 @@ document.getElementById("q").addEventListener("input",function(e){state.q=e.targ
     });
     box.appendChild(d);
   });
-})();
+}
+buildTypeChips();
+buildVarChips();
 // ---- 排序 ----
 document.getElementById("sortField").addEventListener("change",function(e){state.field=e.target.value;apply();});
 function setDir(d){
