@@ -15,7 +15,13 @@ header .sub{font-size:12px;opacity:.8;margin-top:3px;}
 .tabs{display:flex;gap:2px;margin-top:10px;border-bottom:1px solid rgba(255,255,255,.2);}
 .tab{padding:7px 14px;font-size:13px;cursor:pointer;color:#E8D9DC;border-bottom:2px solid transparent;}
 .tab.on{color:#fff;border-bottom-color:#F5D76E;font-weight:700;}
-.controls{background:var(--card);padding:10px 12px 8px;border-bottom:1px solid var(--line);position:sticky;top:86px;z-index:40;}
+.toolbar{display:flex;align-items:center;gap:8px;background:var(--card);padding:8px 12px;border-bottom:1px solid var(--line);position:sticky;top:86px;z-index:40;}
+.toolbar .status{flex:1;font-size:12.5px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.toolbar .status b{color:var(--wine);}
+.togglebtn{border:1px solid var(--line);background:#fff;border-radius:6px;padding:5px 12px;font-size:12.5px;cursor:pointer;color:#5A4E53;flex-shrink:0;}
+.togglebtn.on{background:var(--wine);color:#fff;border-color:var(--wine);}
+.panel{display:none;background:var(--card);padding:10px 12px 8px;border-bottom:1px solid var(--line);}
+.panel.open{display:block;}
 .search{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;font-size:14px;outline:none;background:#FBF9F7;}
 .search:focus{border-color:var(--wine);}
 .rowchips{display:flex;gap:6px;margin-top:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none;}
@@ -76,8 +82,8 @@ td.t-白{background:#FDF9EC;}td.t-红{background:#FBF0EF;}td.t-起泡{background
 </head>
 <body>
 <header><h1>2026 预选赛酒款整理</h1><div class="sub" id="headSub"></div><div class="tabs"><div class="tab on" data-tab="master">酒款总表</div><div class="tab" data-tab="sites">各赛区明细</div></div></header>
-<div class="controls" id="controls"><input class="search" id="q" type="search" placeholder="搜索酒名 / 品种 / 国家 / 产区 / 年份"><div class="lbl">类型</div><div class="rowchips" id="chipsT"></div><div class="lbl" id="lblV">品种</div><div class="rowchips" id="chipsV"></div></div>
-<div class="sortbar"><span id="count"></span><span class="sfield"><select id="sortField"><option value="idx">默认顺序</option><option value="cn">中文名称</option><option value="var2">品种</option><option value="vin">年份</option><option value="cnt">出现次数</option><option value="cty">国家</option></select></span><span class="dirbtn on" id="dirUp">升序 ↑</span><span class="dirbtn" id="dirDown">降序 ↓</span></div>
+<div class="toolbar" id="toolbar"><span class="status" id="filterStatus"></span><span class="togglebtn" id="panelToggle">筛选 <span class="badge" id="filterBadge" style="display:none"></span></span></div>
+<div class="panel" id="panel"><input class="search" id="q" type="search" placeholder="搜索酒名 / 品种 / 国家 / 产区 / 年份"><div class="lbl">类型</div><div class="rowchips" id="chipsT"></div><div class="lbl" id="lblV">品种</div><div class="rowchips" id="chipsV"></div><div class="sortbar"><span class="sfield"><select id="sortField"><option value="idx">默认顺序</option><option value="cn">中文名称</option><option value="var2">品种</option><option value="vin">年份</option><option value="cnt">出现次数</option><option value="cty">国家</option></select></span><span class="dirbtn on" id="dirUp">升序 ↑</span><span class="dirbtn" id="dirDown">降序 ↓</span></div></div>
 <div id="masterView">
 <div class="card t-白" data-t="白" data-v="加卡耐卡" data-s="多米尼·威帝 科斯特经典索阿维干白 domini veneti coste soave classico 加卡耐卡/特雷比亚诺 garganega/trebbiano 加卡耐卡 意大利 威尼托 · 索阿维 soave 2023 资料表6  "><div class="h"><span class="idx">1</span><span class="cn">多米尼·威帝 科斯特经典索阿维干白</span><span class="vtag">加卡耐卡</span></div><div class="en">Domini Veneti Coste Soave Classico</div><div class="kv"><span><b>品种</b>加卡耐卡/特雷比亚诺 Garganega/Trebbiano</span><span><b>年份</b>2023</span><span><b>国家</b>意大利</span><span><b>产区</b>威尼托 · 索阿维 Soave</span><span><b>出现</b><span class="cnt">1 次</span></span><span><b>赛区</b>资料表6</span></div></div>
 <div class="card t-白" data-t="白" data-v="勃艮第香瓜" data-s="邦奈宇特 慕斯卡黛干白 domaine bonnet-huteau muscadet sèvre et maine sur lie "les gautronnières" 勃艮第香瓜 melon de bourgogne 勃艮第香瓜 法国 卢瓦尔河谷 loire 2023 资料表5  "><div class="h"><span class="idx">2</span><span class="cn">邦奈宇特 慕斯卡黛干白</span><span class="vtag">勃艮第香瓜</span></div><div class="en">Domaine Bonnet-Huteau Muscadet Sèvre et Maine sur Lie "Les Gautronnières"</div><div class="kv"><span><b>品种</b>勃艮第香瓜 Melon de Bourgogne</span><span><b>年份</b>2023</span><span><b>国家</b>法国</span><span><b>产区</b>卢瓦尔河谷 Loire</span><span><b>出现</b><span class="cnt">1 次</span></span><span><b>赛区</b>资料表5</span></div></div>
@@ -277,7 +283,7 @@ td.t-白{background:#FDF9EC;}td.t-红{background:#FBF0EF;}td.t-起泡{background
 
 (function(){
 "use strict";
-var META = {"total": 84, "total_cnt": 135, "typ_cnt": {"白": 35, "红": 45, "起泡": 2, "甜白": 2}, "varieties": ["霞多丽", "西拉/设拉子", "长相思", "赤霞珠", "雷司令", "黑皮诺", "丹魄", "赤霞珠混酿", "灰皮诺", "内比奥罗", "马尔贝克", "维奥娜", "蛇龙珠", "马瑟兰", "加卡耐卡", "勃艮第香瓜", "玛珊/瑚珊", "白诗南", "维欧尼", "阿里高特", "阿尔巴利诺", "巴贝拉", "晚红蜜", "佳美", "格雷拉", "威代尔", "小芒森"], "var_cnt": {"加卡耐卡": 1, "勃艮第香瓜": 1, "灰皮诺": 3, "玛珊/瑚珊": 1, "白诗南": 1, "维奥娜": 2, "维欧尼": 1, "长相思": 8, "阿里高特": 1, "雷司令": 6, "霞多丽": 10, "阿尔巴利诺": 1, "丹魄": 4, "内比奥罗": 3, "巴贝拉": 1, "晚红蜜": 1, "蛇龙珠": 2, "西拉/设拉子": 10, "赤霞珠": 8, "赤霞珠混酿": 4, "马尔贝克": 3, "马瑟兰": 2, "黑皮诺": 6, "佳美": 1, "格雷拉": 1, "威代尔": 1, "小芒森": 1}, "typ_varieties": {"白": {"霞多丽": 9, "长相思": 8, "雷司令": 6, "灰皮诺": 3, "维奥娜": 2, "加卡耐卡": 1, "勃艮第香瓜": 1, "玛珊/瑚珊": 1, "白诗南": 1, "维欧尼": 1, "阿里高特": 1, "阿尔巴利诺": 1}, "红": {"西拉/设拉子": 10, "赤霞珠": 8, "黑皮诺": 6, "丹魄": 4, "赤霞珠混酿": 4, "内比奥罗": 3, "马尔贝克": 3, "蛇龙珠": 2, "马瑟兰": 2, "巴贝拉": 1, "晚红蜜": 1, "佳美": 1}, "起泡": {"格雷拉": 1, "霞多丽": 1}, "甜白": {"威代尔": 1, "小芒森": 1}}};
+var META = {"total": 84, "total_cnt": 135, "typ_cnt": {"白": 63, "红": 68, "起泡": 2, "甜白": 2}, "varieties": ["霞多丽", "西拉/设拉子", "长相思", "赤霞珠", "雷司令", "黑皮诺", "丹魄", "赤霞珠混酿", "马尔贝克", "维奥娜", "内比奥罗", "白诗南", "灰皮诺", "玛珊/瑚珊", "维欧尼", "蛇龙珠", "马瑟兰", "加卡耐卡", "勃艮第香瓜", "阿里高特", "阿尔巴利诺", "巴贝拉", "晚红蜜", "佳美", "格雷拉", "威代尔", "小芒森"], "var_cnt": {"加卡耐卡": 1, "勃艮第香瓜": 1, "灰皮诺": 4, "玛珊/瑚珊": 4, "白诗南": 5, "维奥娜": 6, "维欧尼": 2, "长相思": 12, "阿里高特": 1, "雷司令": 10, "霞多丽": 17, "阿尔巴利诺": 1, "丹魄": 7, "内比奥罗": 6, "巴贝拉": 1, "晚红蜜": 1, "蛇龙珠": 2, "西拉/设拉子": 13, "赤霞珠": 12, "赤霞珠混酿": 7, "马尔贝克": 7, "马瑟兰": 2, "黑皮诺": 9, "佳美": 1, "格雷拉": 1, "威代尔": 1, "小芒森": 1}, "typ_varieties": {"白": {"霞多丽": 16, "长相思": 12, "雷司令": 10, "维奥娜": 6, "白诗南": 5, "灰皮诺": 4, "玛珊/瑚珊": 4, "维欧尼": 2, "加卡耐卡": 1, "勃艮第香瓜": 1, "阿里高特": 1, "阿尔巴利诺": 1}, "红": {"西拉/设拉子": 13, "赤霞珠": 12, "黑皮诺": 9, "丹魄": 7, "赤霞珠混酿": 7, "马尔贝克": 7, "内比奥罗": 6, "蛇龙珠": 2, "马瑟兰": 2, "巴贝拉": 1, "晚红蜜": 1, "佳美": 1}, "起泡": {"格雷拉": 1, "霞多丽": 1}, "甜白": {"威代尔": 1, "小芒森": 1}}};
 var TYPE_ORDER=["白","红","起泡","甜白"];
 var state={q:"",typ:"全部",var2:"全部",field:"idx",dir:1};
 function $(s){return document.querySelector(s);}
@@ -335,9 +341,37 @@ function apply(){
   visC.forEach(function(x){cv.appendChild(x.el);});
   var tb=document.getElementById("tbl");
   visR.forEach(function(x){tb.appendChild(x.el);});
-  document.getElementById("count").textContent="显示 "+visC.length+" 款";
+  // 出现次数口径: 可见酒款的 cnt 总和
+  var totalN=0;
+  visC.forEach(function(x){totalN+=x.cnt;});
+  updateStatus(visC.length, totalN);
   document.getElementById("emptyBox").style.display=visC.length?"none":"block";
 }
+function updateStatus(n, totalN){
+  // 工具条状态摘要: 结果出现次数 + 当前筛选链
+  var parts=[];
+  if(state.q)parts.push('搜索"'+state.q+'"');
+  if(state.typ!=="全部")parts.push(state.typ);
+  if(state.var2!=="全部")parts.push(state.var2);
+  var fieldName={idx:"默认",cn:"中文名",var2:"品种",vin:"年份",cnt:"次数",cty:"国家"}[state.field];
+  var s='<b>'+totalN+'</b> 次 · '+n+' 款';
+  if(parts.length)s+=' · '+parts.join(' / ')+' · '+fieldName+(state.dir===1?"↑":"↓");
+  document.getElementById("filterStatus").innerHTML=s;
+  // 有筛选条件时显示badge
+  var active=parts.length;
+  var bd=document.getElementById("filterBadge");
+  bd.style.display=active?"":"none";
+  bd.textContent=active;
+}
+// ---- 面板展开/收起 ----
+(function(){
+  var panel=document.getElementById("panel"), btn=document.getElementById("panelToggle");
+  btn.addEventListener("click",function(){
+    panel.classList.toggle("open");
+    btn.classList.toggle("on");
+    btn.firstChild.textContent = panel.classList.contains("open") ? "收起 " : "筛选 ";
+  });
+})();
 // ---- 搜索 ----
 document.getElementById("q").addEventListener("input",function(e){state.q=e.target.value.trim().toLowerCase();apply();});
 // ---- 级联筛选: 类型(一级) → 品种(二级,随类型联动) ----
@@ -352,7 +386,7 @@ function varietyList(){
 function buildTypeChips(){
   var box=document.getElementById("chipsT");
   box.innerHTML="";
-  var arr=[["全部",META.total]].concat(TYPE_ORDER.map(function(t){return [t,META.typ_cnt[t]||0];}));
+  var arr=[["全部",META.total_cnt]].concat(TYPE_ORDER.map(function(t){return [t,META.typ_cnt[t]||0];}));
   arr.forEach(function(x){
     var d=document.createElement("div");
     d.className="chip"+(x[0]===state.typ?" on":"");
@@ -370,7 +404,7 @@ function buildTypeChips(){
 function buildVarChips(){
   var box=document.getElementById("chipsV");
   box.innerHTML="";
-  var allN = state.typ==="全部" ? META.total : (META.typ_cnt[state.typ]||0);
+  var allN = state.typ==="全部" ? META.total_cnt : (META.typ_cnt[state.typ]||0);
   document.getElementById("lblV").textContent = state.typ==="全部" ? "品种" : ("品种 · "+state.typ);
   var arr=[["全部",allN]].concat(varietyList());
   arr.forEach(function(x){
@@ -423,8 +457,8 @@ Array.prototype.slice.call(document.querySelectorAll(".tab")).forEach(function(t
     document.getElementById("masterView").style.display=tab==="master"?"":"none";
     document.getElementById("tableWrap").style.display="none";
     document.getElementById("sitesView").style.display=tab==="sites"?"":"none";
-    document.getElementById("controls").style.display=tab==="sites"?"none":"";
-    document.querySelector(".sortbar").style.display=tab==="sites"?"none":"";
+    document.getElementById("toolbar").style.display=tab==="sites"?"none":"";
+    document.getElementById("panel").style.display=tab==="sites"?"none":"";
   });
 });
 setDir(1);
