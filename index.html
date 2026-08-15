@@ -287,8 +287,8 @@ document.getElementById("headSub").textContent="共 "+META.total+" 款 · "+META
 function collectCards(){
   return Array.prototype.slice.call(document.querySelectorAll("#masterView .card")).map(function(c){
     return {el:c, idx:+c.querySelector(".idx").textContent, cn:c.querySelector(".cn").textContent,
-            vin:c.querySelector(".kv").children[1].textContent.replace("年份",""),
-            cnt:+c.querySelector(".cnt").textContent, cty:c.querySelector(".kv").children[2].textContent.replace("国家",""),
+ vin:c.querySelector(".kv").children[1].textContent.replace("年份",""),
+ cnt:parseInt(c.querySelector(".cnt").textContent,10)||0, cty:c.querySelector(".kv").children[2].textContent.replace("国家",""),
             typ:c.getAttribute("data-t"), var2:c.getAttribute("data-v"), s:c.getAttribute("data-s")};
   });
 }
