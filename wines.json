@@ -7,8 +7,8 @@
   "quan_n": 555,
   "sai_n": 84,
   "types": {
-   "白": 266,
-   "红": 289,
+   "白": 223,
+   "红": 332,
    "起泡": 17,
    "甜白": 19,
    "加强": 5
@@ -1969,7 +1969,7 @@
   },
   {
    "idx": "T21",
-   "typ": "白",
+   "typ": "红",
    "cn": "朴奈达酒庄蓝雪花红葡萄酒",
    "en": "Planeta Plumbago Nero d'Avola",
    "var": "黑珍珠",
@@ -2190,7 +2190,7 @@
   },
   {
    "idx": "T34",
-   "typ": "白",
+   "typ": "红",
    "cn": "乔瓦尼酒庄埃特纳红葡萄酒(ETNAROSSO DOP)",
    "en": "Giovanni Rosso Etna Red Wine(ETNAROSSO DOP)",
    "var": "马斯卡斯奈莱洛(Nerello Mascalese)",
@@ -4757,7 +4757,7 @@
   },
   {
    "idx": "T185",
-   "typ": "白",
+   "typ": "红",
    "cn": "贝亚蒂酒庄疯狂大脑阿布鲁佐蒙特布查诺干红",
    "en": "",
    "var": "蒙特布查诺",
@@ -4774,7 +4774,7 @@
   },
   {
    "idx": "T186",
-   "typ": "白",
+   "typ": "红",
    "cn": "贝亚蒂酒庄小矮人阿布鲁佐蒙特布查诺干红",
    "en": "",
    "var": "蒙特布查诺",
@@ -5063,7 +5063,7 @@
   },
   {
    "idx": "T203",
-   "typ": "白",
+   "typ": "红",
    "cn": "贝尔塔尼酒庄阿玛偌尼经典红葡萄酒",
    "en": "Bertani Amarone Classico Red Wine",
    "var": "科维纳混酿",
@@ -5080,7 +5080,7 @@
   },
   {
    "idx": "T204",
-   "typ": "白",
+   "typ": "红",
    "cn": "卓林郅樽阿玛罗尼红葡萄酒",
    "en": "Zonin Amarone della Valpolicella DOCG",
    "var": "科维纳混酿",
@@ -5097,7 +5097,7 @@
   },
   {
    "idx": "T205",
-   "typ": "白",
+   "typ": "红",
    "cn": "托马斯酒庄台地瓦尔普利切拉经典红葡萄酒",
    "en": "Tommasi I Pianeti",
    "var": "科维纳混酿",
@@ -5114,7 +5114,7 @@
   },
   {
    "idx": "T206",
-   "typ": "白",
+   "typ": "红",
    "cn": "托马斯酒庄瑞帕索瓦尔普利切拉红葡萄酒",
    "en": "Tommasi VALPOLICELLA “Ripasso”",
    "var": "科维纳混酿",
@@ -5131,7 +5131,7 @@
   },
   {
    "idx": "T207",
-   "typ": "白",
+   "typ": "红",
    "cn": "彼岸达·瓦波利切拉红葡萄酒",
    "en": "Ca'la Bionda Valpolicella Classico DOC",
    "var": "科维纳混酿",
@@ -5148,7 +5148,7 @@
   },
   {
    "idx": "T208",
-   "typ": "白",
+   "typ": "红",
    "cn": "贝灵瀚酒庄家园皮诺塔吉红葡萄酒",
    "en": "Bellingham Homestead Stellenbosch Pinotage",
    "var": "皮诺塔吉（Pinotage）",
@@ -5165,7 +5165,7 @@
   },
   {
    "idx": "T209",
-   "typ": "白",
+   "typ": "红",
    "cn": "旱地珍藏决意者皮诺塔基干红葡萄酒",
    "en": "The Dry Land Collection Resolve Pinotage",
    "var": "皮诺塔吉（Pinotage）",
@@ -5420,7 +5420,7 @@
   },
   {
    "idx": "T224",
-   "typ": "白",
+   "typ": "红",
    "cn": "奥纳亚酒庄乐福特干红葡萄酒",
    "en": "Tenuta dell'Ornellaia Le Volte",
    "var": "波尔多混酿",
@@ -5437,7 +5437,7 @@
   },
   {
    "idx": "T225",
-   "typ": "白",
+   "typ": "红",
    "cn": "奥纳亚庄园乐佛特红葡萄酒",
    "en": "Ornellaia Le Volte dell‘Ornellaia",
    "var": "波尔多混酿",
@@ -5471,7 +5471,7 @@
   },
   {
    "idx": "T227",
-   "typ": "白",
+   "typ": "红",
    "cn": "蓝压歌海娜红葡萄酒",
    "en": "Basket Pressed Grenache",
    "var": "歌海娜（Grenache）",
@@ -5488,7 +5488,7 @@
   },
   {
    "idx": "T228",
-   "typ": "白",
+   "typ": "红",
    "cn": "塞缪尔乔治酒庄歌海娜红",
    "en": "Samuel's Gorge Grenache Red",
    "var": "歌海娜（Grenache）",
@@ -5505,7 +5505,7 @@
   },
   {
    "idx": "T229",
-   "typ": "白",
+   "typ": "红",
    "cn": "重生歌海娜干红葡萄酒",
    "en": "Yelland & Papps Second Take Grenache",
    "var": "歌海娜（Grenache）",
@@ -5522,7 +5522,7 @@
   },
   {
    "idx": "T230",
-   "typ": "白",
+   "typ": "红",
    "cn": "阿尔托蒙卡亚贝拉通干红葡萄酒",
    "en": "Alto Moncayo Veraton",
    "var": "歌海娜（Garnacha）",
@@ -5556,7 +5556,7 @@
   },
   {
    "idx": "T232",
-   "typ": "白",
+   "typ": "红",
    "cn": "桃乐丝圣歌红葡萄酒",
    "en": "Familia Torres Salmos",
    "var": "歌海娜、佳丽酿混酿",
@@ -5573,7 +5573,7 @@
   },
   {
    "idx": "T233",
-   "typ": "白",
+   "typ": "红",
    "cn": "奥瓦帕乐酒庄嘉文红葡萄酒",
    "en": "ALVARO PALACIOS",
    "var": "歌海娜、佳丽酿混酿",
@@ -5726,7 +5726,7 @@
   },
   {
    "idx": "T242",
-   "typ": "白",
+   "typ": "红",
    "cn": "费迪南多一世干红",
    "en": "Ferdinando I Toscana Rosso",
    "var": "桑娇维塞混酿",
@@ -5743,7 +5743,7 @@
   },
   {
    "idx": "T243",
-   "typ": "白",
+   "typ": "红",
    "cn": "花思蝶蒙达奇诺康坡干红葡萄酒",
    "en": "Campo Ai Sassi Rosso di Montalcino",
    "var": "桑娇维塞",
@@ -5760,7 +5760,7 @@
   },
   {
    "idx": "T244",
-   "typ": "白",
+   "typ": "红",
    "cn": "萨塞蒂利维奥韦西洛红",
    "en": "Livio Sassetti “Pertimali” – Brunello di Montalcino Riserva",
    "var": "桑娇维塞",
@@ -5777,7 +5777,7 @@
   },
   {
    "idx": "T245",
-   "typ": "白",
+   "typ": "红",
    "cn": "安东尼侯爵 经典基安蒂珍藏干红葡萄酒",
    "en": "Marchesi Antinori Tenuta Tignanello 'Marchese Antinori' Chianti Classico Riserva",
    "var": "桑娇维塞",
@@ -5794,7 +5794,7 @@
   },
   {
    "idx": "T246",
-   "typ": "白",
+   "typ": "红",
    "cn": "福地酒庄经典奇安帝干红葡萄酒",
    "en": "Fontodi Chianti Classico DOCG Biodynamic",
    "var": "桑娇维塞",
@@ -5811,7 +5811,7 @@
   },
   {
    "idx": "T247",
-   "typ": "白",
+   "typ": "红",
    "cn": "澜莫酒庄双刃经典奇安蒂红葡萄酒",
    "en": "Lamole di Lamoie Duelame",
    "var": "桑娇维塞",
@@ -5828,7 +5828,7 @@
   },
   {
    "idx": "T248",
-   "typ": "白",
+   "typ": "红",
    "cn": "科尔多奇亚酒庄蒙塔尔奇诺红葡萄酒",
    "en": "Col d'Orcia Rosso di Montalcino",
    "var": "桑娇维塞",
@@ -5845,7 +5845,7 @@
   },
   {
    "idx": "T249",
-   "typ": "白",
+   "typ": "红",
    "cn": "乌鹊酒庄蒙塔奇诺红葡萄酒",
    "en": "Uccelliera Rosso di Montalcino DOC",
    "var": "桑娇维塞",
@@ -5862,7 +5862,7 @@
   },
   {
    "idx": "T250",
-   "typ": "白",
+   "typ": "红",
    "cn": "瓦卡多黑歌海娜干红葡萄酒",
    "en": "Valcanto Garnacha Tintorera",
    "var": "染色葡萄海娜（Garnacha Tintorera/Alicante Bouschet）",
@@ -5879,7 +5879,7 @@
   },
   {
    "idx": "T251",
-   "typ": "白",
+   "typ": "红",
    "cn": "瑞斯卡内普瑞卡-普里米蒂红葡萄酒",
    "en": "",
    "var": "普里米蒂沃",
@@ -5998,7 +5998,7 @@
   },
   {
    "idx": "T258",
-   "typ": "白",
+   "typ": "红",
    "cn": "塞缪尔乔治酒庄慕合怀特红",
    "en": "Sarmuel's Gorge Mourvèdre Red",
    "var": "慕合怀特（Mourvèdre/Mataro）",
@@ -6015,7 +6015,7 @@
   },
   {
    "idx": "T259",
-   "typ": "白",
+   "typ": "红",
    "cn": "卡萨卡斯蒂略摩尔干红",
    "en": "Casa Castillo El Molar",
    "var": "慕合怀特（Monastrell）为主混酿",
@@ -6032,7 +6032,7 @@
   },
   {
    "idx": "T260",
-   "typ": "白",
+   "typ": "红",
    "cn": "夏博岚酒庄慕合怀特干红葡萄酒",
    "en": "",
    "var": "慕合怀特",
@@ -6219,7 +6219,7 @@
   },
   {
    "idx": "T271",
-   "typ": "白",
+   "typ": "红",
    "cn": "丝路酒庄鸟巢小味尔多干红",
    "en": "",
    "var": "小味尔多",
@@ -6253,7 +6253,7 @@
   },
   {
    "idx": "T273",
-   "typ": "白",
+   "typ": "红",
    "cn": "潘丽赛罗酒庄多切托梦菲娜红葡萄酒",
    "en": "Pelissero Munfrina Dolcetto d'Alba",
    "var": "多切托",
@@ -6270,7 +6270,7 @@
   },
   {
    "idx": "T274",
-   "typ": "白",
+   "typ": "红",
    "cn": "火鸟庄园雪松干红葡萄酒",
    "en": "Quinta do Noval Cedro do Noval",
    "var": "国产多瑞加为主红葡萄混酿",
@@ -6287,7 +6287,7 @@
   },
   {
    "idx": "T275",
-   "typ": "白",
+   "typ": "红",
    "cn": "波雷斯酒庄“签名版”红葡萄酒",
    "en": "Porrais Signature, DOC Douro Red",
    "var": "国产多瑞加、罗丽红等红葡萄混酿",
@@ -6780,7 +6780,7 @@
   },
   {
    "idx": "T304",
-   "typ": "白",
+   "typ": "红",
    "cn": "艾鹭仙粉黛",
    "en": "Ektimo Zinfandel",
    "var": "仙粉黛（Zinfandel）",
@@ -8531,7 +8531,7 @@
   },
   {
    "idx": "T407",
-   "typ": "白",
+   "typ": "红",
    "cn": "丹派酒庄经典干红葡萄酒",
    "en": "Domaine Tempier Cuvée Classic rouge",
    "var": "Mourvèdre / Grenache / Cinsault",
@@ -9228,7 +9228,7 @@
   },
   {
    "idx": "T448",
-   "typ": "白",
+   "typ": "红",
    "cn": "百岁神索干红葡萄酒",
    "en": "Cinsault Rouge",
    "var": "Cinsault",
@@ -10129,7 +10129,7 @@
   },
   {
    "idx": "T501",
-   "typ": "白",
+   "typ": "红",
    "cn": "雷米舒红葡萄酒",
    "en": "SIGNATURE DE REMY CHOU ROUGE",
    "var": "Cabernet Franc",
@@ -10146,7 +10146,7 @@
   },
   {
    "idx": "T502",
-   "typ": "白",
+   "typ": "红",
    "cn": "蒙蒂耶庄园干红葡萄酒",
    "en": "DOMAINE DU MONTEILLET",
    "var": "Cabernet Franc",
@@ -10197,7 +10197,7 @@
   },
   {
    "idx": "T505",
-   "typ": "白",
+   "typ": "红",
    "cn": "霏芝门徒沙隆干红葡萄酒",
    "en": "DOMAINE PHILIPPE GILBERT MENETOU SALON ROUGE",
    "var": "Cabernet Franc",
@@ -10214,7 +10214,7 @@
   },
   {
    "idx": "T506",
-   "typ": "白",
+   "typ": "红",
    "cn": "卓佳酒庄希侬姹紫干红葡萄酒",
    "en": "Charles Joguet Chinon La Cure",
    "var": "Cabernet Franc",
