@@ -9,6 +9,7 @@
 :root{--wine:#722F37;--wine-d:#5A232A;--ink:#2A2225;--mut:#8C7F84;--line:#E7DFE2;--bg:#F7F4F2;--card:#fff;}
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
 body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);padding-bottom:60px;}
+body.no-scroll{overflow:hidden;}
 header{background:var(--wine);color:#F5EDEF;padding:12px 16px;position:sticky;top:0;z-index:50;}
 .toolbar{display:none;}
 .togglebtn{display:none;}
@@ -1413,8 +1414,17 @@ function updateStatus(n, totalN){
 var drawer=document.getElementById("drawer"), mask=document.getElementById("mask");
 (function(){
   var fab=document.getElementById("fab"), close=document.getElementById("drawerClose");
-  function open(){drawer.classList.add("open");mask.style.display="block";}
-  function closeDr(){drawer.classList.remove("open");mask.style.display="none";}
+  function onTouch(e){ if(!e.target.closest("#drawer")) e.preventDefault(); }
+  function open(){
+    drawer.classList.add("open");mask.style.display="block";
+    document.body.classList.add("no-scroll");
+    document.addEventListener("touchmove",onTouch,{passive:false});
+  }
+  function closeDr(){
+    drawer.classList.remove("open");mask.style.display="none";
+    document.body.classList.remove("no-scroll");
+    document.removeEventListener("touchmove",onTouch);
+  }
   fab.addEventListener("click",open);
   close.addEventListener("click",closeDr);
   mask.addEventListener("click",closeDr);
@@ -1423,12 +1433,16 @@ var drawer=document.getElementById("drawer"), mask=document.getElementById("mask
 document.getElementById("q").addEventListener("input",function(e){state.q=e.target.value.trim().toLowerCase();apply();});
 // ---- 级联筛选: 类型(一级) → 品种(二级,随类型联动) ----
 function varietyList(){
-  // 返回当前类型下的品种列表 [[name,n],...] 按款数降序
-  if(state.typ==="全部"){
-    return STATS.varieties.map(function(v){return [v,STATS.var_cnt[v]||0];});
-  }
-  var tv=STATS.typ_varieties[state.typ]||{};
-  return Object.keys(tv).map(function(k){return [k,tv[k]];});
+  // 品种列表 = 类型 × 已选国家 × 当前模式 共同作用的结果（按款数降序）
+  var arr = CARDS.filter(function(x){
+    if(!modeOk(x))return false;
+    if(state.typ!=="全部"&&x.typ!==state.typ)return false;
+    if(state.ctyArr.length&&state.ctyArr.indexOf(x.cty)<0)return false;
+    return true;
+  });
+  var v={};
+  arr.forEach(function(x){if(x.var2)v[x.var2]=(v[x.var2]||0)+1;});
+  return Object.keys(v).sort(function(a,b){return v[b]-v[a];}).map(function(k){return [k,v[k]];});
 }
 function buildTypeChips(){
   var box=document.getElementById("chipsT");
@@ -1515,6 +1529,7 @@ function buildWorldChips(){
       state.ctyArr=[];          // 切换世界→重置国家多选(级联)
       Array.prototype.slice.call(box.children).forEach(function(c){c.classList.toggle("on",c===d);});
       buildCtyChips();
+      buildVarChips();          // 国家清空→品种列表联动
       apply();
     });
     box.appendChild(d);
@@ -1531,6 +1546,7 @@ function buildCtyChips(){
     state.ctyArr=[];
     Array.prototype.slice.call(box.children).forEach(function(c){c.classList.remove("on");});
     d.classList.add("on");
+    buildVarChips();          // 国家变化→品种列表联动
     apply();
   });
   box.appendChild(d);
@@ -1544,6 +1560,7 @@ function buildCtyChips(){
       d.classList.toggle("on",i<0);
       var allChip=box.children[0];
       if(state.ctyArr.length===0)allChip.classList.add("on");else allChip.classList.remove("on");
+      buildVarChips();          // 国家变化→品种列表联动
       apply();
     });
     box.appendChild(d);
