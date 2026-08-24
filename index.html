@@ -1477,8 +1477,7 @@ function setMode(m){
   MODE=m;
   document.getElementById("modeAll").classList.toggle("on",m==="all");
   document.getElementById("modeSai").classList.toggle("on",m==="contest");
-  state={q:"",typ:"全部",var2:"全部",world:"全部",cty:"全部",field:state.field,dir:state.dir};
-  document.getElementById("q").value="";
+  // 保留现有筛选（搜索/类型/品种/新旧世界/国家），只重算当前模式统计并重建 chips
   STATS=calcStats();
   buildTypeChips();buildVarChips();buildWorldChips();buildCtyChips();
   apply();
