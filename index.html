@@ -1433,10 +1433,11 @@ var drawer=document.getElementById("drawer"), mask=document.getElementById("mask
 document.getElementById("q").addEventListener("input",function(e){state.q=e.target.value.trim().toLowerCase();apply();});
 // ---- 级联筛选: 类型(一级) → 品种(二级,随类型联动) ----
 function varietyList(){
-  // 品种列表 = 类型 × 已选国家 × 当前模式 共同作用的结果（按款数降序）
+  // 品种列表 = 类型 × 新旧世界 × 已选国家 × 当前模式 共同作用的结果（按款数降序）
   var arr = CARDS.filter(function(x){
     if(!modeOk(x))return false;
     if(state.typ!=="全部"&&x.typ!==state.typ)return false;
+    if(state.world!=="全部"&&x.world!==state.world)return false;
     if(state.ctyArr.length&&state.ctyArr.indexOf(x.cty)<0)return false;
     return true;
   });
