@@ -29,19 +29,18 @@ header{background:var(--wine);color:#F5EDEF;padding:12px 16px;position:sticky;to
 .modebtn.on{background:var(--wine);color:#fff;border-color:var(--wine);}
 .modebtn i{font-style:normal;opacity:.75;font-size:11.5px;margin-left:3px;font-weight:400;}
 .panel{display:block;}
-.search{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;font-size:14px;outline:none;background:#FBF9F7;}
-.search:focus{border-color:var(--wine);}
 .rowchips{display:flex;gap:6px;margin-top:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none;}
 .rowchips::-webkit-scrollbar{display:none;}
 .chip{flex-shrink:0;padding:4px 11px;border-radius:14px;border:1px solid var(--line);font-size:12.5px;cursor:pointer;background:#fff;color:#5A4E53;}
 .chip.on{background:var(--wine);color:#fff;border-color:var(--wine);}
 .chip .n{opacity:.55;font-size:11px;margin-left:2px;}
 .lbl{font-size:11px;color:var(--mut);margin:8px 2px 0;letter-spacing:1px;}
-.sortbar{display:flex;align-items:center;gap:8px;padding:7px 9px;background:#fff;border-radius:8px;margin-top:10px;font-size:12.5px;}
-.sortbar .sfield{flex:1;}
-.sortbar select{border:1px solid var(--line);border-radius:6px;padding:5px 8px;font-size:12.5px;background:#fff;color:#3E3237;width:100%;}
-.sortbar .dirbtn{border:1px solid var(--line);background:#fff;border-radius:6px;padding:5px 10px;font-size:13px;cursor:pointer;color:#5A4E53;min-width:52px;text-align:center;flex-shrink:0;}
-.sortbar .dirbtn.on{background:var(--wine);color:#fff;border-color:var(--wine);}
+.hrow{display:flex;align-items:center;gap:8px;}
+.search{flex:1;min-width:0;padding:7px 10px;border:1px solid var(--line);border-radius:6px;font-size:13px;outline:none;background:#FBF9F7;}
+.search:focus{border-color:var(--wine);}
+.sortsel{border:1px solid var(--line);border-radius:6px;padding:6px 5px;font-size:12px;background:#fff;color:#3E3237;flex-shrink:0;max-width:110px;}
+.dirtoggle{border:1px solid var(--line);background:#fff;border-radius:6px;padding:6px 9px;font-size:12.5px;cursor:pointer;color:#5A4E53;flex-shrink:0;white-space:nowrap;min-width:62px;text-align:center;}
+.dirtoggle.on{background:var(--wine);color:#fff;border-color:var(--wine);}
 #masterView{padding:12px;}
 .card{background:var(--card);border-radius:8px;padding:11px 13px;margin-bottom:9px;border:1px solid var(--line);border-left:4px solid #C9A227;}
 .card.t-白{border-left-color:#C9A227;}
@@ -82,7 +81,7 @@ td.src-tiku{color:#9C9196;}
 </style>
 </head>
 <body>
-<header><input class="search" id="q" type="search" placeholder="搜索酒名 / 品种 / 国家 / 产区 / 年份"><div class="sortbar"><span class="sfield"><select id="sortField"><option value="idx">默认顺序</option><option value="cn">中文名称</option><option value="var2">品种</option><option value="vin">年份</option><option value="cnt">出现次数</option><option value="cty">国家</option></select></span><span class="dirbtn on" id="dirUp">升序 ↑</span><span class="dirbtn" id="dirDown">降序 ↓</span></div></header>
+<header><div class="hrow"><input class="search" id="q" type="search" placeholder="搜索酒名 / 品种 / 国家 / 产区 / 年份"><select id="sortField" class="sortsel"><option value="idx">默认顺序</option><option value="cn">中文名称</option><option value="var2">品种</option><option value="vin">年份</option><option value="cnt">出现次数</option><option value="cty">国家</option></select><span class="dirtoggle" id="dirToggle">升序 ↑</span></div></header>
 <button class="fab" id="fab"><span class="fico">⚲</span>筛选<span class="badge" id="fabBadge"></span></button>
 <div id="mask"></div>
 <div id="drawer"><div class="drawer-head"><span class="dh-title">筛选与排序</span><span class="dh-status" id="filterStatus"></span><span class="drawer-close" id="drawerClose">完成</span></div><div class="drawer-body"><div class="modebar"><span class="modebtn on" id="modeAll"></span><span class="modebtn" id="modeSai"></span></div><div class="lbl">类型</div><div class="rowchips" id="chipsT"></div><div class="lbl" id="lblV">品种</div><div class="rowchips" id="chipsV"></div><div class="lbl">新旧世界</div><div class="rowchips" id="chipsW"></div><div class="lbl" id="lblC">国家</div><div class="rowchips" id="chipsC"></div></div></div></div>
@@ -1535,11 +1534,11 @@ buildCtyChips();
 document.getElementById("sortField").addEventListener("change",function(e){state.field=e.target.value;apply();});
 function setDir(d){
   state.dir=d;
-  var up=document.getElementById("dirUp"),down=document.getElementById("dirDown");
-  up.classList.toggle("on",d===1);down.classList.toggle("on",d===-1);
+  var b=document.getElementById("dirToggle");
+  b.textContent = d===1 ? "升序 ↑" : "降序 ↓";
+  b.classList.toggle("on",d===-1);
 }
-document.getElementById("dirUp").addEventListener("click",function(){setDir(1);apply();});
-document.getElementById("dirDown").addEventListener("click",function(){setDir(-1);apply();});
+document.getElementById("dirToggle").addEventListener("click",function(){setDir(-state.dir);apply();});
 // ---- 桌面表头点击排序 ----
 (function(){
   var map={序号:"idx",中文名称:"cn",年份:"vin",次数:"cnt",国家:"cty",品种:"var2"};
