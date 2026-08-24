@@ -9,9 +9,7 @@
 :root{--wine:#722F37;--wine-d:#5A232A;--ink:#2A2225;--mut:#8C7F84;--line:#E7DFE2;--bg:#F7F4F2;--card:#fff;}
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
 body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);padding-bottom:60px;}
-header{background:var(--wine);color:#F5EDEF;padding:16px 16px 12px;position:sticky;top:0;z-index:50;}
-header h1{font-size:18px;font-weight:700;letter-spacing:.5px;}
-header .sub{font-size:12px;opacity:.8;margin-top:3px;}
+header{background:var(--wine);color:#F5EDEF;padding:12px 16px;position:sticky;top:0;z-index:50;}
 .toolbar{display:none;}
 .togglebtn{display:none;}
 .fab{position:fixed;right:16px;bottom:28px;z-index:60;width:56px;height:56px;border-radius:50%;background:var(--wine);color:#fff;border:none;box-shadow:0 4px 14px rgba(90,35,42,.4);font-size:14px;font-weight:700;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;}
@@ -84,10 +82,10 @@ td.src-tiku{color:#9C9196;}
 </style>
 </head>
 <body>
-<header><h1>2026 预选赛酒款整理</h1><div class="sub" id="headSub"></div><div class="sortbar"><span class="sfield"><select id="sortField"><option value="idx">默认顺序</option><option value="cn">中文名称</option><option value="var2">品种</option><option value="vin">年份</option><option value="cnt">出现次数</option><option value="cty">国家</option></select></span><span class="dirbtn on" id="dirUp">升序 ↑</span><span class="dirbtn" id="dirDown">降序 ↓</span></div></header>
+<header><input class="search" id="q" type="search" placeholder="搜索酒名 / 品种 / 国家 / 产区 / 年份"><div class="sortbar"><span class="sfield"><select id="sortField"><option value="idx">默认顺序</option><option value="cn">中文名称</option><option value="var2">品种</option><option value="vin">年份</option><option value="cnt">出现次数</option><option value="cty">国家</option></select></span><span class="dirbtn on" id="dirUp">升序 ↑</span><span class="dirbtn" id="dirDown">降序 ↓</span></div></header>
 <button class="fab" id="fab"><span class="fico">⚲</span>筛选<span class="badge" id="fabBadge"></span></button>
 <div id="mask"></div>
-<div id="drawer"><div class="drawer-head"><span class="dh-title">筛选与排序</span><span class="dh-status" id="filterStatus"></span><span class="drawer-close" id="drawerClose">完成</span></div><div class="drawer-body"><div class="modebar"><span class="modebtn on" id="modeAll"></span><span class="modebtn" id="modeSai"></span></div><input class="search" id="q" type="search" placeholder="搜索酒名 / 品种 / 国家 / 产区 / 年份"><div class="lbl">类型</div><div class="rowchips" id="chipsT"></div><div class="lbl" id="lblV">品种</div><div class="rowchips" id="chipsV"></div><div class="lbl">新旧世界</div><div class="rowchips" id="chipsW"></div><div class="lbl" id="lblC">国家</div><div class="rowchips" id="chipsC"></div></div></div></div>
+<div id="drawer"><div class="drawer-head"><span class="dh-title">筛选与排序</span><span class="dh-status" id="filterStatus"></span><span class="drawer-close" id="drawerClose">完成</span></div><div class="drawer-body"><div class="modebar"><span class="modebtn on" id="modeAll"></span><span class="modebtn" id="modeSai"></span></div><div class="lbl">类型</div><div class="rowchips" id="chipsT"></div><div class="lbl" id="lblV">品种</div><div class="rowchips" id="chipsV"></div><div class="lbl">新旧世界</div><div class="rowchips" id="chipsW"></div><div class="lbl" id="lblC">国家</div><div class="rowchips" id="chipsC"></div></div></div></div>
 <div id="masterView">
 <div class="card t-白" data-t="白" data-v="加卡耐卡" data-w="旧世界" data-site="资料表6" data-src="non_tiku" data-s="多米尼·威帝 科斯特经典索阿维干白 domini veneti coste soave classico 加卡耐卡/特雷比亚诺 garganega/trebbiano 加卡耐卡 意大利 威尼托 · 索阿维 soave 2023 资料表6  "><div class="h"><span class="idx">1</span><span class="cn">多米尼·威帝 科斯特经典索阿维干白</span><span class="vtag">加卡耐卡</span><span class="srtag non">非题库</span></div><div class="en">Domini Veneti Coste Soave Classico</div><div class="kv"><span><b>品种</b>加卡耐卡/特雷比亚诺 Garganega/Trebbiano</span><span><b>年份</b>2023</span><span><b>国家</b>意大利</span><span><b>产区</b>威尼托 · 索阿维 Soave</span><span><b>出现</b><span class="cnt">1 次</span></span><span><b>赛区</b>资料表6</span></div></div>
 <div class="card t-白" data-t="白" data-v="勃艮第香瓜" data-w="旧世界" data-site="资料表5" data-src="contest" data-s="邦奈宇特 慕斯卡黛干白 domaine bonnet-huteau muscadet sèvre et maine sur lie "les gautronnières" 勃艮第香瓜 melon de bourgogne 勃艮第香瓜 法国 卢瓦尔河谷 loire 2023 资料表5  "><div class="h"><span class="idx">2</span><span class="cn">邦奈宇特 慕斯卡黛干白</span><span class="vtag">勃艮第香瓜</span><span class="srtag on">赛区酒</span></div><div class="en">Domaine Bonnet-Huteau Muscadet Sèvre et Maine sur Lie "Les Gautronnières"</div><div class="kv"><span><b>品种</b>勃艮第香瓜 Melon de Bourgogne</span><span><b>年份</b>2023</span><span><b>国家</b>法国</span><span><b>产区</b>卢瓦尔河谷 Loire</span><span><b>出现</b><span class="cnt">1 次</span></span><span><b>赛区</b>资料表5</span></div></div>
@@ -1293,7 +1291,6 @@ var META = {"total": 596, "contest_n": 43, "non_tiku": 41, "tiku_n": 512, "quan_
 var TYPE_ORDER=["白","红","起泡","甜白","加强"];
 var state={q:"",typ:"全部",var2:"全部",world:"全部",cty:"全部",field:"idx",dir:1};
 function $(s){return document.querySelector(s);}
-document.getElementById("headSub").textContent="全题库 "+META.quan_n+" 款 · 赛区酒 "+META.sai_n+" 款";
 
 // ---- 视图模式: 全题库(all, 558) / 赛区酒(contest, 84) ----
 var MODE="all";
