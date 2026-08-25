@@ -1,11 +1,11 @@
 {
  "meta": {
   "total": 596,
-  "contest": 43,
+  "contest": 52,
   "non_tiku": 41,
-  "tiku": 512,
+  "tiku": 503,
   "quan_n": 555,
-  "sai_n": 84,
+  "sai_n": 93,
   "types": {
    "白": 220,
    "红": 335,
@@ -101,6 +101,8 @@
    "格雷拉": 1,
    "威代尔": 2,
    "小芒森": 4,
+   "琼瑶浆": 7,
+   "科维纳": 5,
    "黑珍珠": 1,
    "马斯卡斯奈莱洛": 1,
    "赛美蓉": 12,
@@ -108,9 +110,7 @@
    "蒙特布查诺": 2,
    "莫斯卡托": 3,
    "绿维特利纳": 3,
-   "科维纳": 5,
    "皮诺塔吉": 2,
-   "琼瑶浆": 7,
    "泽比波": 1,
    "歌海娜": 22,
    "佳丽酿": 5,
@@ -132,8 +132,8 @@
   "countries": [
    "法国",
    "中国",
-   "意大利",
    "澳大利亚",
+   "意大利",
    "新西兰",
    "西班牙",
    "德国",
@@ -141,8 +141,8 @@
    "南非",
    "阿根廷",
    "智利",
-   "格鲁吉亚",
    "奥地利",
+   "格鲁吉亚",
    "葡萄牙",
    "匈牙利",
    "瑞士"
@@ -526,7 +526,7 @@
    "reg": "澳大利亚-维多利亚州-雅拉谷",
    "vin": "2022/2023",
    "cnt": 7,
-   "sites": "资料表1（英文酒单）、资料表3（中英对照）、柳州赛区、叁年间赛区、采购清单2（含进口商）、陕西、天津",
+   "sites": "资料表1（英文酒单）、资料表3（中英对照）、柳州赛区、叁年间赛区、采购清单2（含进口商）、陕西、天津、天津省级赛",
    "alc": "",
    "imp": "葡睿酒业",
    "note": "（原未命名「霞多丽 澳洲 2022」陕西站，推断为 In Dreams 不同年份）",
@@ -1352,7 +1352,7 @@
    "reg": "阿根廷-门多萨",
    "vin": "2020",
    "cnt": 4,
-   "sites": "叁年间赛区、采购清单2（含进口商）、郑州、无锡",
+   "sites": "叁年间赛区、采购清单2（含进口商）、郑州、无锡、天津省级赛",
    "alc": "",
    "imp": "",
    "note": "（原未命名「马尔贝克 门多萨 2020」郑州/无锡站，推断为 Mendel 2020）",
@@ -1832,7 +1832,7 @@
    "reg": "中国-宁夏-贺兰山东麓",
    "vin": "2022",
    "cnt": 1,
-   "sites": "采购清单1（含进口商）",
+   "sites": "采购清单1（含进口商）、天津省级赛",
    "alc": "",
    "imp": "",
    "note": "",
@@ -1840,6 +1840,187 @@
    "var_raw": "小芒森 Petit Manseng",
    "comps": [
     "小芒森"
+   ]
+  },
+  {
+   "idx": 85,
+   "typ": "白",
+   "cn": "克拉吉酒庄特穆纳长相思干白",
+   "en": "Craggy Range Te Muna Road Vineyard Sauvignon Blanc",
+   "var": "长相思",
+   "cty": "",
+   "reg": "新西兰-马丁堡",
+   "vin": "2024",
+   "cnt": 1,
+   "sites": "天津省级赛",
+   "alc": "",
+   "imp": "",
+   "note": "",
+   "src": "contest",
+   "var_raw": "Sauvignon Blanc",
+   "comps": [
+    "长相思"
+   ]
+  },
+  {
+   "idx": 86,
+   "typ": "白",
+   "cn": "圣纳斯阿尔巴利诺白葡萄酒",
+   "en": "Pazo de Señorans, Albariño, Rías Baixas DO",
+   "var": "阿尔巴利诺",
+   "cty": "",
+   "reg": "西班牙-下海湾产区",
+   "vin": "2024",
+   "cnt": 1,
+   "sites": "天津省级赛",
+   "alc": "",
+   "imp": "",
+   "note": "",
+   "src": "contest",
+   "var_raw": "Albariño",
+   "comps": [
+    "阿尔巴利诺"
+   ]
+  },
+  {
+   "idx": 87,
+   "typ": "白",
+   "cn": "阿兰查维酒庄勃艮第干白（霞多丽）",
+   "en": "Domaine Alain Chavy Burgundy Dry White",
+   "var": "霞多丽",
+   "cty": "",
+   "reg": "法国-勃艮第",
+   "vin": "2021",
+   "cnt": 1,
+   "sites": "天津省级赛",
+   "alc": "",
+   "imp": "",
+   "note": "",
+   "src": "contest",
+   "var_raw": "Chardonnay",
+   "comps": [
+    "霞多丽"
+   ]
+  },
+  {
+   "idx": 88,
+   "typ": "白",
+   "cn": "狼庄琼瑶浆葡萄酒",
+   "en": "Villa Wolf Gewürztraminer",
+   "var": "琼瑶浆",
+   "cty": "",
+   "reg": "德国-法尔兹",
+   "vin": "2024",
+   "cnt": 1,
+   "sites": "天津省级赛",
+   "alc": "",
+   "imp": "",
+   "note": "",
+   "src": "contest",
+   "var_raw": "Gewürztraminer",
+   "comps": [
+    "琼瑶浆"
+   ]
+  },
+  {
+   "idx": 89,
+   "typ": "红",
+   "cn": "穆库扎尼陶罐红葡萄酒",
+   "en": "Kakheti – Mukuzani Qvevri",
+   "var": "晚红蜜",
+   "cty": "",
+   "reg": "格鲁吉亚-卡赫季-穆库扎尼",
+   "vin": "2021",
+   "cnt": 1,
+   "sites": "天津省级赛",
+   "alc": "",
+   "imp": "",
+   "note": "",
+   "src": "contest",
+   "var_raw": "Saperavi (陶罐/Qvevri陈酿)",
+   "comps": [
+    "晚红蜜"
+   ]
+  },
+  {
+   "idx": 90,
+   "typ": "红",
+   "cn": "寸山贺兰山 马瑟兰 干红葡萄酒",
+   "en": "",
+   "var": "马瑟兰",
+   "cty": "",
+   "reg": "中国-宁夏",
+   "vin": "2022",
+   "cnt": 1,
+   "sites": "天津省级赛",
+   "alc": "",
+   "imp": "",
+   "note": "",
+   "src": "contest",
+   "var_raw": "Marselan",
+   "comps": [
+    "马瑟兰"
+   ]
+  },
+  {
+   "idx": 91,
+   "typ": "红",
+   "cn": "缘定山庄园 赤霞珠红葡萄酒",
+   "en": "Round Hill Cabernet Sauvignon",
+   "var": "赤霞珠",
+   "cty": "",
+   "reg": "美国-加利福尼亚州-北海岸",
+   "vin": "2022",
+   "cnt": 1,
+   "sites": "天津省级赛",
+   "alc": "",
+   "imp": "",
+   "note": "",
+   "src": "contest",
+   "var_raw": "Cabernet Sauvignon",
+   "comps": [
+    "赤霞珠"
+   ]
+  },
+  {
+   "idx": 92,
+   "typ": "红",
+   "cn": "凡度庄园珍藏干红葡萄酒",
+   "en": "CHATEAU LE GRAND VERDUS RESERVE",
+   "var": "梅洛、赤霞珠",
+   "cty": "",
+   "reg": "法国-波尔多-两海之间",
+   "vin": "2023",
+   "cnt": 1,
+   "sites": "天津省级赛",
+   "alc": "",
+   "imp": "",
+   "note": "",
+   "src": "contest",
+   "var_raw": "Merlot / Cabernet Sauvignon",
+   "comps": [
+    "梅洛",
+    "赤霞珠"
+   ]
+  },
+  {
+   "idx": 93,
+   "typ": "红",
+   "cn": "卓林郅樽阿玛罗尼红葡萄酒",
+   "en": "Zonin Amarone della Valpolicella DOCG",
+   "var": "科维纳",
+   "cty": "",
+   "reg": "意大利-威尼托",
+   "vin": "2017",
+   "cnt": 1,
+   "sites": "天津省级赛",
+   "alc": "",
+   "imp": "",
+   "note": "",
+   "src": "contest",
+   "var_raw": "Corvina / Blends...",
+   "comps": [
+    "科维纳"
    ]
   },
   {
@@ -2445,7 +2626,7 @@
   {
    "idx": "T31",
    "typ": "红",
-   "cn": "寸山贺兰山 马瑟兰 干红葡萄酒",
+   "cn": "弓月酒庄单蔓粒选马瑟兰干红葡萄酒L9",
    "en": "",
    "var": "马瑟兰",
    "var_raw": "马瑟兰",
@@ -2465,26 +2646,6 @@
   {
    "idx": "T32",
    "typ": "红",
-   "cn": "弓月酒庄单蔓粒选马瑟兰干红葡萄酒L9",
-   "en": "",
-   "var": "马瑟兰",
-   "var_raw": "马瑟兰",
-   "comps": [
-    "马瑟兰"
-   ],
-   "cty": "中国",
-   "reg": "中国-宁夏",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T33",
-   "typ": "红",
    "cn": "天塞T95 马瑟兰干红葡萄酒",
    "en": "",
    "var": "马瑟兰",
@@ -2503,7 +2664,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T34",
+   "idx": "T33",
    "typ": "红",
    "cn": "乔瓦尼酒庄埃特纳红葡萄酒(ETNAROSSO DOP)",
    "en": "Giovanni Rosso Etna Red Wine(ETNAROSSO DOP)",
@@ -2523,7 +2684,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T35",
+   "idx": "T34",
    "typ": "红",
    "cn": "翠碧橡木桶系列马尔贝克红葡萄酒",
    "en": "Trapiche Oak Cask Malbec",
@@ -2543,7 +2704,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T36",
+   "idx": "T35",
    "typ": "红",
    "cn": "西乐马尔贝克红葡萄酒",
    "en": "Crios Malbec",
@@ -2563,7 +2724,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T37",
+   "idx": "T36",
    "typ": "红",
    "cn": "薇斯达红葡萄酒",
    "en": "Appellation Malbec，Vista Flores",
@@ -2583,7 +2744,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T38",
+   "idx": "T37",
    "typ": "红",
    "cn": "西鸽N28马尔贝克干红葡萄酒",
    "en": "",
@@ -2603,7 +2764,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T39",
+   "idx": "T38",
    "typ": "红",
    "cn": "一山一水·马尔贝克",
    "en": "",
@@ -2623,7 +2784,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T40",
+   "idx": "T39",
    "typ": "起泡",
    "cn": "卡斯菲诺卡瓦半干起泡葡萄酒",
    "en": "CAVA CASTELFINO SEMISEC",
@@ -2643,7 +2804,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T41",
+   "idx": "T40",
    "typ": "白",
    "cn": "岚斯堡霞多丽白葡萄酒",
    "en": "Landsborough Chardonnay",
@@ -2663,7 +2824,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T42",
+   "idx": "T41",
    "typ": "白",
    "cn": "帕苏庄园黑色金沙霞多丽干白",
    "en": "Patrick Sullivan black sands chardonnay",
@@ -2683,7 +2844,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T43",
+   "idx": "T42",
    "typ": "白",
    "cn": "帕苏庄园湿地植被霞多丽干白",
    "en": "Patrick Sullivan bull Swamp chardonnay",
@@ -2703,7 +2864,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T44",
+   "idx": "T43",
    "typ": "白",
    "cn": "帕苏庄园亚拉河谷霞多丽干白",
    "en": "Patrick Sullivan woori yallock chardonnay",
@@ -2723,7 +2884,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T45",
+   "idx": "T44",
    "typ": "白",
    "cn": "福瑞山酒庄霞多丽白葡萄酒",
    "en": "Forest Hill Chardonnay White Wine",
@@ -2743,7 +2904,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T46",
+   "idx": "T45",
    "typ": "白",
    "cn": "克绿纳白葡萄酒",
    "en": "Clonale Chardonnay",
@@ -2763,7 +2924,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T47",
+   "idx": "T46",
    "typ": "白",
    "cn": "泰妮莎夫人霞多丽干白葡萄酒",
    "en": "Dr. Thanisch Chardonnay Dry White Wine",
@@ -2783,7 +2944,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T48",
+   "idx": "T47",
    "typ": "白",
    "cn": "圣觅仙庄园霞多丽白葡萄酒",
    "en": "Chateau Ste. Michelle Chardonnay",
@@ -2803,7 +2964,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T49",
+   "idx": "T48",
    "typ": "白",
    "cn": "艾鹭霞多丽",
    "en": "Ektimo Chardonnay",
@@ -2823,7 +2984,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T50",
+   "idx": "T49",
    "typ": "白",
    "cn": "缘定山庄园 霞多丽白葡萄酒",
    "en": "Round Hill Chardonnay",
@@ -2843,7 +3004,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T51",
+   "idx": "T50",
    "typ": "白",
    "cn": "郝福家族酒庄俄罗斯河谷霞多丽干白葡萄酒",
    "en": "Hartford Court Russian River Valley Chardonnay",
@@ -2863,7 +3024,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T52",
+   "idx": "T51",
    "typ": "白",
    "cn": "奥邦酒庄霞多丽白葡萄酒",
    "en": "Au Bon Chardonnay",
@@ -2883,7 +3044,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T53",
+   "idx": "T52",
    "typ": "白",
    "cn": "奥邦酒庄圣巴巴拉霞多丽时来运转白葡萄酒",
    "en": "Au Bon Santa Barbara County Chardonnay",
@@ -2903,7 +3064,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T54",
+   "idx": "T53",
    "typ": "白",
    "cn": "贝灵瀚酒庄家园霞多丽白葡萄酒",
    "en": "Bellingham Homestead Stellenbosch Chardonnay",
@@ -2923,7 +3084,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T55",
+   "idx": "T54",
    "typ": "白",
    "cn": "塔明酒庄霞多丽干白葡萄酒",
    "en": "Tamar Ridge Chardonnay Dry White Wine",
@@ -2943,7 +3104,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T56",
+   "idx": "T55",
    "typ": "白",
    "cn": "朗格斯酒庄干白葡萄酒",
    "en": "",
@@ -2963,7 +3124,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T57",
+   "idx": "T56",
    "typ": "白",
    "cn": "迦南酒业诗百篇珍藏霞多丽白葡萄酒",
    "en": "",
@@ -2983,7 +3144,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T58",
+   "idx": "T57",
    "typ": "白",
    "cn": "广寒记霞多丽干白葡萄酒",
    "en": "",
@@ -3003,7 +3164,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T59",
+   "idx": "T58",
    "typ": "白",
    "cn": "潮汐霞多丽干白葡萄酒",
    "en": "",
@@ -3023,7 +3184,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T60",
+   "idx": "T59",
    "typ": "白",
    "cn": "立兰酒庄霞多丽干白葡萄酒",
    "en": "",
@@ -3043,7 +3204,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T61",
+   "idx": "T60",
    "typ": "白",
    "cn": "嘉地酒园 咏叹调 干白葡萄酒",
    "en": "",
@@ -3063,7 +3224,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T62",
+   "idx": "T61",
    "typ": "白",
    "cn": "N28 霞多丽干白葡萄酒",
    "en": "",
@@ -3083,7 +3244,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T63",
+   "idx": "T62",
    "typ": "白",
    "cn": "长和翡翠熔岩霞多丽干白葡萄酒",
    "en": "",
@@ -3103,7 +3264,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T64",
+   "idx": "T63",
    "typ": "白",
    "cn": "留世-遗产峰白葡萄酒",
    "en": "",
@@ -3123,7 +3284,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T65",
+   "idx": "T64",
    "typ": "白",
    "cn": "留世-锦羽白葡萄酒",
    "en": "",
@@ -3143,7 +3304,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T66",
+   "idx": "T65",
    "typ": "白",
    "cn": "利思向阳花霞多丽干白葡萄酒",
    "en": "",
@@ -3163,7 +3324,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T67",
+   "idx": "T66",
    "typ": "白",
    "cn": "贺东庄园霞多丽干白葡萄酒",
    "en": "",
@@ -3183,7 +3344,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T68",
+   "idx": "T67",
    "typ": "起泡",
    "cn": "德沃酒庄MV05传统法起泡酒",
    "en": "",
@@ -3203,7 +3364,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T69",
+   "idx": "T68",
    "typ": "白",
    "cn": "天塞云呦呦白葡萄酒",
    "en": "",
@@ -3223,7 +3384,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T70",
+   "idx": "T69",
    "typ": "白",
    "cn": "天塞T20 霞多丽干白葡萄酒",
    "en": "",
@@ -3243,7 +3404,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T71",
+   "idx": "T70",
    "typ": "白",
    "cn": "霍克山酒庄 雷司令干白葡萄酒",
    "en": "Mount Horrocks Riesling",
@@ -3263,7 +3424,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T72",
+   "idx": "T71",
    "typ": "白",
    "cn": "大西区雷司令白葡萄酒",
    "en": "Great Western Riesling",
@@ -3283,7 +3444,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T73",
+   "idx": "T72",
    "typ": "白",
    "cn": "双掌酒庄男孩伊顿谷雷司令干白葡萄酒",
    "en": "Two Hands Wines The Boy Eden Valley Riesling",
@@ -3303,7 +3464,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T74",
+   "idx": "T73",
    "typ": "白",
    "cn": "杜克酒园喜鹊山珍藏雷司令白葡萄酒",
    "en": "Duke's Vineyard Magpie Hill Reserve Riesling",
@@ -3323,7 +3484,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T75",
+   "idx": "T74",
    "typ": "白",
    "cn": "雷司令怪杰高伊顿菲拉斯曼雷司令干白No.12",
    "en": "Rieslingfreak No.12 Riesling Dry White",
@@ -3343,7 +3504,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T76",
+   "idx": "T75",
    "typ": "白",
    "cn": "雷司令怪杰十全顶峰雷司令干白No.10",
    "en": "Rieslingfreak No.10 Riesling Dry White",
@@ -3363,7 +3524,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T77",
+   "idx": "T76",
    "typ": "白",
    "cn": "雷司令怪杰五福克莱尔谷雷司令半干白No.5",
    "en": "Rieslingfreak No.5 Clare Valley Riesling Semi-Dry White",
@@ -3383,7 +3544,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T78",
+   "idx": "T77",
    "typ": "白",
    "cn": "派客酒庄山谷雷司令白葡萄酒",
    "en": "Pikes Wines – Clare Valley Riesling",
@@ -3403,7 +3564,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T79",
+   "idx": "T78",
    "typ": "白",
    "cn": "威海姆酒庄 雷司令白葡萄酒",
    "en": "Dr.Wehrheim Buntstuck",
@@ -3423,7 +3584,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T80",
+   "idx": "T79",
    "typ": "白",
    "cn": "芙里克酒庄莱茵高雷司令干白",
    "en": "Flick Rheingau Riesling Dry White",
@@ -3443,7 +3604,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T81",
+   "idx": "T80",
    "typ": "白",
    "cn": "卡尔雄狮 老藤雷司令白葡萄酒",
    "en": "Carl Loewen Alte Reben Riesling",
@@ -3463,7 +3624,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T82",
+   "idx": "T81",
    "typ": "白",
    "cn": "克尼普豪森男爵酒庄埃尔巴赫霍恩雷司令特级干白 GG",
    "en": "Baron Knyphausen Erbacher Höhe Riesling Grand Cru Dry White GG",
@@ -3483,7 +3644,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T83",
+   "idx": "T82",
    "typ": "白",
    "cn": "维特曼酒庄高岭园雷司令白葡萄酒",
    "en": "Wittmann \"Westhofener Kirchspiel\" Riesling Grosses Gewächs",
@@ -3503,7 +3664,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T84",
+   "idx": "T83",
    "typ": "白",
    "cn": "贡德洛酒庄攀登索园雷司令干白GG",
    "en": "Gunderloch \"Pettenthal\" Riesling Grosses Gewächs",
@@ -3523,7 +3684,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T85",
+   "idx": "T84",
    "typ": "白",
    "cn": "漫翠园雅思堡雷司令GG干白葡萄酒",
    "en": "Weingut Clemens Busch Marienburg Rothenpfad Riesling GG",
@@ -3543,7 +3704,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T86",
+   "idx": "T85",
    "typ": "白",
    "cn": "哈特格拉芬贝格雷司令干白GG",
    "en": "Haart Grafenberg Riesling GG",
@@ -3563,7 +3724,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T87",
+   "idx": "T86",
    "typ": "白",
    "cn": "盖辛格采尔廷根日晷园雷司令GG干型白葡萄酒",
    "en": "Gassinger Zeltinger Sonnenuhr Riesling Grosses Gewächs",
@@ -3583,7 +3744,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T88",
+   "idx": "T87",
    "typ": "白",
    "cn": "魏格勒道格特雷司令干白 GG",
    "en": "Weingut Wegeler Doctor GG",
@@ -3603,7 +3764,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T89",
+   "idx": "T88",
    "typ": "白",
    "cn": "皮特劳耶酒庄16号干白",
    "en": "Peter Lauer 16 No. Dry White",
@@ -3623,7 +3784,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T90",
+   "idx": "T89",
    "typ": "白",
    "cn": "奇药园雷司令干白葡萄酒",
    "en": "Trittenheimer Apotheke Riesling Trocken",
@@ -3643,7 +3804,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T91",
+   "idx": "T90",
    "typ": "甜白",
    "cn": "马库斯梅里特酒庄传统雷司令白葡萄酒（白盖）",
    "en": "Weingut Markus Molitor Tradition Riesling white capsule",
@@ -3663,7 +3824,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T92",
+   "idx": "T91",
    "typ": "甜白",
    "cn": "珂彭酒庄日晷园雷司令珍藏半甜白",
    "en": "Weingut Kerpen Wehlener Sonnenuhr Riesling Kabinett",
@@ -3683,7 +3844,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T93",
+   "idx": "T92",
    "typ": "甜白",
    "cn": "约翰山堡红标雷司令珍藏半干白",
    "en": "Schloss Johannisberg Rotlack Riesling Kabinett Feinherb",
@@ -3703,7 +3864,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T94",
+   "idx": "T93",
    "typ": "甜白",
    "cn": "马库斯梅里特酒庄修道山居雷司令甜白（金盖）",
    "en": "Markus Molitor Klosterberg Haus Riesling Auslese (Golden Capsule)",
@@ -3723,7 +3884,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T95",
+   "idx": "T94",
    "typ": "白",
    "cn": "阿泽多绿酒白葡萄酒",
    "en": "Azecedo Vinho Verde",
@@ -3741,7 +3902,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T96",
+   "idx": "T95",
    "typ": "白",
    "cn": "桃乐丝秘林白葡萄酒",
    "en": "Familia Torres Torre Penelas Pazo das Bruxas",
@@ -3761,47 +3922,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T97",
-   "typ": "白",
-   "cn": "阿尔巴利诺白葡萄酒",
-   "en": "Pazo de Señorans Albariño",
-   "var": "阿尔巴利诺",
-   "var_raw": "阿尔巴利诺（Albariño）",
-   "comps": [
-    "阿尔巴利诺"
-   ],
-   "cty": "西班牙",
-   "reg": "西班牙-下海湾产区",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T98",
-   "typ": "白",
-   "cn": "圣纳斯阿尔巴利诺白葡萄酒",
-   "en": "Pazo de Señorans, Albariño, Rías Baixas DO",
-   "var": "阿尔巴利诺",
-   "var_raw": "阿尔巴利诺（Albariño）",
-   "comps": [
-    "阿尔巴利诺"
-   ],
-   "cty": "西班牙",
-   "reg": "西班牙-下海湾产区",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T99",
+   "idx": "T96",
    "typ": "白",
    "cn": "乔瓦尼酒庄罗埃罗阿内斯白葡萄酒",
    "en": "Giovanni Rosso Arneis White Wine",
@@ -3819,7 +3940,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T100",
+   "idx": "T97",
    "typ": "白",
    "cn": "格蕾丝长相思赛美蓉白葡萄酒",
    "en": "Grace Madeline Sauvignon Blanc Semillon",
@@ -3840,7 +3961,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T101",
+   "idx": "T98",
    "typ": "白",
    "cn": "尼博山庄系列长相思白葡萄酒",
    "en": "Nimbus Sauvignon Blanc",
@@ -3860,7 +3981,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T102",
+   "idx": "T99",
    "typ": "红",
    "cn": "富时干红葡萄酒",
    "en": "Fuse Napa Valley Dry Red Wine",
@@ -3880,7 +4001,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T103",
+   "idx": "T100",
    "typ": "红",
    "cn": "夏夜 南十字星赤霞珠红葡萄酒",
    "en": "Alpha Crucis Cabernets",
@@ -3900,7 +4021,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T104",
+   "idx": "T101",
    "typ": "红",
    "cn": "蓝压赤霞珠红葡萄酒",
    "en": "Basket Pressed Cabernet Sauvignon",
@@ -3920,7 +4041,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T105",
+   "idx": "T102",
    "typ": "红",
    "cn": "彼得布洛克赤霞珠干红葡萄酒",
    "en": "Perter'sBlock Cabernet Sauvignon",
@@ -3940,7 +4061,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T106",
+   "idx": "T103",
    "typ": "红",
    "cn": "埃尔顿庄园系列巴罗莎峡谷赤霞珠红葡萄酒",
    "en": "El Estate Series Valley Cabernet Sauvignon Red Wine",
@@ -3960,7 +4081,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T107",
+   "idx": "T104",
    "typ": "红",
    "cn": "巴罗萨谷赤霞珠红葡萄酒",
    "en": "Barossa Valley Estate Cabernet Sauvignon Red Wine",
@@ -3980,7 +4101,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T108",
+   "idx": "T105",
    "typ": "红",
    "cn": "约翰·杜瓦尔康波诺赤霞珠红葡萄酒",
    "en": "John Duval Compono Cabernet Sauvignon",
@@ -4000,7 +4121,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T109",
+   "idx": "T106",
    "typ": "红",
    "cn": "福瑞山酒庄5号地块赤霞珠红葡萄酒",
    "en": "Forest Hill Block 5 Cabernet Sauvignon Red Wine",
@@ -4020,7 +4141,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T110",
+   "idx": "T107",
    "typ": "红",
    "cn": "酝思盖博库纳瓦拉赤霞珠红葡萄酒",
    "en": "Wynns Coonawarra Estate Cabernet Sauvignon “The Gables”",
@@ -4040,7 +4161,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T111",
+   "idx": "T108",
    "typ": "红",
    "cn": "圣觅仙庄园赤霞珠红葡萄酒",
    "en": "Chateau Ste. Michelle Cabernet Sauvignon",
@@ -4060,7 +4181,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T112",
+   "idx": "T109",
    "typ": "红",
    "cn": "华洛庄园赤霞珠干红",
    "en": "WALNUT VILLAGE COLUMBIA VALLEY WASHINGTON",
@@ -4080,7 +4201,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T113",
+   "idx": "T110",
    "typ": "红",
    "cn": "艾鹭赤霞珠",
    "en": "Ektimo Cabernet Sauvignon",
@@ -4100,27 +4221,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T114",
-   "typ": "红",
-   "cn": "缘定山庄园 赤霞珠红葡萄酒",
-   "en": "Round Hill Cabernet Sauvignon",
-   "var": "赤霞珠",
-   "var_raw": "赤霞珠（Cabernet Sauvignon）",
-   "comps": [
-    "赤霞珠"
-   ],
-   "cty": "美国",
-   "reg": "美国-加利福尼亚州-北海岸",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T115",
+   "idx": "T111",
    "typ": "红",
    "cn": "豪猪岭赤霞珠干红葡萄酒",
    "en": "Porcupine Ridge Cabernet Sauvignon",
@@ -4140,7 +4241,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T116",
+   "idx": "T112",
    "typ": "红",
    "cn": "迪维卡帝娜苏维翁马贝克干红",
    "en": "Catena Zapata DV Catena Historico Cabernet Sauvignon - Malbec",
@@ -4161,7 +4262,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T117",
+   "idx": "T113",
    "typ": "红",
    "cn": "教堂园赤霞珠西拉梅洛红葡萄酒",
    "en": "Church Block Cabernet Sauvignon Shiraz Merlot",
@@ -4183,7 +4284,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T118",
+   "idx": "T114",
    "typ": "红",
    "cn": "酷伦酒庄 赤霞珠梅洛红葡萄酒",
    "en": "Cullen Cabernet Sauvignon Merlot",
@@ -4204,7 +4305,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T119",
+   "idx": "T115",
    "typ": "红",
    "cn": "种马园特醇赤霞珠红葡萄酒",
    "en": "Hussonet Gran Reserva Cabernet Sauvignon",
@@ -4224,7 +4325,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T120",
+   "idx": "T116",
    "typ": "红",
    "cn": "莱恩堡“家”系列 干红葡萄酒",
    "en": "",
@@ -4244,7 +4345,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T121",
+   "idx": "T117",
    "typ": "红",
    "cn": "戎子酒庄小戎子红标 干红葡萄酒",
    "en": "",
@@ -4264,7 +4365,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T122",
+   "idx": "T118",
    "typ": "红",
    "cn": "戎子酒庄小戎子蓝标干红葡萄酒",
    "en": "",
@@ -4284,7 +4385,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T123",
+   "idx": "T119",
    "typ": "红",
    "cn": "戎子酒庄小戎子黑标干红葡萄酒",
    "en": "",
@@ -4304,7 +4405,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T124",
+   "idx": "T120",
    "typ": "红",
    "cn": "国风赤霞珠2800",
    "en": "",
@@ -4324,7 +4425,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T125",
+   "idx": "T121",
    "typ": "红",
    "cn": "广寒记满月红葡萄酒",
    "en": "",
@@ -4344,7 +4445,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T126",
+   "idx": "T122",
    "typ": "红",
    "cn": "广寒记心上月红葡萄酒",
    "en": "",
@@ -4364,7 +4465,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T127",
+   "idx": "T123",
    "typ": "红",
    "cn": "宁夏莱恩堡赤霞珠 干红葡萄酒",
    "en": "",
@@ -4384,7 +4485,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T128",
+   "idx": "T124",
    "typ": "红",
    "cn": "小玺悦赤霞珠干红葡萄酒",
    "en": "",
@@ -4404,7 +4505,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T129",
+   "idx": "T125",
    "typ": "红",
    "cn": "酒域酩匠若山",
    "en": "",
@@ -4424,7 +4525,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T130",
+   "idx": "T126",
    "typ": "红",
    "cn": "富麓一号园赤霞珠干红",
    "en": "",
@@ -4444,7 +4545,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T131",
+   "idx": "T127",
    "typ": "红",
    "cn": "大览翠 赤霞珠干红葡萄酒",
    "en": "",
@@ -4464,7 +4565,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T132",
+   "idx": "T128",
    "typ": "红",
    "cn": "览翠特级园干红葡萄酒",
    "en": "",
@@ -4484,7 +4585,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T133",
+   "idx": "T129",
    "typ": "红",
    "cn": "美贺庄园艺术家干红葡萄酒",
    "en": "",
@@ -4504,7 +4605,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T134",
+   "idx": "T130",
    "typ": "红",
    "cn": "美贺庄园家族典藏1968 干红葡萄酒",
    "en": "",
@@ -4524,7 +4625,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T135",
+   "idx": "T131",
    "typ": "红",
    "cn": "美贺庄园珍藏干红葡萄酒",
    "en": "",
@@ -4544,7 +4645,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T136",
+   "idx": "T132",
    "typ": "红",
    "cn": "惊殊干红葡萄酒",
    "en": "",
@@ -4564,7 +4665,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T137",
+   "idx": "T133",
    "typ": "红",
    "cn": "嘉地酒园 四季干红葡萄酒",
    "en": "",
@@ -4584,7 +4685,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T138",
+   "idx": "T134",
    "typ": "红",
    "cn": "嘉地酒园 咏叹调干红葡萄酒",
    "en": "",
@@ -4604,7 +4705,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T139",
+   "idx": "T135",
    "typ": "红",
    "cn": "N28 赤霞珠干红葡萄酒",
    "en": "",
@@ -4624,7 +4725,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T140",
+   "idx": "T136",
    "typ": "红",
    "cn": "亦浓小雅 赤霞珠干红葡萄酒",
    "en": "",
@@ -4644,7 +4745,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T141",
+   "idx": "T137",
    "typ": "红",
    "cn": "赤恋A1 赤霞珠干红葡萄酒",
    "en": "",
@@ -4664,7 +4765,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T142",
+   "idx": "T138",
    "typ": "红",
    "cn": "续梦之旅-恩雨赤霞珠干红葡萄酒",
    "en": "",
@@ -4684,7 +4785,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T143",
+   "idx": "T139",
    "typ": "红",
    "cn": "续梦之旅·启航 干红葡萄酒",
    "en": "",
@@ -4704,7 +4805,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T144",
+   "idx": "T140",
    "typ": "红",
    "cn": "夏墨 赤霞珠干红葡萄酒",
    "en": "",
@@ -4724,7 +4825,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T145",
+   "idx": "T141",
    "typ": "红",
    "cn": "长和翡翠熔岩悦干红葡萄酒",
    "en": "",
@@ -4744,7 +4845,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T146",
+   "idx": "T142",
    "typ": "红",
    "cn": "留世-传奇限量珍藏红葡萄酒",
    "en": "",
@@ -4764,7 +4865,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T147",
+   "idx": "T143",
    "typ": "红",
    "cn": "龙吻红葡萄酒",
    "en": "",
@@ -4784,7 +4885,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T148",
+   "idx": "T144",
    "typ": "红",
    "cn": "利思珍藏干红葡萄酒",
    "en": "",
@@ -4804,7 +4905,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T149",
+   "idx": "T145",
    "typ": "红",
    "cn": "利思枫干红葡萄酒",
    "en": "",
@@ -4824,7 +4925,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T150",
+   "idx": "T146",
    "typ": "红",
    "cn": "贺兰芳华酒庄赤霞珠干红葡萄酒",
    "en": "",
@@ -4844,7 +4945,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T151",
+   "idx": "T147",
    "typ": "红",
    "cn": "未迟干红葡萄酒",
    "en": "",
@@ -4864,7 +4965,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T152",
+   "idx": "T148",
    "typ": "红",
    "cn": "丝路收获干红",
    "en": "",
@@ -4884,7 +4985,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T153",
+   "idx": "T149",
    "typ": "红",
    "cn": "丝路珍藏赤霞珠",
    "en": "",
@@ -4904,7 +5005,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T154",
+   "idx": "T150",
    "typ": "红",
    "cn": "沐晗酒庄赤霞珠",
    "en": "",
@@ -4924,7 +5025,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T155",
+   "idx": "T151",
    "typ": "白",
    "cn": "恒福山酒庄 经典赛美蓉白葡萄酒",
    "en": "Hungerford Hill Classic Semillon",
@@ -4944,7 +5045,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T156",
+   "idx": "T152",
    "typ": "白",
    "cn": "添瑞波克尔宾山单一园赛美容白葡萄酒干白",
    "en": "Tyrrell's 'Pokolbin Hills' Single Vineyard Semillon",
@@ -4964,7 +5065,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T157",
+   "idx": "T153",
    "typ": "白",
    "cn": "添瑞HVD猎人谷赛美容白葡萄酒",
    "en": "Tyrrell's HVD Single Vineyard Semillon",
@@ -4984,7 +5085,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T158",
+   "idx": "T154",
    "typ": "白",
    "cn": "皮耶诺酒庄 赛美蓉长相思干白葡萄酒LTC",
    "en": "Pierro Semillon Sauvignon Blanc LTC",
@@ -5005,7 +5106,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T159",
+   "idx": "T155",
    "typ": "红",
    "cn": "贝灵瀚酒庄家园设拉子红葡萄酒",
    "en": "Bellingham Homestead Paarl Shiraz",
@@ -5025,7 +5126,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T160",
+   "idx": "T156",
    "typ": "红",
    "cn": "大航海南澳西拉干红葡萄酒",
    "en": "Voyage Messenger South Australia shiraz",
@@ -5045,7 +5146,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T161",
+   "idx": "T157",
    "typ": "红",
    "cn": "蓝压西拉红葡萄酒",
    "en": "Basket Pressed Shiraz",
@@ -5065,7 +5166,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T162",
+   "idx": "T158",
    "typ": "红",
    "cn": "教堂园西拉红葡萄酒",
    "en": "Church Block Shiraz",
@@ -5085,7 +5186,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T163",
+   "idx": "T159",
    "typ": "红",
    "cn": "复兴西拉红葡萄酒",
    "en": "Progeny Shiraz",
@@ -5105,7 +5206,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T164",
+   "idx": "T160",
    "typ": "红",
    "cn": "格兰屏西拉红葡萄酒",
    "en": "Grampians Shiraz",
@@ -5125,7 +5226,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T165",
+   "idx": "T161",
    "typ": "红",
    "cn": "叁滴酒庄 西拉红葡萄酒",
    "en": "3drops Shiraz",
@@ -5145,7 +5246,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T166",
+   "idx": "T162",
    "typ": "红",
    "cn": "左撇子拳师红葡萄酒",
    "en": "Mollydooker – “The Boxer” Shiraz",
@@ -5165,7 +5266,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T167",
+   "idx": "T163",
    "typ": "红",
    "cn": "红石西拉红葡萄酒",
    "en": "Redstone Shiraz",
@@ -5185,7 +5286,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T168",
+   "idx": "T164",
    "typ": "红",
    "cn": "约翰·杜瓦尔恩蒂缇红葡萄酒",
    "en": "John Duval Entity Shiraz",
@@ -5205,7 +5306,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T169",
+   "idx": "T165",
    "typ": "红",
    "cn": "托斯纳酒庄莱贝克西拉红葡萄酒",
    "en": "Teusner The Riebke Shiraz",
@@ -5225,7 +5326,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T170",
+   "idx": "T166",
    "typ": "红",
    "cn": "瑞林兰北巴罗萨干红葡萄酒",
    "en": "Chris Ringland North Barossa",
@@ -5245,7 +5346,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T171",
+   "idx": "T167",
    "typ": "红",
    "cn": "双掌酒庄督爷巴罗萨谷设拉子干红葡萄酒",
    "en": "Gnarly Dudes Barossa Walley Shiraz",
@@ -5265,7 +5366,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T172",
+   "idx": "T168",
    "typ": "红",
    "cn": "恩蒂缇红葡萄酒",
    "en": "Entity Shiraz",
@@ -5285,7 +5386,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T173",
+   "idx": "T169",
    "typ": "红",
    "cn": "萄贝伐木工红葡萄酒",
    "en": "Woodcutter‘s Shiraz - Unfiltered",
@@ -5305,7 +5406,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T174",
+   "idx": "T170",
    "typ": "红",
    "cn": "福瑞山酒庄9号地块设拉子红葡萄酒",
    "en": "Forest Hill Block 9 Shiraz Red Wine",
@@ -5325,7 +5426,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T175",
+   "idx": "T171",
    "typ": "红",
    "cn": "左撇子陶醉旅程红葡萄酒",
    "en": "Mollydooker – “Enchanted Path” Shiraz Cabernet",
@@ -5346,7 +5447,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T176",
+   "idx": "T172",
    "typ": "红",
    "cn": "托斯纳酒庄独立者西拉马塔罗红葡萄酒",
    "en": "Teusner The Independent Shiraz Mataro",
@@ -5367,7 +5468,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T177",
+   "idx": "T173",
    "typ": "红",
    "cn": "迦南酒业西拉",
    "en": "",
@@ -5387,7 +5488,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T178",
+   "idx": "T174",
    "typ": "红",
    "cn": "宁夏莱恩堡和 西拉干红葡萄酒",
    "en": "",
@@ -5407,7 +5508,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T179",
+   "idx": "T175",
    "typ": "红",
    "cn": "小玺悦西拉干红葡萄酒",
    "en": "",
@@ -5427,7 +5528,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T180",
+   "idx": "T176",
    "typ": "红",
    "cn": "美贺庄园尊享西拉干红葡萄酒",
    "en": "",
@@ -5447,7 +5548,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T181",
+   "idx": "T177",
    "typ": "红",
    "cn": "甘麓酒庄西拉庄主私藏 干红葡萄酒",
    "en": "",
@@ -5467,7 +5568,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T182",
+   "idx": "T178",
    "typ": "红",
    "cn": "弓月酒庄西拉干红葡萄酒",
    "en": "",
@@ -5487,7 +5588,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T183",
+   "idx": "T179",
    "typ": "红",
    "cn": "沐晗酒庄西拉",
    "en": "",
@@ -5507,7 +5608,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T184",
+   "idx": "T180",
    "typ": "红",
    "cn": "别样精彩蛇龙珠干红",
    "en": "",
@@ -5527,7 +5628,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T185",
+   "idx": "T181",
    "typ": "红",
    "cn": "贝亚蒂酒庄疯狂大脑阿布鲁佐蒙特布查诺干红",
    "en": "",
@@ -5547,7 +5648,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T186",
+   "idx": "T182",
    "typ": "红",
    "cn": "贝亚蒂酒庄小矮人阿布鲁佐蒙特布查诺干红",
    "en": "",
@@ -5567,7 +5668,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T187",
+   "idx": "T183",
    "typ": "甜白",
    "cn": "金兹玛拉乌利半甜红葡萄酒",
    "en": "Kindzmarauli Semi Sweet",
@@ -5587,27 +5688,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T188",
-   "typ": "红",
-   "cn": "穆库扎尼陶罐红葡萄酒",
-   "en": "Kakheti – Mukuzani Qvevri",
-   "var": "晚红蜜",
-   "var_raw": "萨佩拉维（Saperavi，陶罐/Qvevri陈酿）",
-   "comps": [
-    "晚红蜜"
-   ],
-   "cty": "格鲁吉亚",
-   "reg": "格鲁吉亚-卡赫季-穆库扎尼",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T189",
+   "idx": "T184",
    "typ": "红",
    "cn": "萨佩拉维陶罐红葡萄酒",
    "en": "Saperavi Qvevri",
@@ -5627,7 +5708,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T190",
+   "idx": "T185",
    "typ": "起泡",
    "cn": "低醇低泡甜白起泡酒卡奈利DOCG莫斯卡托",
    "en": "Falchetto Sweet White Sparkling DOCGMoscato",
@@ -5647,7 +5728,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T191",
+   "idx": "T186",
    "typ": "白",
    "cn": "哲马酒庄韦特罗梯田枫丹白葡萄酒",
    "en": "Domaine Jean-Rene Germanier, Fendant Vétroz Les Terrasses",
@@ -5665,7 +5746,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T192",
+   "idx": "T187",
    "typ": "红",
    "cn": "安多芬酒庄玛莎红干红红葡萄酒",
    "en": "Weingut Martin & Anna Arndorfer 'Martha Rouge'",
@@ -5685,7 +5766,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T193",
+   "idx": "T188",
    "typ": "白",
    "cn": "托马斯酒庄苏维经典白葡萄酒",
    "en": "Tommasi Le Volpare",
@@ -5703,7 +5784,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T194",
+   "idx": "T189",
    "typ": "白",
    "cn": "安多芬酒庄安娜绿干白葡萄酒",
    "en": "Martin & Anna Arndorfer 'Anina Verde'",
@@ -5723,7 +5804,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T195",
+   "idx": "T190",
    "typ": "白",
    "cn": "高博古堡维特白葡萄酒",
    "en": "Domaene Gobelsburg, Grüner Veltliner, Kamptal DAC",
@@ -5743,7 +5824,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T196",
+   "idx": "T191",
    "typ": "白",
    "cn": "维特白葡萄酒",
    "en": "Gruner Veltliner",
@@ -5763,7 +5844,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T197",
+   "idx": "T192",
    "typ": "白",
    "cn": "岚斯堡维欧尼白葡萄酒",
    "en": "Landsborough Viognier",
@@ -5783,7 +5864,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T198",
+   "idx": "T193",
    "typ": "白",
    "cn": "美贺庄园维欧尼干白葡萄酒",
    "en": "",
@@ -5803,7 +5884,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T199",
+   "idx": "T194",
    "typ": "白",
    "cn": "路易卡纳斯 维尤拉干白",
    "en": "Luis Canas Viuja",
@@ -5821,7 +5902,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T200",
+   "idx": "T195",
    "typ": "白",
    "cn": "里奥哈契约窖藏干白葡萄酒",
    "en": "El Pacto de la Familia de la Riva Rioja Blanco",
@@ -5839,7 +5920,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T201",
+   "idx": "T196",
    "typ": "白",
    "cn": "洛佩斯埃雷蒂亚酒庄高阜园里奥哈陈酿干白葡萄酒",
    "en": "R. López de Heredia Viña Tondonia Viña Gravonia blanco Crianza",
@@ -5857,7 +5938,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T202",
+   "idx": "T197",
    "typ": "白",
    "cn": "蒲昌纱布拉维",
    "en": "",
@@ -5875,7 +5956,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T203",
+   "idx": "T198",
    "typ": "红",
    "cn": "贝尔塔尼酒庄阿玛偌尼经典红葡萄酒",
    "en": "Bertani Amarone Classico Red Wine",
@@ -5895,27 +5976,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T204",
-   "typ": "红",
-   "cn": "卓林郅樽阿玛罗尼红葡萄酒",
-   "en": "Zonin Amarone della Valpolicella DOCG",
-   "var": "科维纳",
-   "var_raw": "科维纳混酿",
-   "comps": [
-    "科维纳"
-   ],
-   "cty": "意大利",
-   "reg": "意大利-威尼托",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T205",
+   "idx": "T199",
    "typ": "红",
    "cn": "托马斯酒庄台地瓦尔普利切拉经典红葡萄酒",
    "en": "Tommasi I Pianeti",
@@ -5935,7 +5996,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T206",
+   "idx": "T200",
    "typ": "红",
    "cn": "托马斯酒庄瑞帕索瓦尔普利切拉红葡萄酒",
    "en": "Tommasi VALPOLICELLA “Ripasso”",
@@ -5955,7 +6016,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T207",
+   "idx": "T201",
    "typ": "红",
    "cn": "彼岸达·瓦波利切拉红葡萄酒",
    "en": "Ca'la Bionda Valpolicella Classico DOC",
@@ -5975,7 +6036,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T208",
+   "idx": "T202",
    "typ": "红",
    "cn": "贝灵瀚酒庄家园皮诺塔吉红葡萄酒",
    "en": "Bellingham Homestead Stellenbosch Pinotage",
@@ -5995,7 +6056,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T209",
+   "idx": "T203",
    "typ": "红",
    "cn": "旱地珍藏决意者皮诺塔基干红葡萄酒",
    "en": "The Dry Land Collection Resolve Pinotage",
@@ -6015,7 +6076,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T210",
+   "idx": "T204",
    "typ": "白",
    "cn": "猎豹庄悦食系列白诗南白葡萄酒",
    "en": "Leopard’s Leap Culinaria Chenin Blanc",
@@ -6035,7 +6096,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T211",
+   "idx": "T205",
    "typ": "白",
    "cn": "豪猪岭白诗南干白葡萄酒",
    "en": "Porcupine Ridge Chenin Blanc",
@@ -6055,7 +6116,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T212",
+   "idx": "T206",
    "typ": "白",
    "cn": "萨姆白诗南葡萄酒",
    "en": "SAAM Chenin Blanc",
@@ -6075,7 +6136,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T213",
+   "idx": "T207",
    "typ": "白",
    "cn": "旱地珍藏勇者白诗南干白葡萄酒",
    "en": "The Dry Land Collection Courageous Chenin Blanc",
@@ -6095,7 +6156,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T214",
+   "idx": "T208",
    "typ": "白",
    "cn": "凯樽汇锦殿白诗南白葡萄酒",
    "en": "Classic Chenin Blanc",
@@ -6115,7 +6176,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T215",
+   "idx": "T209",
    "typ": "白",
    "cn": "狼庄小野猪干白",
    "en": "Villa Wolf",
@@ -6133,7 +6194,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T216",
+   "idx": "T210",
    "typ": "白",
    "cn": "狼庄白皮诺葡萄酒",
    "en": "Villa Wolf Pinot Blanc",
@@ -6151,27 +6212,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T217",
-   "typ": "白",
-   "cn": "狼庄琼瑶浆葡萄酒",
-   "en": "Villa Wolf Gewürztraminer",
-   "var": "琼瑶浆",
-   "var_raw": "琼瑶浆（Gewürztraminer）",
-   "comps": [
-    "琼瑶浆"
-   ],
-   "cty": "德国",
-   "reg": "德国-法尔兹",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T218",
+   "idx": "T211",
    "typ": "白",
    "cn": "狼庄灰皮诺葡萄酒",
    "en": "Villa Wolf Gris",
@@ -6191,7 +6232,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T219",
+   "idx": "T212",
    "typ": "白",
    "cn": "塔瑞塞拉灰皮诺白葡萄酒",
    "en": "Torresella Pinot Grigio",
@@ -6211,7 +6252,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T220",
+   "idx": "T213",
    "typ": "白",
    "cn": "塔明酒庄灰皮诺干白葡萄酒",
    "en": "Cantina Tramin Pinot Grigio",
@@ -6231,7 +6272,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T221",
+   "idx": "T214",
    "typ": "白",
    "cn": "托马斯酒庄罗斯庄园灰皮诺白葡萄酒",
    "en": "Tommasi Le Rosse",
@@ -6251,7 +6292,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T222",
+   "idx": "T215",
    "typ": "白",
    "cn": "科伦佐灰皮诺白葡萄酒",
    "en": "Colterenzio Pinot Gris",
@@ -6271,7 +6312,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T223",
+   "idx": "T216",
    "typ": "甜白",
    "cn": "多娜佳塔奔迈甜白风之子",
    "en": "Donnafugata Ben Ryé Passito di Pantelleria",
@@ -6291,7 +6332,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T224",
+   "idx": "T217",
    "typ": "红",
    "cn": "奥纳亚酒庄乐福特干红葡萄酒",
    "en": "Tenuta dell'Ornellaia Le Volte",
@@ -6309,7 +6350,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T225",
+   "idx": "T218",
    "typ": "红",
    "cn": "奥纳亚庄园乐佛特红葡萄酒",
    "en": "Ornellaia Le Volte dell‘Ornellaia",
@@ -6327,7 +6368,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T226",
+   "idx": "T219",
    "typ": "红",
    "cn": "帕拉西奥斯酒庄蒙塔莎红葡萄酒",
    "en": "La Montesa DOC-Palacios Remondo",
@@ -6348,7 +6389,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T227",
+   "idx": "T220",
    "typ": "红",
    "cn": "蓝压歌海娜红葡萄酒",
    "en": "Basket Pressed Grenache",
@@ -6368,7 +6409,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T228",
+   "idx": "T221",
    "typ": "红",
    "cn": "塞缪尔乔治酒庄歌海娜红",
    "en": "Samuel's Gorge Grenache Red",
@@ -6388,7 +6429,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T229",
+   "idx": "T222",
    "typ": "红",
    "cn": "重生歌海娜干红葡萄酒",
    "en": "Yelland & Papps Second Take Grenache",
@@ -6408,7 +6449,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T230",
+   "idx": "T223",
    "typ": "红",
    "cn": "阿尔托蒙卡亚贝拉通干红葡萄酒",
    "en": "Alto Moncayo Veraton",
@@ -6428,7 +6469,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T231",
+   "idx": "T224",
    "typ": "红",
    "cn": "托布雷萄贝小农庄红葡萄酒",
    "en": "Torbreck The Steading",
@@ -6450,7 +6491,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T232",
+   "idx": "T225",
    "typ": "红",
    "cn": "桃乐丝圣歌红葡萄酒",
    "en": "Familia Torres Salmos",
@@ -6471,7 +6512,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T233",
+   "idx": "T226",
    "typ": "红",
    "cn": "奥瓦帕乐酒庄嘉文红葡萄酒",
    "en": "ALVARO PALACIOS",
@@ -6492,7 +6533,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T234",
+   "idx": "T227",
    "typ": "红",
    "cn": "帕乐酒庄帕特罗红葡萄酒",
    "en": "Alvaro Palacios Camins del Priorat",
@@ -6514,7 +6555,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T235",
+   "idx": "T228",
    "typ": "红",
    "cn": "凯氏兄弟酒庄 GSM红葡萄酒",
    "en": "Kay Brothers GSM",
@@ -6536,7 +6577,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T236",
+   "idx": "T229",
    "typ": "红",
    "cn": "麓鹊狄干红葡萄酒",
    "en": "Luce della Vite 'Lucente'",
@@ -6557,7 +6598,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T237",
+   "idx": "T230",
    "typ": "红",
    "cn": "迦南酒业诗百篇 优选美乐",
    "en": "",
@@ -6577,7 +6618,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T238",
+   "idx": "T231",
    "typ": "红",
    "cn": "富麓美乐干红葡萄酒",
    "en": "",
@@ -6597,7 +6638,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T239",
+   "idx": "T232",
    "typ": "红",
    "cn": "长和翡翠窖藏美乐干红葡萄酒",
    "en": "",
@@ -6617,7 +6658,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T240",
+   "idx": "T233",
    "typ": "红",
    "cn": "利思家族荣耀梅洛",
    "en": "",
@@ -6637,7 +6678,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T241",
+   "idx": "T234",
    "typ": "红",
    "cn": "贺兰芳华酒庄美乐干红葡萄酒",
    "en": "",
@@ -6657,7 +6698,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T242",
+   "idx": "T235",
    "typ": "红",
    "cn": "费迪南多一世干红",
    "en": "Ferdinando I Toscana Rosso",
@@ -6677,7 +6718,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T243",
+   "idx": "T236",
    "typ": "红",
    "cn": "花思蝶蒙达奇诺康坡干红葡萄酒",
    "en": "Campo Ai Sassi Rosso di Montalcino",
@@ -6697,7 +6738,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T244",
+   "idx": "T237",
    "typ": "红",
    "cn": "萨塞蒂利维奥韦西洛红",
    "en": "Livio Sassetti “Pertimali” – Brunello di Montalcino Riserva",
@@ -6717,7 +6758,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T245",
+   "idx": "T238",
    "typ": "红",
    "cn": "安东尼侯爵 经典基安蒂珍藏干红葡萄酒",
    "en": "Marchesi Antinori Tenuta Tignanello 'Marchese Antinori' Chianti Classico Riserva",
@@ -6737,7 +6778,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T246",
+   "idx": "T239",
    "typ": "红",
    "cn": "福地酒庄经典奇安帝干红葡萄酒",
    "en": "Fontodi Chianti Classico DOCG Biodynamic",
@@ -6757,7 +6798,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T247",
+   "idx": "T240",
    "typ": "红",
    "cn": "澜莫酒庄双刃经典奇安蒂红葡萄酒",
    "en": "Lamole di Lamoie Duelame",
@@ -6777,7 +6818,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T248",
+   "idx": "T241",
    "typ": "红",
    "cn": "科尔多奇亚酒庄蒙塔尔奇诺红葡萄酒",
    "en": "Col d'Orcia Rosso di Montalcino",
@@ -6797,7 +6838,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T249",
+   "idx": "T242",
    "typ": "红",
    "cn": "乌鹊酒庄蒙塔奇诺红葡萄酒",
    "en": "Uccelliera Rosso di Montalcino DOC",
@@ -6817,7 +6858,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T250",
+   "idx": "T243",
    "typ": "红",
    "cn": "瓦卡多黑歌海娜干红葡萄酒",
    "en": "Valcanto Garnacha Tintorera",
@@ -6835,7 +6876,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T251",
+   "idx": "T244",
    "typ": "红",
    "cn": "瑞斯卡内普瑞卡-普里米蒂红葡萄酒",
    "en": "",
@@ -6855,7 +6896,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T252",
+   "idx": "T245",
    "typ": "起泡",
    "cn": "百格丽10号普塞克DOC起泡酒",
    "en": "Prosecco Vino Spumante DOC Extra Dry Baglietti No.10",
@@ -6873,7 +6914,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T253",
+   "idx": "T246",
    "typ": "起泡",
    "cn": "美尼多普赛克天然起泡葡萄酒",
    "en": "Prosecco Spumante Prestige DOC Brut",
@@ -6891,7 +6932,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T254",
+   "idx": "T247",
    "typ": "起泡",
    "cn": "比索酒庄卓尔系列起泡葡萄酒",
    "en": "Bisol Jeio Brut, Valdobbiadene Prosecco Superiore DOCG",
@@ -6909,7 +6950,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T255",
+   "idx": "T248",
    "typ": "白",
    "cn": "苏珊娜巴博西乐托龙特斯白葡萄酒",
    "en": "Usana Balbo, Crios Torrontés, Mendoza",
@@ -6929,7 +6970,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T256",
+   "idx": "T249",
    "typ": "白",
    "cn": "西乐特浓情白葡萄酒",
    "en": "Crios Torrontes",
@@ -6949,7 +6990,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T257",
+   "idx": "T250",
    "typ": "加强",
    "cn": "慕斯窖藏红葡萄加强酒",
    "en": "Orange river cellars red Muscadel",
@@ -6967,7 +7008,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T258",
+   "idx": "T251",
    "typ": "红",
    "cn": "塞缪尔乔治酒庄慕合怀特红",
    "en": "Sarmuel's Gorge Mourvèdre Red",
@@ -6987,7 +7028,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T259",
+   "idx": "T252",
    "typ": "红",
    "cn": "卡萨卡斯蒂略摩尔干红",
    "en": "Casa Castillo El Molar",
@@ -7007,7 +7048,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T260",
+   "idx": "T253",
    "typ": "红",
    "cn": "夏博岚酒庄慕合怀特干红葡萄酒",
    "en": "",
@@ -7027,7 +7068,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T261",
+   "idx": "T254",
    "typ": "加强",
    "cn": "佩佩伯父菲诺雪利酒（利口葡萄酒）",
    "en": "Gonzalez Byass Tio Pepe Fino Muy Seco",
@@ -7047,7 +7088,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T262",
+   "idx": "T255",
    "typ": "红",
    "cn": "斯巴琳娜巴贝拉红葡萄酒",
    "en": "La Spinetta Ca' di Pian Barbera d'Asti",
@@ -7067,7 +7108,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T263",
+   "idx": "T256",
    "typ": "红",
    "cn": "旗云庄园贝纳蒂娜阿尔巴干红葡萄酒",
    "en": "Ceretto \"Bernardina\" Barbera d'Alba",
@@ -7087,7 +7128,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T264",
+   "idx": "T257",
    "typ": "红",
    "cn": "LA MATA  阿斯蒂巴贝拉干红葡萄酒",
    "en": "La Mata – Barbera d’Asti DOCG",
@@ -7107,7 +7148,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T265",
+   "idx": "T258",
    "typ": "红",
    "cn": "乔瓦尼酒庄阿尔巴巴贝拉红葡萄酒",
    "en": "Giovanni Rosso Alba Barbera Red Wine",
@@ -7127,7 +7168,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T266",
+   "idx": "T259",
    "typ": "红",
    "cn": "潘丽赛罗酒庄巴贝拉潘妮干红葡萄酒",
    "en": "Pelissero Piani Barbera d'Alba",
@@ -7147,7 +7188,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T267",
+   "idx": "T260",
    "typ": "红",
    "cn": "维耶谛阿斯蒂巴贝拉红葡萄酒",
    "en": "Vietti Tre Vigne",
@@ -7167,7 +7208,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T268",
+   "idx": "T261",
    "typ": "红",
    "cn": "普鲁诺托优洛阿思提巴贝拉红葡萄酒",
    "en": "",
@@ -7187,7 +7228,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T269",
+   "idx": "T262",
    "typ": "甜白",
    "cn": "长和翡翠小芒森甜白葡萄酒",
    "en": "",
@@ -7207,7 +7248,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T270",
+   "idx": "T263",
    "typ": "甜白",
    "cn": "中法庄园小芒森甜白葡萄酒",
    "en": "",
@@ -7227,7 +7268,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T271",
+   "idx": "T264",
    "typ": "红",
    "cn": "丝路酒庄鸟巢小味尔多干红",
    "en": "",
@@ -7247,7 +7288,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T272",
+   "idx": "T265",
    "typ": "甜白",
    "cn": "吉林斯普瑞大寒威代尔冰酒",
    "en": "",
@@ -7267,7 +7308,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T273",
+   "idx": "T266",
    "typ": "红",
    "cn": "潘丽赛罗酒庄多切托梦菲娜红葡萄酒",
    "en": "Pelissero Munfrina Dolcetto d'Alba",
@@ -7287,7 +7328,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T274",
+   "idx": "T267",
    "typ": "红",
    "cn": "火鸟庄园雪松干红葡萄酒",
    "en": "Quinta do Noval Cedro do Noval",
@@ -7307,7 +7348,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T275",
+   "idx": "T268",
    "typ": "红",
    "cn": "波雷斯酒庄“签名版”红葡萄酒",
    "en": "Porrais Signature, DOC Douro Red",
@@ -7328,7 +7369,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T276",
+   "idx": "T269",
    "typ": "红",
    "cn": "山东九顶庄园品丽珠精选干红葡萄酒",
    "en": "",
@@ -7348,7 +7389,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T277",
+   "idx": "T270",
    "typ": "红",
    "cn": "贺东庄园品丽珠 干红葡萄酒",
    "en": "",
@@ -7368,7 +7409,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T278",
+   "idx": "T271",
    "typ": "白",
    "cn": "多米尼威帝·女神经典索阿维单一园白",
    "en": "Domini Veneti \"La Prua\" Soave Classico Single Vineyard",
@@ -7388,7 +7429,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T279",
+   "idx": "T272",
    "typ": "白",
    "cn": "塔米里尼酒庄勒蔓经典索阿维干白葡萄酒",
    "en": "Tamellini – Soave Classico “Le Bine de Costìola” DOC",
@@ -7408,7 +7449,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T280",
+   "idx": "T273",
    "typ": "起泡",
    "cn": "塔米里尼酒庄年份起泡葡萄酒",
    "en": "Tamellini Soave Spumante",
@@ -7428,7 +7469,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T281",
+   "idx": "T274",
    "typ": "白",
    "cn": "蒲昌北醇",
    "en": "",
@@ -7446,7 +7487,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T282",
+   "idx": "T275",
    "typ": "甜白",
    "cn": "吉林斯普瑞小寒北冰红红冰酒（甜红）",
    "en": "",
@@ -7466,7 +7507,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T283",
+   "idx": "T276",
    "typ": "红",
    "cn": "博诺无名红葡萄酒",
    "en": "Borgogno no name",
@@ -7487,7 +7528,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T284",
+   "idx": "T277",
    "typ": "红",
    "cn": "巴罗洛侯爵庄园红葡萄酒",
    "en": "Marchesi di Barolo, Barolo DOCG, Piedmont, Italy",
@@ -7507,7 +7548,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T285",
+   "idx": "T278",
    "typ": "红",
    "cn": "嘉科萨酒庄阿尔巴内比奥罗红",
    "en": "Bruno Giacosa Nebbiolo d'Alba",
@@ -7527,7 +7568,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T286",
+   "idx": "T279",
    "typ": "红",
    "cn": "布鲁诺罗卡酒庄巴巴莱斯科干红",
    "en": "Bruno Rocca Barbaresco",
@@ -7547,7 +7588,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T287",
+   "idx": "T280",
    "typ": "红",
    "cn": "黑色朱利亚酒庄朗格内比奥罗干红葡萄酒",
    "en": "Giulia Negri Langhe Nebbiolo",
@@ -7567,7 +7608,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T288",
+   "idx": "T281",
    "typ": "红",
    "cn": "黑色朱莉亚酒庄塔尔法干红",
    "en": "Giulia Negri \"Tartufaia\" Barolo DOCG",
@@ -7587,7 +7628,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T289",
+   "idx": "T282",
    "typ": "红",
    "cn": "黑色茱莉亚酒庄塞拉德干红",
    "en": "Giulia Negri Barolo \"Serradenari\"",
@@ -7607,7 +7648,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T290",
+   "idx": "T283",
    "typ": "红",
    "cn": "沃奇奥酒庄弗朗西斯科园内比奥罗红",
    "en": "Azelia Langhe Nebbiolo \"Nebbiolo d'Alba\"",
@@ -7627,7 +7668,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T291",
+   "idx": "T284",
    "typ": "红",
    "cn": "博罗利酒庄巴罗洛干红葡萄酒",
    "en": "Boroli – Barolo",
@@ -7647,7 +7688,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T292",
+   "idx": "T285",
    "typ": "红",
    "cn": "合作社巴巴莱斯科干",
    "en": "Produttori del Barbaresco Barbaresco DOCG",
@@ -7667,7 +7708,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T293",
+   "idx": "T286",
    "typ": "红",
    "cn": "伊卡迪酒庄巴罗洛福萨蒂园红葡萄酒",
    "en": "Icardi – Barolo “Fossati”",
@@ -7687,7 +7728,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T294",
+   "idx": "T287",
    "typ": "红",
    "cn": "伊卡迪酒庄巴罗洛塞拉园珍藏红葡萄酒",
    "en": "Icardi Barolo Serra Reserve Red Wine",
@@ -7707,7 +7748,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T295",
+   "idx": "T288",
    "typ": "红",
    "cn": "乔瓦尼酒庄朗格内比奥罗红葡萄酒",
    "en": "Giovanni Rosso Langhe Nebbiolo Red Wine",
@@ -7727,7 +7768,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T296",
+   "idx": "T289",
    "typ": "红",
    "cn": "乔瓦尼酒庄巴罗洛红葡萄酒(BAROLO DOCG)",
    "en": "Giovanni Rosso Barolo Red Wine(BAROLO DOCG)",
@@ -7747,7 +7788,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T297",
+   "idx": "T290",
    "typ": "红",
    "cn": "布鲁诺罗卡酒庄巴巴莱斯科干红葡萄酒",
    "en": "Bruno Rocca Barbaresco DOCG",
@@ -7767,7 +7808,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T298",
+   "idx": "T291",
    "typ": "红",
    "cn": "潘丽赛罗酒庄朗格内比奥罗红葡萄酒",
    "en": "Pelissero Nebbiolo Langhe",
@@ -7787,7 +7828,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T299",
+   "idx": "T292",
    "typ": "红",
    "cn": "维耶谛贝巴克内比奥罗红葡萄酒",
    "en": "Vietti Perbacco",
@@ -7807,7 +7848,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T300",
+   "idx": "T293",
    "typ": "红",
    "cn": "普鲁诺托巴巴莱斯科红葡萄酒",
    "en": "",
@@ -7827,7 +7868,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T301",
+   "idx": "T294",
    "typ": "红",
    "cn": "猎影珍藏佳美娜干红葡萄酒",
    "en": "HUNTER carmenere Reserva",
@@ -7847,7 +7888,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T302",
+   "idx": "T295",
    "typ": "红",
    "cn": "种马园艾克拉特醇金万利红葡萄酒",
    "en": "Ecral Gran Reserva Carmenere",
@@ -7867,7 +7908,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T303",
+   "idx": "T296",
    "typ": "红",
    "cn": "豪雅单一园金万利红葡萄酒",
    "en": "Carmenere Single Vineyard",
@@ -7887,7 +7928,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T304",
+   "idx": "T297",
    "typ": "红",
    "cn": "艾鹭仙粉黛",
    "en": "Ektimo Zinfandel",
@@ -7907,7 +7948,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T305",
+   "idx": "T298",
    "typ": "红",
    "cn": "桃乐丝奥托斯伊贝利克里奥哈红葡萄酒",
    "en": "Torres Altos Ibéricos Crianza",
@@ -7927,7 +7968,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T306",
+   "idx": "T299",
    "typ": "红",
    "cn": "路易卡纳斯珍藏红葡萄酒",
    "en": "Luis Cañas, Reserva, Rioja DOCa",
@@ -7947,7 +7988,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T307",
+   "idx": "T300",
    "typ": "红",
    "cn": "若达 希蓝红葡萄酒",
    "en": "Bodegas Roda Sela",
@@ -7967,7 +8008,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T308",
+   "idx": "T301",
    "typ": "红",
    "cn": "橡树河畔42珍藏",
    "en": "La Rioja Alta \"LAT 42\" Reserva",
@@ -7987,7 +8028,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T309",
+   "idx": "T302",
    "typ": "红",
    "cn": "阿塔迪酒庄凯恩庄园干红葡萄酒",
    "en": "Artadi Viñas de Gain Tinto",
@@ -8007,7 +8048,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T310",
+   "idx": "T303",
    "typ": "红",
    "cn": "路易卡纳斯陈酿红葡萄酒",
    "en": "Luis Cañas, Crianza, Rioja DOCa",
@@ -8027,7 +8068,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T311",
+   "idx": "T304",
    "typ": "红",
    "cn": "欧百乐私家特藏干红葡萄酒",
    "en": "VINA ALBALI Gran Reserva",
@@ -8047,7 +8088,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T312",
+   "idx": "T305",
    "typ": "红",
    "cn": "寇利铂红葡萄酒1",
    "en": "Corimbo",
@@ -8067,7 +8108,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T313",
+   "idx": "T306",
    "typ": "红",
    "cn": "康塔多酒庄帽子红葡萄酒",
    "en": "Predicador Tinto",
@@ -8088,7 +8129,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T314",
+   "idx": "T307",
    "typ": "红",
    "cn": "洛佩斯埃雷蒂亚酒庄唐园里奥哈珍藏干红葡萄酒",
    "en": "R. López de Heredia Viña Tondonia Tinto Reserva",
@@ -8108,7 +8149,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T315",
+   "idx": "T308",
    "typ": "甜白",
    "cn": "金月宫托卡伊甜白葡萄酒",
    "en": "Sarga Borhaz Tokaji Late Havest",
@@ -8128,7 +8169,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T316",
+   "idx": "T309",
    "typ": "白",
    "cn": "十字圣纳白葡萄酒",
    "en": "DOMAINE LA CROIX SENAILLET",
@@ -8148,7 +8189,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T317",
+   "idx": "T310",
    "typ": "白",
    "cn": "槐木园维欧尼干白葡萄酒",
    "en": "Viognier",
@@ -8168,7 +8209,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T318",
+   "idx": "T311",
    "typ": "红",
    "cn": "珊瑚酒园 精选罗纳河谷红葡萄酒",
    "en": "Jean-Louis Chave Rhône Rouge",
@@ -8190,7 +8231,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T319",
+   "idx": "T312",
    "typ": "红",
    "cn": "三圣山酒庄吉布利砾石区混酿干红",
    "en": "Trinity Hill Gimblett Gravels Blend",
@@ -8212,7 +8253,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T320",
+   "idx": "T313",
    "typ": "红",
    "cn": "塞侯庄园花岗岩之光干红",
    "en": "DOMAINE SEROL ECLAT DE GRANITE",
@@ -8232,7 +8273,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T321",
+   "idx": "T314",
    "typ": "红",
    "cn": "嘉伯乐酒庄 克罗兹埃米塔日佳乐红葡萄酒",
    "en": "Paul Jaboulet Aine Les Jalets",
@@ -8252,7 +8293,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T322",
+   "idx": "T315",
    "typ": "红",
    "cn": "珊瑚酒园 精选克罗兹埃米塔日红葡萄酒",
    "en": "Jean-Louis Chave Crozes-Hermitage Rouge",
@@ -8272,7 +8313,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T323",
+   "idx": "T316",
    "typ": "红",
    "cn": "三圣山酒庄吉布利砾石区西拉红",
    "en": "Trinity Hill Gimblett Gravels Syrah",
@@ -8292,7 +8333,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T324",
+   "idx": "T317",
    "typ": "红",
    "cn": "天秤座霍克斯湾西拉红葡萄酒",
    "en": "Librae Hawkes Bay Syrah",
@@ -8312,7 +8353,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T325",
+   "idx": "T318",
    "typ": "红",
    "cn": "三圣山酒庄霍玛吉西拉干红",
    "en": "Trinity Hill Homage Syrah",
@@ -8332,7 +8373,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T326",
+   "idx": "T319",
    "typ": "加强",
    "cn": "西蒙庄园苏玳贵腐甜白",
    "en": "CHATEAU SIMON SAUTERNES",
@@ -8354,7 +8395,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T327",
+   "idx": "T320",
    "typ": "加强",
    "cn": "拉佛瑞佩拉城堡贵腐甜白葡萄酒",
    "en": "Château Lafaurie-Peyraguey – Sauternes",
@@ -8376,7 +8417,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T328",
+   "idx": "T321",
    "typ": "甜白",
    "cn": "汝拉琼酿葡萄酒 黄酒",
    "en": "Jura Vin Jaune",
@@ -8394,7 +8435,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T329",
+   "idx": "T322",
    "typ": "加强",
    "cn": "旭金堡城堡干白葡萄酒",
    "en": "Château Suduiraut – S de Suduiraut Blanc Sec",
@@ -8416,7 +8457,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T330",
+   "idx": "T323",
    "typ": "白",
    "cn": "乌托邦繁花干白葡萄酒",
    "en": "Domaine La Toupie Fine Fleur",
@@ -8437,7 +8478,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T331",
+   "idx": "T324",
    "typ": "白",
    "cn": "金露桐酒庄干白",
    "en": "Château Couhins-Lurton Blanc",
@@ -8458,7 +8499,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T332",
+   "idx": "T325",
    "typ": "白",
    "cn": "利诗之星干白葡萄酒",
    "en": "R de Rieussec (Château Rieussec) Blanc Sec",
@@ -8479,7 +8520,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T333",
+   "idx": "T326",
    "typ": "白",
    "cn": "拜瑞庄园白 葡萄酒",
    "en": "Chateau Baret Blanc",
@@ -8500,7 +8541,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T334",
+   "idx": "T327",
    "typ": "白",
    "cn": "便与宝怡干白葡萄酒",
    "en": "DOMAINE BAILLY REVERDY LA MERCY-DIEU",
@@ -8520,7 +8561,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T335",
+   "idx": "T328",
    "typ": "白",
    "cn": "亨利博卢瓦庄园波梅干白",
    "en": "Henri Bourgeois",
@@ -8540,7 +8581,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T336",
+   "idx": "T329",
    "typ": "白",
    "cn": "圣弗朗酒庄桑塞尔燧石干白葡萄酒",
    "en": "Francois le Saint Sancerre Silex",
@@ -8560,7 +8601,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T337",
+   "idx": "T330",
    "typ": "白",
    "cn": "弗榭酒庄 普依富美白葡萄酒",
    "en": "Domaine Fouassier Pouilly Fume",
@@ -8580,7 +8621,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T338",
+   "idx": "T331",
    "typ": "白",
    "cn": "弗榭酒庄 白葡萄酒",
    "en": "Domaine Fouassier Sancerre",
@@ -8600,7 +8641,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T339",
+   "idx": "T332",
    "typ": "白",
    "cn": "拉伯特庄园 普伊芙美白葡萄酒",
    "en": "Domaine Laporte Pouilly Fumé",
@@ -8620,7 +8661,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T340",
+   "idx": "T333",
    "typ": "白",
    "cn": "河梯园长相思干白葡萄酒",
    "en": "River Terrace Sauvignon Blanc",
@@ -8640,7 +8681,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T341",
+   "idx": "T334",
    "typ": "白",
    "cn": "百碧祺黑标长相思",
    "en": "Babich Black Lable Marl Sauvignon Blanc",
@@ -8660,7 +8701,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T342",
+   "idx": "T335",
    "typ": "白",
    "cn": "白色天堂蔻白堤马尔堡长相思白葡萄酒",
    "en": "Whitehaven 'Kōpua' Marlborough Sauvignon Blanc",
@@ -8680,7 +8721,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T343",
+   "idx": "T336",
    "typ": "白",
    "cn": "灰石长相思干白",
    "en": "Greystone Sauvignon Blanc",
@@ -8700,7 +8741,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T344",
+   "idx": "T337",
    "typ": "白",
    "cn": "云雾之湾长相思干白",
    "en": "Cloudy Bay Sauvignon Blanc",
@@ -8720,7 +8761,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T345",
+   "idx": "T338",
    "typ": "白",
    "cn": "狗点酒庄长相思白",
    "en": "Dog Point Sauvignon Blanc",
@@ -8740,27 +8781,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T346",
-   "typ": "白",
-   "cn": "克拉吉酒庄特穆纳长相思干白",
-   "en": "Craggy Range Te Muna Road Vineyard Sauvignon Blanc",
-   "var": "长相思",
-   "var_raw": "Sauvignon Blanc",
-   "comps": [
-    "长相思"
-   ],
-   "cty": "新西兰",
-   "reg": "新西兰-马丁堡",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T347",
+   "idx": "T339",
    "typ": "白",
    "cn": "新玛利单一园长相思干白",
    "en": "Villa Maria Single Vineyard Sauvignon Blanc",
@@ -8780,7 +8801,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T348",
+   "idx": "T340",
    "typ": "白",
    "cn": "蚝湾长相思干白",
    "en": "Oyster Bay Sauvignon Blanc",
@@ -8800,7 +8821,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T349",
+   "idx": "T341",
    "typ": "白",
    "cn": "卷云长相思干白葡萄酒",
    "en": "Cirro Sauvignon Blanc",
@@ -8820,7 +8841,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T350",
+   "idx": "T342",
    "typ": "白",
    "cn": "卷云单一园长相思干白葡萄酒",
    "en": "Cirro Single Vineyard Sauvignon Blanc",
@@ -8840,7 +8861,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T351",
+   "idx": "T343",
    "typ": "白",
    "cn": "贪杯鸟马尔堡长相思白",
    "en": "Pukeno Marlborough Sauvignon Blanc",
@@ -8860,7 +8881,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T352",
+   "idx": "T344",
    "typ": "白",
    "cn": "空画布抽象长相思白葡萄酒",
    "en": "Blank Canvas \"Abstract\" Sauvignon Blanc",
@@ -8880,7 +8901,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T353",
+   "idx": "T345",
    "typ": "白",
    "cn": "铂石酒庄雷司令干白",
    "en": "DOMAINE LEON BOESCH LES GRANDES LIGNES",
@@ -8900,7 +8921,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T354",
+   "idx": "T346",
    "typ": "白",
    "cn": "祖丝兰庄园伯朗丘雷司令",
    "en": "DOMAINE VALENTIN ZUSSLIN BOLLENBERG RIESLING",
@@ -8920,7 +8941,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T355",
+   "idx": "T347",
    "typ": "白",
    "cn": "乔士迈酒庄卡特雷司令干白",
    "en": "Josmeyer, Riesling \"Le Kottabe\"",
@@ -8940,7 +8961,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T356",
+   "idx": "T348",
    "typ": "白",
    "cn": "乔士迈酒庄卡特雷司令白葡萄酒",
    "en": "Josmeyer, Riesling \"Le Kottabe\", Alsace AOP",
@@ -8960,7 +8981,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T357",
+   "idx": "T349",
    "typ": "白",
    "cn": "乔士迈酒庄 卡特雷司令白葡萄酒",
    "en": "Josmeyer, Riesling \"Le Kottabe\", Alsace AOP",
@@ -8980,7 +9001,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T358",
+   "idx": "T350",
    "typ": "白",
    "cn": "乔士迈酒庄 龙雷司令白葡萄酒",
    "en": "Josmeyer Le Dragon",
@@ -9000,7 +9021,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T359",
+   "idx": "T351",
    "typ": "甜白",
    "cn": "飞马湾安可贵族雷司令甜白葡萄酒",
    "en": "Pegasus-Bay-Encore-Noble-Riesling",
@@ -9020,7 +9041,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T360",
+   "idx": "T352",
    "typ": "甜白",
    "cn": "百碧祺酿酒师珍藏晚收雷司令",
    "en": "Babich Winemakers' Reserve Late Harvest Riesling",
@@ -9040,7 +9061,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T361",
+   "idx": "T353",
    "typ": "白",
    "cn": "枯河酒庄克雷格雷司令干白葡萄酒",
    "en": "Dry River 'Craighall' Riesling",
@@ -9060,7 +9081,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T362",
+   "idx": "T354",
    "typ": "白",
    "cn": "空画布安娜雷司令白葡萄酒",
    "en": "Blank Canvas An Riesling",
@@ -9080,7 +9101,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T363",
+   "idx": "T355",
    "typ": "起泡",
    "cn": "爱柏黑中白香槟",
    "en": "ALBERT LEBRUN Blanc de Noirs Champagne",
@@ -9101,7 +9122,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T364",
+   "idx": "T356",
    "typ": "红",
    "cn": "九平次酒庄勃艮第丘红葡萄酒",
    "en": "Kuheiji Coteaux Bourguignons",
@@ -9123,7 +9144,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T365",
+   "idx": "T357",
    "typ": "红",
    "cn": "欧诺拉酒庄勃艮第混酿干红葡萄酒",
    "en": "Domaine Alain Hudelot-Noellat PST Bourgogne Rouge",
@@ -9144,7 +9165,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T366",
+   "idx": "T358",
    "typ": "起泡",
    "cn": "兰颂黑色珍藏香槟起泡葡萄酒",
    "en": "Lanson – Le Black Reserve Brut Champagne",
@@ -9166,7 +9187,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T367",
+   "idx": "T359",
    "typ": "起泡",
    "cn": "帝芙珍藏香槟",
    "en": "Champagne Devaux Grande Reserve Brut",
@@ -9188,7 +9209,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T368",
+   "idx": "T360",
    "typ": "起泡",
    "cn": "沙龙贝尔珍藏天然型香槟（起泡葡萄酒）",
    "en": "Billecart-Salmon Reserve Brut Nature Champagne",
@@ -9210,7 +9231,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T369",
+   "idx": "T361",
    "typ": "起泡",
    "cn": "吉腾庄园传统法干型起泡酒",
    "en": "Gibbston Valley Traditional Method Dry Sparkling",
@@ -9231,7 +9252,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T370",
+   "idx": "T362",
    "typ": "红",
    "cn": "阿兰科奇亚酒庄勃艮第干红葡萄酒",
    "en": "Alain Corcia Bourgogne",
@@ -9251,7 +9272,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T371",
+   "idx": "T363",
    "typ": "红",
    "cn": "哈古酒庄干红葡萄酒",
    "en": "DOMAINE RAGOT LA GRANDE BERGE",
@@ -9271,7 +9292,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T372",
+   "idx": "T364",
    "typ": "红",
    "cn": "查尔顿庄园萨内园干红葡萄酒",
    "en": "DOMAINE CHARTON DERRIERE SAZENAY",
@@ -9291,7 +9312,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T373",
+   "idx": "T365",
    "typ": "红",
    "cn": "鹤鸣庄园克里斯多夫干红",
    "en": "DOMAINE DES REMIZIERES CUVEE CHRISTOPHE",
@@ -9311,7 +9332,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T374",
+   "idx": "T366",
    "typ": "红",
    "cn": "米歇尔格厚酒庄上夜丘华伦干红",
    "en": "Domaine Michel Gros Hautes-Côtes de Nuits",
@@ -9331,7 +9352,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T375",
+   "idx": "T367",
    "typ": "红",
    "cn": "约瑟夫杜鲁安勃艮第黑皮诺干红葡萄酒",
    "en": "Maison Joseph Drouhin Bourgogne Pinot Noir",
@@ -9351,7 +9372,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T376",
+   "idx": "T368",
    "typ": "起泡",
    "cn": "九平次酒庄勃艮第黑中白天然型起泡葡萄酒",
    "en": "Kuheiji Cremant de Bourgogne Blanc de Noirs Brut",
@@ -9371,7 +9392,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T377",
+   "idx": "T369",
    "typ": "红",
    "cn": "拉密皮洛酒庄夏莎蒙哈榭-香莫园干红",
    "en": "Domaine Lamy-Pillot Chassagne-Montrachet Champ",
@@ -9391,7 +9412,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T378",
+   "idx": "T370",
    "typ": "红",
    "cn": "拉密皮洛酒庄夏莎蒙哈榭-香莫园干红",
    "en": "Lamy-Pillot Chassagne-Montrachet Champ",
@@ -9411,7 +9432,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T379",
+   "idx": "T371",
    "typ": "红",
    "cn": "阿尔诺酒庄勃艮第大区朗西维干红葡萄酒",
    "en": "Domaine Arnoux Lachaux Bourgogne",
@@ -9431,7 +9452,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T380",
+   "idx": "T372",
    "typ": "红",
    "cn": "齐龙酒庄热夫雷香贝丹\"艾利克斯\"红葡萄酒",
    "en": "Domaine Jean-Michel Guillon & Fils Gevrey-Chambertin Cuvee Alexis",
@@ -9451,7 +9472,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T381",
+   "idx": "T373",
    "typ": "红",
    "cn": "莎迷尔城堡梅尔居雷利维克一级园干红葡萄酒",
    "en": "Château de Chamirey – Mercurey 1er Cru",
@@ -9471,7 +9492,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T382",
+   "idx": "T374",
    "typ": "红",
    "cn": "乔士迈酒庄 黑皮诺红葡萄酒",
    "en": "Josmeyer Pinot Noir",
@@ -9491,7 +9512,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T383",
+   "idx": "T375",
    "typ": "红",
    "cn": "胡氏父子酒庄 桑特内特伦红葡萄酒",
    "en": "Roux Père & Fils Les Terrons",
@@ -9511,7 +9532,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T384",
+   "idx": "T376",
    "typ": "红",
    "cn": "香莱酒庄 勃艮第上帝之家红葡萄酒",
    "en": "Domaine Chantal Lescure Les Taupes Maison Dieu",
@@ -9531,7 +9552,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T385",
+   "idx": "T377",
    "typ": "红",
    "cn": "香莱酒庄 博纳丘比佐园红葡萄酒",
    "en": "Domaine Chantal Lescure Le Clos des Topes Bizot",
@@ -9551,7 +9572,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T386",
+   "idx": "T378",
    "typ": "红",
    "cn": "乐维酒庄 梅尔居雷秋园红葡萄酒",
    "en": "Domaine Levert-Barault L'Automne",
@@ -9571,7 +9592,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T387",
+   "idx": "T379",
    "typ": "红",
    "cn": "路易拉图 勃艮第特酿拉图红葡萄酒",
    "en": "Louis Latour Bourgogne",
@@ -9591,7 +9612,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T388",
+   "idx": "T380",
    "typ": "红",
    "cn": "百碧祺酒庄 闪耀系列黑皮诺红葡萄酒",
    "en": "BABICH GLITZ&GLAM Pinot Noir",
@@ -9611,7 +9632,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T389",
+   "idx": "T381",
    "typ": "红",
    "cn": "百碧祺马尔堡黑皮诺",
    "en": "Babich Marlborough Pinot Noir",
@@ -9631,7 +9652,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T390",
+   "idx": "T382",
    "typ": "红",
    "cn": "灰石酒庄黑比诺干红",
    "en": "Greystone Pinot Noir",
@@ -9651,7 +9672,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T391",
+   "idx": "T383",
    "typ": "红",
    "cn": "克拉吉酒庄特穆纳黑比诺",
    "en": "Craggy Range 'Te Muna Road Vineyard' Pinot Noir",
@@ -9671,7 +9692,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T392",
+   "idx": "T384",
    "typ": "红",
    "cn": "枯河酒庄黑皮诺干红",
    "en": "Dry River Pinot Noir",
@@ -9691,7 +9712,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T393",
+   "idx": "T385",
    "typ": "红",
    "cn": "狗点酒庄黑皮诺干红",
    "en": "Dog Point Pinot Noir",
@@ -9711,7 +9732,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T394",
+   "idx": "T386",
    "typ": "红",
    "cn": "预言石酒庄家园黑皮诺红葡萄酒",
    "en": "Prophet's Rock \"Home Vineyard\" Pinot Noir",
@@ -9731,7 +9752,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T395",
+   "idx": "T387",
    "typ": "红",
    "cn": "空画布云阶黑皮诺红葡萄酒",
    "en": "Blank Canvas \"Escapade\" Pinot Noir",
@@ -9751,7 +9772,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T396",
+   "idx": "T388",
    "typ": "红",
    "cn": "空画布歌颂黑皮诺红葡萄酒",
    "en": "Blank Canvas \"Eulogy\" Pinot Noir",
@@ -9771,7 +9792,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T397",
+   "idx": "T389",
    "typ": "红",
    "cn": "克拉吉酒庄 黑皮诺红葡萄酒",
    "en": "Craggy Range Pinot Noir",
@@ -9791,7 +9812,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T398",
+   "idx": "T390",
    "typ": "红",
    "cn": "维拉河酒庄 黑皮诺红葡萄酒",
    "en": "Wairau River Pinot Noir",
@@ -9811,7 +9832,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T399",
+   "idx": "T391",
    "typ": "红",
    "cn": "屹诺山黑皮诺红葡萄酒",
    "en": "ESCARPMENT Pinot Noir",
@@ -9831,7 +9852,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T400",
+   "idx": "T392",
    "typ": "红",
    "cn": "天朗黑比诺红葡萄酒",
    "en": "TAHUNA Pinot Nior",
@@ -9851,7 +9872,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T401",
+   "idx": "T393",
    "typ": "白",
    "cn": "乔士迈酒庄灰皮诺白葡萄酒",
    "en": "Josmeyer Pinot Gris Le Fromenteau, Alsace AOP",
@@ -9871,7 +9892,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T402",
+   "idx": "T394",
    "typ": "白",
    "cn": "乔士迈酒庄 水莲白葡萄酒",
    "en": "Josmeyer Fleur de Lotus",
@@ -9892,7 +9913,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T403",
+   "idx": "T395",
    "typ": "白",
    "cn": "铂石酒庄小丘山干白葡萄酒",
    "en": "DOMAINE LEON BOESCH Les Collines",
@@ -9910,7 +9931,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T404",
+   "idx": "T396",
    "typ": "白",
    "cn": "乔士迈酒庄春天白比诺白葡萄酒",
    "en": "Josmeyer, Pinot Blanc \"Mise du Printemps\", Alsace AOP",
@@ -9928,7 +9949,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T405",
+   "idx": "T397",
    "typ": "甜白",
    "cn": "乔利古堡特酿甜白葡萄酒",
    "en": "Chateau Jolys Cuvée Jean AOC Jurançon Doux",
@@ -9948,7 +9969,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T406",
+   "idx": "T398",
    "typ": "白",
    "cn": "伯漫酒庄麝香葡萄干白葡萄酒",
    "en": "DOMAINE ALBERT MANN MUSCAT",
@@ -9968,7 +9989,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T407",
+   "idx": "T399",
    "typ": "红",
    "cn": "丹派酒庄经典干红葡萄酒",
    "en": "Domaine Tempier Cuvée Classic rouge",
@@ -9989,7 +10010,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T408",
+   "idx": "T400",
    "typ": "红",
    "cn": "三磨城堡干红葡萄酒",
    "en": "Chateau Trois Moulin",
@@ -10011,7 +10032,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T409",
+   "idx": "T401",
    "typ": "红",
    "cn": "图西嘉酒庄红葡萄酒",
    "en": "Chateau Tour Sieujean",
@@ -10033,7 +10054,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T410",
+   "idx": "T402",
    "typ": "红",
    "cn": "拜瑞庄园 红葡萄酒",
    "en": "Chateau Baret Rouge",
@@ -10055,7 +10076,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T411",
+   "idx": "T403",
    "typ": "红",
    "cn": "克莱瑞庄园 红葡萄酒",
    "en": "Chateau Clarisse Rouge",
@@ -10077,7 +10098,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T412",
+   "idx": "T404",
    "typ": "红",
    "cn": "赛晶尚苑庄园 红葡萄酒",
    "en": "Chateau Haut Vignoble Seguin Rouge",
@@ -10099,7 +10120,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T413",
+   "idx": "T405",
    "typ": "红",
    "cn": "拉曼古堡 红葡萄酒",
    "en": "Chateau Franc le Maine Rouge",
@@ -10121,7 +10142,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T414",
+   "idx": "T406",
    "typ": "红",
    "cn": "乌托邦干红葡萄酒",
    "en": "DOMAINE LA TOUPIE SUR 1 FIL ROUGE",
@@ -10143,7 +10164,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T415",
+   "idx": "T407",
    "typ": "红",
    "cn": "乌托邦双面人干红葡萄酒",
    "en": "Domaine La Toupie Volte Face",
@@ -10165,7 +10186,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T416",
+   "idx": "T408",
    "typ": "红",
    "cn": "图蒂亚克布莱依零农药干红葡萄酒",
    "en": "TUTIAC ZRP BLAYE COTES DE BORDEAUX ROUGE",
@@ -10186,28 +10207,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T417",
-   "typ": "红",
-   "cn": "凡度庄园珍藏干红葡萄酒",
-   "en": "CHATEAU LE GRAND VERDUS RESERVE",
-   "var": "梅洛、赤霞珠",
-   "var_raw": "Merlot / Cabernet Sauvignon",
-   "comps": [
-    "梅洛",
-    "赤霞珠"
-   ],
-   "cty": "法国",
-   "reg": "法国-波尔多-两海之间",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T418",
+   "idx": "T409",
    "typ": "红",
    "cn": "奥康贝洛城堡红葡萄酒",
    "en": "CHATEAU HAUT CANTELOUP, PRESTIGE",
@@ -10228,7 +10228,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T419",
+   "idx": "T410",
    "typ": "红",
    "cn": "莫维农酒庄 红葡萄酒",
    "en": "CHATEAU MAUVINON",
@@ -10249,7 +10249,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T420",
+   "idx": "T411",
    "typ": "红",
    "cn": "百碧祺酿酒师珍藏梅洛",
    "en": "Babich Winemakers' Reserve Hawke's Bay Merlot",
@@ -10269,7 +10269,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T421",
+   "idx": "T412",
    "typ": "起泡",
    "cn": "邦奈宇特酒庄北夜特干起泡葡萄酒",
    "en": "DOMAINE BONNET-HUTEAU NUIT BOREALE",
@@ -10289,7 +10289,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T422",
+   "idx": "T413",
    "typ": "白",
    "cn": "玉兔酒庄 密斯卡岱干白葡萄酒",
    "en": "Domaine de la Pepiere Muscadet Sèvre et Maine Sur lie",
@@ -10309,7 +10309,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T423",
+   "idx": "T414",
    "typ": "白",
    "cn": "嘉伯乐酒庄 克罗兹埃米塔日佳乐白葡萄酒",
    "en": "Paul Jaboulet Aine Les Jalets",
@@ -10330,7 +10330,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T424",
+   "idx": "T415",
    "typ": "白",
    "cn": "通舶罗纳河谷干白葡萄酒",
    "en": "Bonpas-Reserve-de-Bonpas-Cotes-Du-Rhone-Blanc",
@@ -10352,7 +10352,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T425",
+   "idx": "T416",
    "typ": "白",
    "cn": "索玛夫妻罗纳河谷伊诺匹亚干白",
    "en": "Rotem & Mounir Saouma Côtes-du-Rhône \"Inopia\" Blanc",
@@ -10374,7 +10374,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T426",
+   "idx": "T417",
    "typ": "红",
    "cn": "通舶罗纳河谷干红葡萄酒",
    "en": "Bonpas-Reserve-de-Bonpas-Cotes-Du-Rhone-Rouge",
@@ -10396,7 +10396,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T427",
+   "idx": "T418",
    "typ": "红",
    "cn": "索玛夫妻罗纳河谷伊诺皮亚干红",
    "en": "Rotem & Mounir Saouma Inopia Rouge",
@@ -10418,7 +10418,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T428",
+   "idx": "T419",
    "typ": "红",
    "cn": "圣达米安吉恭达斯老藤干红葡萄酒",
    "en": "Domaine Saint Damien Gigondas \"Vieilles Vignes\"",
@@ -10440,7 +10440,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T429",
+   "idx": "T420",
    "typ": "红",
    "cn": "嘉伯乐罗纳河谷北纬45度红葡萄酒",
    "en": "Paul Jaboulet, \"Parallèle 45 Rouge\", Côtes du Rhône AOP",
@@ -10462,7 +10462,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T430",
+   "idx": "T421",
    "typ": "红",
    "cn": "嘉伯乐酒庄 吉恭达斯针石山红葡萄酒",
    "en": "Paul Jaboulet Aine Pierre Aiguille",
@@ -10484,7 +10484,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T431",
+   "idx": "T422",
    "typ": "红",
    "cn": "博卡斯特古堡 古度莱罗纳河谷红葡萄酒",
    "en": "Chateau de Beaucastel Coudoulet de Beaucastel Rouge",
@@ -10506,7 +10506,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T432",
+   "idx": "T423",
    "typ": "红",
    "cn": "火星庄园发射器干红葡萄酒",
    "en": "CLOS DES REBOUSSIER",
@@ -10528,7 +10528,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T433",
+   "idx": "T424",
    "typ": "红",
    "cn": "莎普蒂尔贝岚讴酒庄 隐石红葡萄酒",
    "en": "M Chapoutier Domaine Bila-Haut Occultum Lapidem",
@@ -10550,7 +10550,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T434",
+   "idx": "T425",
    "typ": "白",
    "cn": "铂石酒庄勒芙琼瑶浆干白",
    "en": "DOMAINE LEON BOESCH LES FOUS",
@@ -10570,7 +10570,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T435",
+   "idx": "T426",
    "typ": "白",
    "cn": "小狐仙酒庄琼瑶浆白葡萄酒",
    "en": "Gewurztraminer",
@@ -10590,7 +10590,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T436",
+   "idx": "T427",
    "typ": "甜白",
    "cn": "卡丹酒庄哈兹堡琼瑶浆逐粒贵腐甜白葡萄酒",
    "en": "Cattin SGN Gewurztraminer",
@@ -10610,7 +10610,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T437",
+   "idx": "T428",
    "typ": "白",
    "cn": "乔士迈酒庄喜悦琼瑶浆白葡萄酒",
    "en": "Josmeyer, Gewürztraminer \"Les Folastries\", Alsace AOP",
@@ -10630,7 +10630,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T438",
+   "idx": "T429",
    "typ": "白",
    "cn": "乔士迈酒庄 喜悦琼瑶浆白葡萄酒（重复）",
    "en": "Josmeyer Les Folastries Gewurztraminer",
@@ -10650,7 +10650,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T439",
+   "idx": "T430",
    "typ": "红",
    "cn": "勃艮第徽章马孔干红葡萄酒",
    "en": "Blason de Bourgogne Macon Rouge",
@@ -10670,7 +10670,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T440",
+   "idx": "T431",
    "typ": "红",
    "cn": "杜龙庄园佳美干红葡萄酒",
    "en": "DOMAINE DE THULON GAMAY",
@@ -10690,7 +10690,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T441",
+   "idx": "T432",
    "typ": "红",
    "cn": "杜龙庄园 蛋糕上的樱桃",
    "en": "DOMAINE DE THULON CERISE SUR GATEAU",
@@ -10710,7 +10710,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T442",
+   "idx": "T433",
    "typ": "红",
    "cn": "帝问酒庄蕾妮西蒙娜干红葡萄酒",
    "en": "Domaine Jean-Paul et Charly Thévenet En Voiture Simone Regnie",
@@ -10730,7 +10730,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T443",
+   "idx": "T434",
    "typ": "红",
    "cn": "帝问酒庄墨贡干红葡萄酒",
    "en": "Domaine Jean-Paul et Charly Thévenet Morgon Tradition",
@@ -10750,7 +10750,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T444",
+   "idx": "T435",
    "typ": "红",
    "cn": "帝问酒庄墨贡老藤干红葡萄酒",
    "en": "Domaine Jean-Paul et Charly Thévenet Morgon Vieilles Vignes",
@@ -10770,7 +10770,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T445",
+   "idx": "T436",
    "typ": "红",
    "cn": "让福雅福洛瑞村干红福拉德繁花",
    "en": "Jean Forllard Dry Red Fleurie",
@@ -10790,7 +10790,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T446",
+   "idx": "T437",
    "typ": "红",
    "cn": "让福雅酒庄莫贡杜派特酿干红",
    "en": "Domaine Jean Foillard Morgon \"Côte du Py\"",
@@ -10810,7 +10810,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T447",
+   "idx": "T438",
    "typ": "起泡",
    "cn": "克雷芒迪耶干型起泡酒",
    "en": "Crémant de Die",
@@ -10830,7 +10830,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T448",
+   "idx": "T439",
    "typ": "红",
    "cn": "百岁神索干红葡萄酒",
    "en": "Cinsault Rouge",
@@ -10848,7 +10848,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T449",
+   "idx": "T440",
    "typ": "白",
    "cn": "普尼卢瓦尔河畔科讷",
    "en": "Pougny Cosne-Sur-Loire",
@@ -10869,7 +10869,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T450",
+   "idx": "T441",
    "typ": "白",
    "cn": "雷米舒白葡萄酒",
    "en": "SIGNATURE DE REMY CHOU BLANC",
@@ -10889,7 +10889,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T451",
+   "idx": "T442",
    "typ": "白",
    "cn": "紫罗兰之岩蒙路易米泰恩干白葡萄酒",
    "en": "LE ROCHER DES VIOLETTES TOUCHE MITANE",
@@ -10909,7 +10909,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T452",
+   "idx": "T443",
    "typ": "白",
    "cn": "艾珂德纳丁篱园干白",
    "en": "CLOS DE L'ECOTARD LE HAIE NARDIN",
@@ -10929,7 +10929,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T453",
+   "idx": "T444",
    "typ": "白",
    "cn": "阿诺兰伯特酒庄索米尔迷笛园白",
    "en": "Arnaud Lambert Saumur 'Clos du Midi' Blanc",
@@ -10949,7 +10949,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T454",
+   "idx": "T445",
    "typ": "白",
    "cn": "佛罗伊丹酒庄干白葡萄酒",
    "en": "Floreden Dry White Wine",
@@ -10969,7 +10969,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T455",
+   "idx": "T446",
    "typ": "白",
    "cn": "皮涅酒庄汝拉混酿白葡萄酒",
    "en": "Domaine Pignier \"GPS\" Côtes du Jura",
@@ -10989,7 +10989,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T456",
+   "idx": "T447",
    "typ": "白",
    "cn": "让-克洛德宝赛酒庄勃艮第霞多丽白葡萄酒",
    "en": "Jean-Claude Boisset Nature d'Ursulines Bourgogne Chardonnay",
@@ -11009,7 +11009,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T457",
+   "idx": "T448",
    "typ": "白",
    "cn": "吉哈博通山鹰霞多丽",
    "en": "Domaine L'Aigle Limoux Chardonnay",
@@ -11029,7 +11029,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T458",
+   "idx": "T449",
    "typ": "白",
    "cn": "夏布利夫人酒庄 小夏布利没那么小白葡萄酒",
    "en": "La Chablisienne \"Pas Si Petit\", Petit Chablis",
@@ -11049,7 +11049,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T459",
+   "idx": "T450",
    "typ": "白",
    "cn": "拉赫希圣马丁夏布利干白",
    "en": "Laroche Saint Martin Chablis",
@@ -11069,27 +11069,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T460",
-   "typ": "白",
-   "cn": "阿兰查维酒庄勃艮第干白（霞多丽）",
-   "en": "Domaine Alain Chavy Burgundy Dry White",
-   "var": "霞多丽",
-   "var_raw": "Chardonnay",
-   "comps": [
-    "霞多丽"
-   ],
-   "cty": "法国",
-   "reg": "法国-勃艮第",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T461",
+   "idx": "T451",
    "typ": "白",
    "cn": "汝拉后来酒庄星辰乐花园霞多丽白",
    "en": "Rolet Arbois Single Vineyard Chardonnay",
@@ -11109,7 +11089,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T462",
+   "idx": "T452",
    "typ": "白",
    "cn": "香佩酒庄吕利村庄级干白",
    "en": "Maison Champy Rully",
@@ -11129,7 +11109,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T463",
+   "idx": "T453",
    "typ": "白",
    "cn": "约瑟夫杜鲁安勃艮第霞多丽干白葡萄酒",
    "en": "Maison Joseph Drouhin Bourgogne Chardonnay",
@@ -11149,7 +11129,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T464",
+   "idx": "T454",
    "typ": "白",
    "cn": "约瑟夫杜鲁安夏布利村干白葡萄酒",
    "en": "Maison Joseph Drouhin Chablis",
@@ -11169,7 +11149,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T465",
+   "idx": "T455",
    "typ": "白",
    "cn": "路易亚都普里埃布鲁纳酒庄默尔索莱斯福尔热单一园干白",
    "en": "Domaine Prieur-Brunet Meursault \"Les Forges\"",
@@ -11189,7 +11169,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T466",
+   "idx": "T456",
    "typ": "白",
    "cn": "亚历山大帕里古庄园默尔索维赫园干白葡萄酒",
    "en": "Alexandre Parigot Meursault \"Les Vireuils\"",
@@ -11209,7 +11189,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T467",
+   "idx": "T457",
    "typ": "白",
    "cn": "维泽酒庄一朵白花马孔干白",
    "en": "Virizet Macon Chardonnay",
@@ -11229,7 +11209,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T468",
+   "idx": "T458",
    "typ": "白",
    "cn": "坤渤酒庄普伊富赛拉罗什一级园干白",
    "en": "Maison Jean-Claude Boisset pouilly Fusse",
@@ -11249,7 +11229,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T469",
+   "idx": "T459",
    "typ": "白",
    "cn": "绿金杯忘忧勃艮第干白",
    "en": "Cuvée des Forgets Bourgogne blanc",
@@ -11269,7 +11249,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T470",
+   "idx": "T460",
    "typ": "白",
    "cn": "诺丹弗朗酒庄夜丘紫莲干白葡萄酒",
    "en": "Domaine Naudin-Ferrand Bourgogne Hautes-Côtes de Nuits",
@@ -11289,7 +11269,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T471",
+   "idx": "T461",
    "typ": "白",
    "cn": "普伊富赛一级田老葡园傲维阁酒庄干白",
    "en": "Domaine Alain Voge Pouilly-Fuissé 1er Cru \"Vieilles Vignes\"",
@@ -11309,7 +11289,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T472",
+   "idx": "T462",
    "typ": "白",
    "cn": "皮耶碧仙酒庄勃艮第贝拉园白葡萄酒",
    "en": "Pierre Boisson – Bourgogne Blanc \"Les Belles Côtes\"",
@@ -11329,7 +11309,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T473",
+   "idx": "T463",
    "typ": "白",
    "cn": "马克海斯玛圣罗曼村夏虹园白葡萄酒",
    "en": "Mark Haisma Saint-Romain \"Le Jarron\" Blanc",
@@ -11349,7 +11329,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T474",
+   "idx": "T464",
    "typ": "白",
    "cn": "夏布利夫人酒庄 夏布利石园白葡萄酒",
    "en": "La Chablisienne La Pierrelee",
@@ -11369,7 +11349,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T475",
+   "idx": "T465",
    "typ": "白",
    "cn": "胡氏父子酒庄 马孔村白葡萄酒",
    "en": "Roux Père & Fils Macon Village",
@@ -11389,7 +11369,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T476",
+   "idx": "T466",
    "typ": "白",
    "cn": "墨林酒庄 维纳斯白葡萄酒",
    "en": "Domaine Olivier Merlin La Roche-Vineuse",
@@ -11409,7 +11389,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T477",
+   "idx": "T467",
    "typ": "白",
    "cn": "墨林酒庄 圣韦朗白葡萄酒",
    "en": "Domaine Olivier Merlin Saint-Veran",
@@ -11429,7 +11409,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T478",
+   "idx": "T468",
    "typ": "白",
    "cn": "路易拉图 勃艮第霞多丽白葡萄酒",
    "en": "Louis Latour Bourgogne Chardonnay",
@@ -11449,7 +11429,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T479",
+   "idx": "T469",
    "typ": "白",
    "cn": "路易拉图 马贡村级夏默华园白葡萄酒",
    "en": "Louis Latour Macon",
@@ -11469,7 +11449,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T480",
+   "idx": "T470",
    "typ": "白",
    "cn": "百碧祺霍克湾霞多丽",
    "en": "Babich Hawke's Bay Chardonnay",
@@ -11489,7 +11469,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T481",
+   "idx": "T471",
    "typ": "白",
    "cn": "三圣山酒庄吉布利砾石区霞多丽干白",
    "en": "Trinity Hill Gimblett Gravels Chardonnay",
@@ -11509,7 +11489,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T482",
+   "idx": "T472",
    "typ": "白",
    "cn": "灰石霞多丽干白",
    "en": "Greystone Chardonnay",
@@ -11529,7 +11509,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T483",
+   "idx": "T473",
    "typ": "白",
    "cn": "屹诺山霞多丽干白",
    "en": "Escarpment Chardonnay",
@@ -11549,7 +11529,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T484",
+   "idx": "T474",
    "typ": "白",
    "cn": "灰瓦岩霞多丽干白",
    "en": "Greywacke Chardonnay",
@@ -11569,7 +11549,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T485",
+   "idx": "T475",
    "typ": "白",
    "cn": "象山酒庄海洋霞多丽干白",
    "en": "Elephant Hill Sea Chardonnay",
@@ -11589,7 +11569,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T486",
+   "idx": "T476",
    "typ": "白",
    "cn": "新玛利珍匣霞多丽干白葡萄酒",
    "en": "Villa Maria Reserve Chardonnay",
@@ -11609,7 +11589,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T487",
+   "idx": "T477",
    "typ": "白",
    "cn": "新玛利庄园单一园 霞多丽 白葡萄酒",
    "en": "Villa Maria Single Vineyard Chardonnay",
@@ -11629,7 +11609,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T488",
+   "idx": "T478",
    "typ": "白",
    "cn": "库妙河庄园霞多丽干白葡萄酒",
    "en": "Kumeu River Estate Chardonnay",
@@ -11649,7 +11629,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T489",
+   "idx": "T479",
    "typ": "白",
    "cn": "卷云霞多丽干白",
    "en": "CIRRO Chardonnay",
@@ -11669,7 +11649,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T490",
+   "idx": "T480",
    "typ": "白",
    "cn": "空画布灵动霞多丽白葡萄酒",
    "en": "Blank Canvas Wines – Reed Vineyard Chardonnay",
@@ -11689,7 +11669,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T491",
+   "idx": "T481",
    "typ": "白",
    "cn": "空画布塔诺霞多丽白葡萄酒",
    "en": "Blank Canvas Tano Chardonnay",
@@ -11709,7 +11689,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T492",
+   "idx": "T482",
    "typ": "白",
    "cn": "克拉吉酒庄 劫湾霞多丽白葡萄酒",
    "en": "Craggy Range Kidnappers",
@@ -11729,7 +11709,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T493",
+   "idx": "T483",
    "typ": "白",
    "cn": "屹诺山霞多丽白葡萄酒",
    "en": "ESCARPMENT Chardonnay",
@@ -11749,7 +11729,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T494",
+   "idx": "T484",
    "typ": "红",
    "cn": "拉图嘉利酒庄干红葡萄酒",
    "en": "La Tour Carnet",
@@ -11771,7 +11751,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T495",
+   "idx": "T485",
    "typ": "红",
    "cn": "拓朗德城堡干红葡萄酒",
    "en": "Chateau Tronquoy Lalande",
@@ -11793,7 +11773,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T496",
+   "idx": "T486",
    "typ": "红",
    "cn": "奥芭奇蒙斐洛庄园 红葡萄酒",
    "en": "Chateau Haut-Bages Monpelou Rouge",
@@ -11815,7 +11795,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T497",
+   "idx": "T487",
    "typ": "红",
    "cn": "迪仙酒庄副牌干红葡萄酒",
    "en": "Blason d'Issan",
@@ -11836,7 +11816,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T498",
+   "idx": "T488",
    "typ": "红",
    "cn": "拉图嘉利酒庄副牌干红葡萄酒",
    "en": "Les Pensees de la Tour Carnet",
@@ -11857,7 +11837,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T499",
+   "idx": "T489",
    "typ": "红",
    "cn": "卡门萨克酒庄副牌干红葡萄酒",
    "en": "La Closerie de Camensac",
@@ -11878,7 +11858,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T500",
+   "idx": "T490",
    "typ": "红",
    "cn": "新玛利珍藏卡本妮苏维翁梅洛红葡萄酒",
    "en": "Villa Maria Reserve Cabernet Sauvignon - Merlot",
@@ -11899,7 +11879,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T501",
+   "idx": "T491",
    "typ": "红",
    "cn": "雷米舒红葡萄酒",
    "en": "SIGNATURE DE REMY CHOU ROUGE",
@@ -11919,7 +11899,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T502",
+   "idx": "T492",
    "typ": "红",
    "cn": "蒙蒂耶庄园干红葡萄酒",
    "en": "DOMAINE DU MONTEILLET",
@@ -11939,7 +11919,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T503",
+   "idx": "T493",
    "typ": "红",
    "cn": "奥杰罗酒庄萨博园",
    "en": "DOMAINE OGEREAU SAPONAIRE",
@@ -11959,7 +11939,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T504",
+   "idx": "T494",
    "typ": "红",
    "cn": "紫罗兰之岩品丽珠",
    "en": "LE ROCHER DES VIOLETTES CABERNET FRANC",
@@ -11979,7 +11959,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T505",
+   "idx": "T495",
    "typ": "红",
    "cn": "霏芝门徒沙隆干红葡萄酒",
    "en": "DOMAINE PHILIPPE GILBERT MENETOU SALON ROUGE",
@@ -11999,7 +11979,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T506",
+   "idx": "T496",
    "typ": "红",
    "cn": "卓佳酒庄希侬姹紫干红葡萄酒",
    "en": "Charles Joguet Chinon La Cure",
@@ -12019,7 +11999,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T507",
+   "idx": "T497",
    "typ": "白",
    "cn": "阿诺巴约勃艮第阿利高特干白葡萄酒",
    "en": "Domaine Arnaud Baillot – Bourgogne Aligoté",
@@ -12039,7 +12019,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T508",
+   "idx": "T498",
    "typ": "白",
    "cn": "阿诺巴约勃艮第阿利歌特干白",
    "en": "Arnaud Baillot Bourgogne Aligoté",
@@ -12059,7 +12039,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T509",
+   "idx": "T499",
    "typ": "白",
    "cn": "希尔文巴泰酒庄勃艮第阿丽高特干白",
    "en": "Domaine Sylvain Pataille Bourgogne Aligoté",
@@ -12079,7 +12059,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T510",
+   "idx": "T500",
    "typ": "白",
    "cn": "莎维舒酒庄勃艮第阿里高特马雷绍干白葡萄酒",
    "en": "Domaine Chavy Chouet Bourgogne Aligote Les Marechaux",
@@ -12099,7 +12079,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T511",
+   "idx": "T501",
    "typ": "白",
    "cn": "胡氏父子酒庄 阿里高特白葡萄酒",
    "en": "Roux Père & Fils Aligote",
@@ -12119,7 +12099,7 @@
    "src": "tiku"
   },
   {
-   "idx": "T512",
+   "idx": "T502",
    "typ": "甜白",
    "cn": "皇冠金线大托卡伊阿苏贵腐葡萄酒匈利亚",
    "en": "Crown Tokaji Aszu 5P",
@@ -12128,6 +12108,26 @@
    "comps": [],
    "cty": "匈牙利",
    "reg": "匈牙利-托卡伊",
+   "vin": "",
+   "cnt": 0,
+   "sites": "",
+   "alc": "",
+   "imp": "",
+   "note": "",
+   "src": "tiku"
+  },
+  {
+   "idx": "T503",
+   "typ": "白",
+   "cn": "阿尔巴利诺白葡萄酒",
+   "en": "Pazo de Señorans Albariño",
+   "var": "阿尔巴利诺",
+   "var_raw": "阿尔巴利诺（Albariño）",
+   "comps": [
+    "阿尔巴利诺"
+   ],
+   "cty": "西班牙",
+   "reg": "西班牙-下海湾产区",
    "vin": "",
    "cnt": 0,
    "sites": "",
