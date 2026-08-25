@@ -6,6 +6,7 @@
   "tiku": 503,
   "quan_n": 555,
   "sai_n": 93,
+  "same_n": 34,
   "types": {
    "白": 220,
    "红": 335,
@@ -279,7 +280,7 @@
   {
    "idx": 7,
    "typ": "白",
-   "cn": "路易斯卡尼亚斯 里奥哈老藤干白",
+   "cn": "路易卡纳斯 里奥哈老藤干白",
    "en": "Luis Cañas Rioja Viñas Viejas Blanco",
    "var": "维奥娜",
    "cty": "西班牙",
@@ -2041,7 +2042,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T2",
@@ -2141,7 +2143,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T7",
@@ -2481,7 +2484,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T24",
@@ -2761,7 +2765,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T38",
@@ -3001,7 +3006,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T50",
@@ -3081,7 +3087,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T54",
@@ -4522,7 +4529,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T126",
@@ -4982,7 +4990,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T149",
@@ -5002,7 +5011,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T150",
@@ -5123,7 +5133,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T156",
@@ -5243,7 +5254,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T162",
@@ -5565,7 +5577,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T178",
@@ -6053,7 +6066,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T203",
@@ -6191,7 +6205,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T210",
@@ -6209,7 +6224,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T211",
@@ -6229,7 +6245,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T212",
@@ -6514,7 +6531,7 @@
   {
    "idx": "T226",
    "typ": "红",
-   "cn": "奥瓦帕乐酒庄嘉文红葡萄酒",
+   "cn": "奥瓦奥瓦帕乐酒庄嘉文红葡萄酒",
    "en": "ALVARO PALACIOS",
    "var": "歌海娜、佳丽酿",
    "var_raw": "歌海娜、佳丽酿混酿",
@@ -6535,7 +6552,7 @@
   {
    "idx": "T227",
    "typ": "红",
-   "cn": "帕乐酒庄帕特罗红葡萄酒",
+   "cn": "奥瓦帕乐酒庄帕特罗红葡萄酒",
    "en": "Alvaro Palacios Camins del Priorat",
    "var": "歌海娜、佳丽酿、西拉",
    "var_raw": "歌海娜、佳丽酿、西拉混酿",
@@ -7285,7 +7302,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T265",
@@ -7426,7 +7444,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T272",
@@ -7590,7 +7609,7 @@
   {
    "idx": "T280",
    "typ": "红",
-   "cn": "黑色朱利亚酒庄朗格内比奥罗干红葡萄酒",
+   "cn": "黑色朱莉亚酒庄朗格内比奥罗干红葡萄酒",
    "en": "Giulia Negri Langhe Nebbiolo",
    "var": "内比奥罗",
    "var_raw": "内比奥罗",
@@ -7630,7 +7649,7 @@
   {
    "idx": "T282",
    "typ": "红",
-   "cn": "黑色茱莉亚酒庄塞拉德干红",
+   "cn": "黑色朱莉亚酒庄塞拉德干红",
    "en": "Giulia Negri Barolo \"Serradenari\"",
    "var": "内比奥罗",
    "var_raw": "内比奥罗",
@@ -7985,7 +8004,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T300",
@@ -8065,7 +8085,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T304",
@@ -8683,7 +8704,7 @@
   {
    "idx": "T334",
    "typ": "白",
-   "cn": "百碧祺黑标长相思",
+   "cn": "百祺黑标长相思",
    "en": "Babich Black Lable Marl Sauvignon Blanc",
    "var": "长相思",
    "var_raw": "Sauvignon Blanc",
@@ -8698,7 +8719,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T335",
@@ -9043,7 +9065,7 @@
   {
    "idx": "T352",
    "typ": "甜白",
-   "cn": "百碧祺酿酒师珍藏晚收雷司令",
+   "cn": "百祺酿酒师珍藏晚收雷司令",
    "en": "Babich Winemakers' Reserve Late Harvest Riesling",
    "var": "雷司令",
    "var_raw": "Riesling",
@@ -9058,7 +9080,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T353",
@@ -9614,7 +9637,7 @@
   {
    "idx": "T380",
    "typ": "红",
-   "cn": "百碧祺酒庄 闪耀系列黑皮诺红葡萄酒",
+   "cn": "百祺酒庄 闪耀系列黑皮诺红葡萄酒",
    "en": "BABICH GLITZ&GLAM Pinot Noir",
    "var": "黑皮诺",
    "var_raw": "Pinot Noir",
@@ -9629,12 +9652,13 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T381",
    "typ": "红",
-   "cn": "百碧祺马尔堡黑皮诺",
+   "cn": "百祺马尔堡黑皮诺",
    "en": "Babich Marlborough Pinot Noir",
    "var": "黑皮诺",
    "var_raw": "Pinot Noir",
@@ -9649,7 +9673,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T382",
@@ -9689,7 +9714,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T384",
@@ -9809,7 +9835,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T390",
@@ -10251,7 +10278,7 @@
   {
    "idx": "T411",
    "typ": "红",
-   "cn": "百碧祺酿酒师珍藏梅洛",
+   "cn": "百祺酿酒师珍藏梅洛",
    "en": "Babich Winemakers' Reserve Hawke's Bay Merlot",
    "var": "梅洛",
    "var_raw": "Merlot",
@@ -10266,7 +10293,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T412",
@@ -10286,7 +10314,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T413",
@@ -10547,7 +10576,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T425",
@@ -11006,7 +11036,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T448",
@@ -11451,7 +11482,7 @@
   {
    "idx": "T470",
    "typ": "白",
-   "cn": "百碧祺霍克湾霞多丽",
+   "cn": "百祺霍克湾霞多丽",
    "en": "Babich Hawke's Bay Chardonnay",
    "var": "霞多丽",
    "var_raw": "Chardonnay",
@@ -11466,7 +11497,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T471",
@@ -11706,7 +11738,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T483",
@@ -11855,7 +11888,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T490",
@@ -12134,7 +12168,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   }
  ],
  "sites": [
