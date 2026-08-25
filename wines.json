@@ -1,15 +1,15 @@
 {
  "meta": {
-  "total": 596,
-  "contest": 52,
-  "non_tiku": 41,
-  "tiku": 503,
+  "total": 566,
+  "contest": 71,
+  "non_tiku": 11,
+  "tiku": 484,
   "quan_n": 555,
-  "sai_n": 93,
-  "same_n": 34,
+  "sai_n": 82,
+  "same_n": 40,
   "types": {
-   "白": 220,
-   "红": 335,
+   "白": 206,
+   "红": 319,
    "起泡": 17,
    "甜白": 19,
    "加强": 5
@@ -24,32 +24,32 @@
    "梅洛",
    "歌海娜",
    "内比奥罗",
-   "丹魄",
    "慕合怀特",
    "马瑟兰",
    "佳美",
    "白诗南",
    "赛美蓉",
-   "马尔贝克",
+   "丹魄",
    "品丽珠",
+   "马尔贝克",
    "小维尔多",
-   "灰皮诺",
    "巴贝拉",
    "桑娇维塞",
    "维欧尼",
-   "阿里高特",
+   "灰皮诺",
    "琼瑶浆",
+   "阿里高特",
    "科维纳",
    "佳丽酿",
    "加卡耐卡",
    "玛珊/瑚珊",
-   "阿尔巴利诺",
    "晚红蜜",
    "蛇龙珠",
    "小芒森",
    "莫尼耶",
    "勃艮第香瓜",
    "维奥娜",
+   "阿尔巴利诺",
    "莫斯卡托",
    "绿维特利纳",
    "蜜斯卡黛",
@@ -76,29 +76,29 @@
    "加卡耐卡": 4,
    "特雷比亚诺": 1,
    "勃艮第香瓜": 3,
-   "灰皮诺": 9,
+   "灰皮诺": 7,
    "玛珊/瑚珊": 4,
    "白诗南": 12,
    "维奥娜": 3,
    "维欧尼": 8,
-   "长相思": 37,
-   "阿里高特": 7,
-   "雷司令": 41,
-   "霞多丽": 83,
-   "阿尔巴利诺": 4,
-   "丹魄": 15,
-   "内比奥罗": 21,
+   "长相思": 33,
+   "雷司令": 39,
+   "霞多丽": 79,
+   "赛美蓉": 12,
+   "阿尔巴利诺": 3,
+   "丹魄": 12,
+   "内比奥罗": 19,
    "巴贝拉": 9,
    "晚红蜜": 4,
    "蛇龙珠": 4,
-   "西拉": 55,
-   "赤霞珠": 86,
+   "西拉": 53,
+   "赤霞珠": 81,
    "梅洛": 31,
    "品丽珠": 10,
-   "马尔贝克": 11,
-   "马瑟兰": 14,
-   "黑皮诺": 65,
-   "佳美": 14,
+   "马尔贝克": 10,
+   "马瑟兰": 13,
+   "黑皮诺": 64,
+   "佳美": 13,
    "格雷拉": 1,
    "威代尔": 2,
    "小芒森": 4,
@@ -106,7 +106,6 @@
    "科维纳": 5,
    "黑珍珠": 1,
    "马斯卡斯奈莱洛": 1,
-   "赛美蓉": 12,
    "慕合怀特": 15,
    "蒙特布查诺": 2,
    "莫斯卡托": 3,
@@ -128,16 +127,17 @@
    "弗尔明": 1,
    "蜜斯卡黛": 3,
    "莫尼耶": 4,
+   "阿里高特": 6,
    "白歌海娜": 2
   },
   "countries": [
    "法国",
    "中国",
-   "澳大利亚",
    "意大利",
+   "澳大利亚",
    "新西兰",
-   "西班牙",
    "德国",
+   "西班牙",
    "美国",
    "南非",
    "阿根廷",
@@ -378,26 +378,6 @@
    ]
   },
   {
-   "idx": 12,
-   "typ": "白",
-   "cn": "困难山 呼啸梅格长相思干白",
-   "en": "Roaring Meg Sauvignon Blanc",
-   "var": "长相思",
-   "cty": "新西兰",
-   "reg": "新西兰-中奥塔哥",
-   "vin": "2024",
-   "cnt": 1,
-   "sites": "杭州赛区",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "non_tiku",
-   "var_raw": "长相思 Sauvignon Blanc",
-   "comps": [
-    "长相思"
-   ]
-  },
-  {
    "idx": 13,
    "typ": "白",
    "cn": "百祺 长相思干白",
@@ -418,26 +398,6 @@
    ]
   },
   {
-   "idx": 14,
-   "typ": "白",
-   "cn": "马尚陶思 勃艮第阿里高特干白",
-   "en": "Marchand-Tawse Bourgogne Aligoté",
-   "var": "阿里高特",
-   "cty": "法国",
-   "reg": "法国-勃艮第",
-   "vin": "2022",
-   "cnt": 1,
-   "sites": "杭州赛区",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "non_tiku",
-   "var_raw": "阿里高特 Aligoté",
-   "comps": [
-    "阿里高特"
-   ]
-  },
-  {
    "idx": 15,
    "typ": "白",
    "cn": "妙因 莫泽尔雷司令干白",
@@ -447,7 +407,7 @@
    "reg": "德国-摩泽尔",
    "vin": "2021",
    "cnt": 1,
-   "sites": "杭州赛区",
+   "sites": "",
    "alc": "",
    "imp": "",
    "note": "",
@@ -527,10 +487,10 @@
    "reg": "澳大利亚-维多利亚州-雅拉谷",
    "vin": "2022/2023",
    "cnt": 7,
-   "sites": "资料表1（英文酒单）、资料表3（中英对照）、柳州赛区、叁年间赛区、采购清单2（含进口商）、陕西、天津、天津省级赛",
+   "sites": "资料表1（英文酒单）、资料表3（中英对照）、柳州赛区、叁年间赛区、采购清单2（含进口商）、天津、天津省级赛",
    "alc": "",
    "imp": "葡睿酒业",
-   "note": "（原未命名「霞多丽 澳洲 2022」陕西站，推断为 In Dreams 不同年份）",
+   "note": "（原未命名「霞多丽 澳洲 2022」他站，推断为 In Dreams 不同年份）",
    "src": "contest",
    "var_raw": "霞多丽 Chardonnay",
    "comps": [
@@ -620,39 +580,19 @@
   {
    "idx": 24,
    "typ": "白",
-   "cn": "（未命名）",
-   "en": "",
+   "cn": "塔瑞塞拉灰皮诺白葡萄酒",
+   "en": "Torresella Pinot Grigio",
    "var": "灰皮诺",
    "cty": "意大利",
-   "reg": "意大利-威尼托",
-   "vin": "2024",
+   "reg": "意大利-弗留利",
+   "vin": "",
    "cnt": 2,
    "sites": "福州、郑州",
    "alc": "",
    "imp": "",
-   "note": "福州/郑州 重复",
-   "src": "non_tiku",
-   "var_raw": "灰皮诺 Pinot Grigio",
-   "comps": [
-    "灰皮诺"
-   ]
-  },
-  {
-   "idx": 25,
-   "typ": "白",
-   "cn": "（未命名）",
-   "en": "",
-   "var": "灰皮诺",
-   "cty": "意大利",
-   "reg": "意大利-特伦蒂诺-上阿迪杰",
-   "vin": "—",
-   "cnt": 1,
-   "sites": "吉安（非正式）",
-   "alc": "",
-   "imp": "",
-   "note": "吉安（非正式）",
-   "src": "non_tiku",
-   "var_raw": "灰皮诺 Pinot Grigio",
+   "note": "福州/郑州 重复；人工核对还原自「塔瑞塞拉灰皮诺白葡萄酒」（四地清单）",
+   "src": "contest",
+   "var_raw": "灰皮诺",
    "comps": [
     "灰皮诺"
    ]
@@ -660,39 +600,19 @@
   {
    "idx": 26,
    "typ": "白",
-   "cn": "（未命名）",
-   "en": "",
+   "cn": "百祺黑标长相思",
+   "en": "Babich Black Lable Marl Sauvignon Blanc",
    "var": "长相思",
    "cty": "新西兰",
    "reg": "新西兰-马尔堡",
-   "vin": "2025",
+   "vin": "",
    "cnt": 3,
-   "sites": "陕西、郑州、长春",
+   "sites": "郑州、长春",
    "alc": "",
    "imp": "",
-   "note": "陕西/郑州/长春 三站重复",
-   "src": "non_tiku",
-   "var_raw": "长相思 Sauvignon Blanc",
-   "comps": [
-    "长相思"
-   ]
-  },
-  {
-   "idx": 27,
-   "typ": "白",
-   "cn": "（未命名）",
-   "en": "",
-   "var": "长相思",
-   "cty": "法国",
-   "reg": "法国-波尔多",
-   "vin": "—",
-   "cnt": 1,
-   "sites": "吉安（非正式）",
-   "alc": "",
-   "imp": "",
-   "note": "吉安（非正式）",
-   "src": "non_tiku",
-   "var_raw": "长相思 Sauvignon Blanc",
+   "note": "郑州/长春 三站重复；人工核对还原自「百碧祺黑标长相思」（四地清单）",
+   "src": "contest",
+   "var_raw": "Sauvignon Blanc",
    "comps": [
     "长相思"
    ]
@@ -700,79 +620,60 @@
   {
    "idx": 28,
    "typ": "白",
-   "cn": "（未命名）",
-   "en": "",
-   "var": "长相思",
+   "cn": "利诗之星干白葡萄酒",
+   "en": "R de Rieussec (Château Rieussec) Blanc Sec",
+   "var": "长相思、赛美蓉",
    "cty": "法国",
-   "reg": "法国-波尔多",
-   "vin": "2018",
+   "reg": "法国-波尔多-苏玳",
+   "vin": "",
    "cnt": 1,
    "sites": "长沙",
    "alc": "",
    "imp": "",
-   "note": "长沙",
-   "src": "non_tiku",
-   "var_raw": "长相思（波尔多白）Sauvignon Blanc",
+   "note": "长沙；人工核对还原自「利诗之星干白葡萄酒」（四地清单）",
+   "src": "contest",
+   "var_raw": "Sauvignon Blanc / Sémillon",
    "comps": [
-    "长相思"
+    "长相思",
+    "赛美蓉"
    ]
   },
   {
    "idx": 29,
    "typ": "白",
-   "cn": "（未命名）",
-   "en": "",
+   "cn": "桃乐丝秘林白葡萄酒",
+   "en": "Familia Torres Torre Penelas Pazo das Bruxas",
    "var": "阿尔巴利诺",
    "cty": "西班牙",
-   "reg": "西班牙-下海湾",
-   "vin": "2023",
+   "reg": "西班牙-下海湾产区-孔特苗尔德萨尔特",
+   "vin": "",
    "cnt": 1,
    "sites": "郑州",
    "alc": "",
    "imp": "",
-   "note": "郑州",
-   "src": "non_tiku",
-   "var_raw": "阿尔巴利诺 Albariño",
+   "note": "郑州；人工核对还原自「桃乐丝秘林白葡萄酒」（四地清单）",
+   "src": "contest",
+   "var_raw": "阿尔巴利诺（Albariño）",
    "comps": [
     "阿尔巴利诺"
    ]
   },
   {
-   "idx": 30,
-   "typ": "白",
-   "cn": "（未命名）",
-   "en": "",
-   "var": "雷司令",
-   "cty": "德国",
-   "reg": "德国-摩泽尔",
-   "vin": "2024",
-   "cnt": 1,
-   "sites": "陕西",
-   "alc": "",
-   "imp": "",
-   "note": "陕西，酒精度 11%",
-   "src": "non_tiku",
-   "var_raw": "雷司令 Riesling",
-   "comps": [
-    "雷司令"
-   ]
-  },
-  {
    "idx": 31,
    "typ": "白",
-   "cn": "（未命名）",
-   "en": "",
+   "cn": "雷司令怪杰高伊顿菲拉斯曼雷司令干白No.12",
+   "en": "Rieslingfreak No.12 Riesling Dry White",
    "var": "雷司令",
    "cty": "澳大利亚",
-   "reg": "南澳-伊甸谷",
-   "vin": "2025",
+   "reg": "澳大利亚-克莱尔谷",
+   "vin": "",
    "cnt": 1,
    "sites": "福州",
    "alc": "",
    "imp": "",
-   "note": "福州；原文「雷司令怪杰，Eden 或 Clare」",
-   "src": "non_tiku",
-   "var_raw": "雷司令 Riesling",
+   "note": "福州；原文「雷司令怪杰，Eden 或 Clare」；人工核对还原自「雷司令怪杰高伊顿菲拉斯曼雷司令干白No.12」（四地清单）",
+   "src": "contest",
+   "var_raw": "雷司令（Riesling）",
    "comps": [
     "雷司令"
    ]
@@ -780,19 +681,19 @@
   {
    "idx": 32,
    "typ": "白",
-   "cn": "（未命名）",
-   "en": "",
+   "cn": "约瑟夫杜鲁安夏布利村干白葡萄酒",
+   "en": "Maison Joseph Drouhin Chablis",
    "var": "霞多丽",
    "cty": "法国",
-   "reg": "法国-勃艮第",
-   "vin": "2022",
+   "reg": "法国-勃艮第-夏布利",
+   "vin": "",
    "cnt": 1,
    "sites": "天津",
    "alc": "",
    "imp": "",
-   "note": "天津",
-   "src": "non_tiku",
-   "var_raw": "霞多丽 Chardonnay",
+   "note": "天津；人工核对还原自「约瑟夫杜鲁安夏布利村干白葡萄酒」（四地清单）",
+   "src": "contest",
+   "var_raw": "Chardonnay",
    "comps": [
     "霞多丽"
    ]
@@ -800,39 +701,19 @@
   {
    "idx": 33,
    "typ": "白",
-   "cn": "（未命名）",
-   "en": "",
+   "cn": "屹诺山霞多丽干白",
+   "en": "Escarpment Chardonnay",
    "var": "霞多丽",
    "cty": "新西兰",
    "reg": "新西兰-马丁堡",
-   "vin": "2024",
+   "vin": "",
    "cnt": 1,
    "sites": "福州",
    "alc": "",
    "imp": "",
-   "note": "福州",
-   "src": "non_tiku",
-   "var_raw": "霞多丽 Chardonnay",
-   "comps": [
-    "霞多丽"
-   ]
-  },
-  {
-   "idx": 34,
-   "typ": "白",
-   "cn": "（未命名）",
-   "en": "",
-   "var": "霞多丽",
-   "cty": "智利",
-   "reg": "智利-中央山谷",
-   "vin": "—",
-   "cnt": 1,
-   "sites": "吉安（非正式）",
-   "alc": "",
-   "imp": "",
-   "note": "吉安（非正式）",
-   "src": "non_tiku",
-   "var_raw": "霞多丽 Chardonnay",
+   "note": "福州；人工核对还原自「屹诺山霞多丽干白」（四地清单）",
+   "src": "contest",
+   "var_raw": "Chardonnay",
    "comps": [
     "霞多丽"
    ]
@@ -840,41 +721,21 @@
   {
    "idx": 35,
    "typ": "白",
-   "cn": "（未命名）",
-   "en": "",
+   "cn": "百祺霍克湾霞多丽",
+   "en": "Babich Hawke's Bay Chardonnay",
    "var": "霞多丽",
    "cty": "新西兰",
-   "reg": "新西兰-马尔堡",
-   "vin": "2023",
+   "reg": "新西兰-霍克斯湾",
+   "vin": "",
    "cnt": 1,
    "sites": "长沙",
    "alc": "",
    "imp": "",
-   "note": "长沙",
-   "src": "non_tiku",
-   "var_raw": "霞多丽 Chardonnay",
+   "note": "长沙；人工核对还原自「百碧祺霍克湾霞多丽」（四地清单）",
+   "src": "contest",
+   "var_raw": "Chardonnay",
    "comps": [
     "霞多丽"
-   ]
-  },
-  {
-   "idx": 36,
-   "typ": "红",
-   "cn": "R. López de Heredia 博石园里奥哈丹魄干红",
-   "en": "Viña Bosconia Rioja Tempranillo",
-   "var": "丹魄",
-   "cty": "西班牙",
-   "reg": "西班牙-里奥哈",
-   "vin": "2013",
-   "cnt": 1,
-   "sites": "杭州赛区",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "non_tiku",
-   "var_raw": "丹魄 Tempranillo",
-   "comps": [
-    "丹魄"
    ]
   },
   {
@@ -895,26 +756,6 @@
    "var_raw": "丹魄 Tempranillo",
    "comps": [
     "丹魄"
-   ]
-  },
-  {
-   "idx": 38,
-   "typ": "红",
-   "cn": "Sottimano 朗格内比奥罗干红",
-   "en": "Sottimano Langhe Nebbiolo",
-   "var": "内比奥罗",
-   "cty": "意大利",
-   "reg": "意大利-皮埃蒙特-朗格",
-   "vin": "2022",
-   "cnt": 1,
-   "sites": "杭州赛区",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "non_tiku",
-   "var_raw": "内比奥罗 Nebbiolo",
-   "comps": [
-    "内比奥罗"
    ]
   },
   {
@@ -1088,7 +929,7 @@
    "reg": "澳大利亚-南澳州",
    "vin": "2022",
    "cnt": 1,
-   "sites": "资料表4",
+   "sites": "资料表4、郑州、无锡",
    "alc": "",
    "imp": "",
    "note": "",
@@ -1148,7 +989,7 @@
    "reg": "澳大利亚-维多利亚州-帕洛利",
    "vin": "2021",
    "cnt": 1,
-   "sites": "杭州赛区",
+   "sites": "",
    "alc": "",
    "imp": "",
    "note": "",
@@ -1188,10 +1029,10 @@
    "reg": "智利-迈坡谷",
    "vin": "2022/2023",
    "cnt": 4,
-   "sites": "资料表1（英文酒单）、柳州赛区、采购清单1（含进口商）、陕西",
+   "sites": "资料表1（英文酒单）、柳州赛区、采购清单1（含进口商）",
    "alc": "",
    "imp": "泸州老窖集团·锁唇国际",
-   "note": "表1/采购清单为 2022（María Cask 18，88% 赤霞珠+12% 小西拉），柳州标 2017；（原未命名「赤霞珠 迈坡 2023」陕西站，推断为 Gandolini，待核对）",
+   "note": "表1/采购清单为 2022（María Cask 18，88% 赤霞珠+12% 小西拉），柳州标 2017；（原未命名「赤霞珠 迈坡 2023」他站，推断为 Gandolini，待核对）",
    "src": "contest",
    "var_raw": "赤霞珠 Cabernet Sauvignon",
    "comps": [
@@ -1248,7 +1089,7 @@
    "reg": "法国-波尔多-上梅多克",
    "vin": "2021",
    "cnt": 1,
-   "sites": "杭州赛区",
+   "sites": "",
    "alc": "",
    "imp": "",
    "note": "",
@@ -1486,39 +1327,19 @@
   {
    "idx": 67,
    "typ": "红",
-   "cn": "（未命名）",
-   "en": "",
+   "cn": "桃乐丝奥托斯伊贝利克里奥哈红葡萄酒",
+   "en": "Torres Altos Ibéricos Crianza",
    "var": "丹魄",
    "cty": "西班牙",
    "reg": "西班牙-里奥哈",
-   "vin": "2021",
+   "vin": "",
    "cnt": 2,
    "sites": "福州、长沙",
    "alc": "",
    "imp": "",
-   "note": "福州/长沙 重复",
-   "src": "non_tiku",
-   "var_raw": "丹魄 Tempranillo",
-   "comps": [
-    "丹魄"
-   ]
-  },
-  {
-   "idx": 68,
-   "typ": "红",
-   "cn": "（未命名）",
-   "en": "",
-   "var": "丹魄",
-   "cty": "西班牙",
-   "reg": "西班牙-里奥哈",
-   "vin": "2017",
-   "cnt": 1,
-   "sites": "吉安（非正式）",
-   "alc": "",
-   "imp": "",
-   "note": "吉安（非正式）",
-   "src": "non_tiku",
-   "var_raw": "丹魄 Tempranillo",
+   "note": "福州/长沙 重复；人工核对还原自「桃乐丝奥托斯伊贝利克里奥哈红葡萄酒」（四地清单）",
+   "src": "contest",
+   "var_raw": "丹魄（Tempranillo）为主混酿",
    "comps": [
     "丹魄"
    ]
@@ -1526,19 +1347,19 @@
   {
    "idx": 69,
    "typ": "红",
-   "cn": "（未命名）",
-   "en": "",
+   "cn": "勃艮第徽章马孔干红葡萄酒",
+   "en": "Blason de Bourgogne Macon Rouge",
    "var": "佳美",
    "cty": "法国",
-   "reg": "法国-勃艮第",
-   "vin": "2021",
+   "reg": "法国-勃艮第-马孔",
+   "vin": "",
    "cnt": 1,
    "sites": "福州",
    "alc": "",
    "imp": "",
-   "note": "福州",
-   "src": "non_tiku",
-   "var_raw": "佳美 Gamay",
+   "note": "福州；人工核对还原自「勃艮第徽章马孔干红葡萄酒」（四地清单）",
+   "src": "contest",
+   "var_raw": "Gamay",
    "comps": [
     "佳美"
    ]
@@ -1546,119 +1367,39 @@
   {
    "idx": 70,
    "typ": "红",
-   "cn": "（未命名）",
-   "en": "",
+   "cn": "博罗利酒庄巴罗洛干红葡萄酒",
+   "en": "Boroli – Barolo",
    "var": "内比奥罗",
    "cty": "意大利",
-   "reg": "巴罗洛",
-   "vin": "2015",
+   "reg": "意大利-皮埃蒙特",
+   "vin": "",
    "cnt": 1,
    "sites": "天津",
    "alc": "",
    "imp": "",
-   "note": "天津",
-   "src": "non_tiku",
-   "var_raw": "内比奥罗 Nebbiolo",
+   "note": "天津；人工核对还原自「博罗利酒庄巴罗洛干红葡萄酒」（四地清单）",
+   "src": "contest",
+   "var_raw": "内比奥罗",
    "comps": [
     "内比奥罗"
    ]
   },
   {
-   "idx": 71,
-   "typ": "红",
-   "cn": "（未命名）",
-   "en": "",
-   "var": "西拉",
-   "cty": "澳大利亚",
-   "reg": "澳大利亚-南澳-巴罗萨",
-   "vin": "2022",
-   "cnt": 2,
-   "sites": "郑州、无锡",
-   "alc": "",
-   "imp": "",
-   "note": "郑州/无锡 重复",
-   "src": "non_tiku",
-   "var_raw": "西拉 Syrah",
-   "comps": [
-    "西拉"
-   ]
-  },
-  {
-   "idx": 72,
-   "typ": "红",
-   "cn": "（未命名）",
-   "en": "",
-   "var": "西拉",
-   "cty": "澳大利亚",
-   "reg": "澳大利亚-南澳-麦克拉伦谷",
-   "vin": "2017",
-   "cnt": 1,
-   "sites": "吉安（非正式）",
-   "alc": "",
-   "imp": "",
-   "note": "吉安（非正式）",
-   "src": "non_tiku",
-   "var_raw": "西拉 Syrah",
-   "comps": [
-    "西拉"
-   ]
-  },
-  {
-   "idx": 73,
-   "typ": "红",
-   "cn": "（未命名）",
-   "en": "",
-   "var": "赤霞珠",
-   "cty": "法国",
-   "reg": "法国-波尔多",
-   "vin": "2016",
-   "cnt": 1,
-   "sites": "陕西",
-   "alc": "",
-   "imp": "",
-   "note": "陕西，酒精度 14%",
-   "src": "non_tiku",
-   "var_raw": "赤霞珠 Cabernet Sauvignon",
-   "comps": [
-    "赤霞珠"
-   ]
-  },
-  {
    "idx": 74,
    "typ": "红",
-   "cn": "（未命名）",
+   "cn": "续梦之旅·启航 干红葡萄酒",
    "en": "",
    "var": "赤霞珠",
    "cty": "中国",
    "reg": "中国-宁夏",
-   "vin": "2016",
+   "vin": "",
    "cnt": 1,
    "sites": "天津",
    "alc": "",
    "imp": "",
-   "note": "天津",
-   "src": "non_tiku",
-   "var_raw": "赤霞珠 Cabernet Sauvignon",
-   "comps": [
-    "赤霞珠"
-   ]
-  },
-  {
-   "idx": 75,
-   "typ": "红",
-   "cn": "（未命名）",
-   "en": "",
-   "var": "赤霞珠",
-   "cty": "法国",
-   "reg": "法国-波尔多",
-   "vin": "2023",
-   "cnt": 1,
-   "sites": "吉安（非正式）",
-   "alc": "",
-   "imp": "",
-   "note": "吉安（非正式）",
-   "src": "non_tiku",
-   "var_raw": "赤霞珠 Cabernet Sauvignon",
+   "note": "天津；人工核对还原自「续梦之旅·启航 干红葡萄酒」（四地清单）",
+   "src": "contest",
+   "var_raw": "赤霞珠",
    "comps": [
     "赤霞珠"
    ]
@@ -1666,19 +1407,19 @@
   {
    "idx": 76,
    "typ": "红",
-   "cn": "（未命名）",
-   "en": "",
+   "cn": "巴罗萨谷赤霞珠红葡萄酒",
+   "en": "Barossa Valley Estate Cabernet Sauvignon Red Wine",
    "var": "赤霞珠",
    "cty": "澳大利亚",
-   "reg": "澳大利亚-南澳-巴罗萨",
-   "vin": "2023",
+   "reg": "澳大利亚-巴罗萨谷",
+   "vin": "",
    "cnt": 1,
    "sites": "长沙",
    "alc": "",
    "imp": "",
-   "note": "长沙",
-   "src": "non_tiku",
-   "var_raw": "赤霞珠 Cabernet Sauvignon",
+   "note": "长沙；人工核对还原自「巴罗萨谷赤霞珠红葡萄酒」（四地清单）",
+   "src": "contest",
+   "var_raw": "赤霞珠（Cabernet Sauvignon）",
    "comps": [
     "赤霞珠"
    ]
@@ -1686,19 +1427,19 @@
   {
    "idx": 77,
    "typ": "红",
-   "cn": "（未命名）",
-   "en": "",
+   "cn": "埃尔顿庄园系列巴罗莎峡谷赤霞珠红葡萄酒",
+   "en": "El Estate Series Valley Cabernet Sauvignon Red Wine",
    "var": "赤霞珠",
    "cty": "澳大利亚",
-   "reg": "澳大利亚-南澳-巴罗萨",
-   "vin": "2012",
+   "reg": "澳大利亚-巴罗萨谷",
+   "vin": "",
    "cnt": 1,
    "sites": "长春",
    "alc": "",
    "imp": "",
-   "note": "长春",
-   "src": "non_tiku",
-   "var_raw": "赤霞珠 Cabernet Sauvignon",
+   "note": "长春；人工核对还原自「埃尔顿庄园系列巴罗莎峡谷赤霞珠红葡萄酒」（四地清单）",
+   "src": "contest",
+   "var_raw": "赤霞珠（Cabernet Sauvignon）",
    "comps": [
     "赤霞珠"
    ]
@@ -1706,19 +1447,19 @@
   {
    "idx": 78,
    "typ": "红",
-   "cn": "（未命名）",
-   "en": "",
+   "cn": "翠碧橡木桶系列马尔贝克红葡萄酒",
+   "en": "Trapiche Oak Cask Malbec",
    "var": "马尔贝克",
    "cty": "阿根廷",
    "reg": "阿根廷-门多萨",
-   "vin": "2022",
+   "vin": "",
    "cnt": 1,
    "sites": "长春",
    "alc": "",
    "imp": "",
-   "note": "长春",
-   "src": "non_tiku",
-   "var_raw": "马尔贝克 Malbec",
+   "note": "长春；人工核对还原自「翠碧橡木桶系列马尔贝克红葡萄酒」（四地清单）",
+   "src": "contest",
+   "var_raw": "马尔贝克（Malbec）",
    "comps": [
     "马尔贝克"
    ]
@@ -1726,41 +1467,21 @@
   {
    "idx": 79,
    "typ": "红",
-   "cn": "（未命名）",
+   "cn": "时光机马瑟兰",
    "en": "",
    "var": "马瑟兰",
    "cty": "中国",
    "reg": "中国-宁夏",
-   "vin": "2022",
+   "vin": "",
    "cnt": 1,
    "sites": "长沙",
    "alc": "",
    "imp": "",
-   "note": "长沙",
-   "src": "non_tiku",
-   "var_raw": "马瑟兰 Marselan",
+   "note": "长沙；人工核对还原自「时光机马瑟兰」（四地清单）",
+   "src": "contest",
+   "var_raw": "马瑟兰",
    "comps": [
     "马瑟兰"
-   ]
-  },
-  {
-   "idx": 80,
-   "typ": "红",
-   "cn": "（未命名）",
-   "en": "",
-   "var": "黑皮诺",
-   "cty": "法国",
-   "reg": "法国-勃艮第",
-   "vin": "2022",
-   "cnt": 1,
-   "sites": "陕西",
-   "alc": "",
-   "imp": "",
-   "note": "陕西，酒精度 12.5%",
-   "src": "non_tiku",
-   "var_raw": "黑皮诺 Pinot Noir",
-   "comps": [
-    "黑皮诺"
    ]
   },
   {
@@ -2467,27 +2188,6 @@
    "src": "tiku"
   },
   {
-   "idx": "T23",
-   "typ": "红",
-   "cn": "时光机马瑟兰",
-   "en": "",
-   "var": "马瑟兰",
-   "var_raw": "马瑟兰",
-   "comps": [
-    "马瑟兰"
-   ],
-   "cty": "中国",
-   "reg": "中国-宁夏",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku",
-   "sameWinery": true
-  },
-  {
    "idx": "T24",
    "typ": "红",
    "cn": "美贺庄园尊享马瑟兰干红葡萄酒",
@@ -2679,26 +2379,6 @@
    ],
    "cty": "意大利",
    "reg": "意大利-西西里",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T34",
-   "typ": "红",
-   "cn": "翠碧橡木桶系列马尔贝克红葡萄酒",
-   "en": "Trapiche Oak Cask Malbec",
-   "var": "马尔贝克",
-   "var_raw": "马尔贝克（Malbec）",
-   "comps": [
-    "马尔贝克"
-   ],
-   "cty": "阿根廷",
-   "reg": "阿根廷-门多萨",
    "vin": "",
    "cnt": 0,
    "sites": "",
@@ -3304,11 +2984,11 @@
    "reg": "中国-宁夏",
    "vin": "",
    "cnt": 0,
-   "sites": "",
+   "sites": "长春",
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "contest"
   },
   {
    "idx": "T65",
@@ -3491,26 +3171,6 @@
    "src": "tiku"
   },
   {
-   "idx": "T74",
-   "typ": "白",
-   "cn": "雷司令怪杰高伊顿菲拉斯曼雷司令干白No.12",
-   "en": "Rieslingfreak No.12 Riesling Dry White",
-   "var": "雷司令",
-   "var_raw": "雷司令（Riesling）",
-   "comps": [
-    "雷司令"
-   ],
-   "cty": "澳大利亚",
-   "reg": "澳大利亚-克莱尔谷",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
    "idx": "T75",
    "typ": "白",
    "cn": "雷司令怪杰十全顶峰雷司令干白No.10",
@@ -3528,7 +3188,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T76",
@@ -3548,7 +3209,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T77",
@@ -3909,26 +3571,6 @@
    "src": "tiku"
   },
   {
-   "idx": "T95",
-   "typ": "白",
-   "cn": "桃乐丝秘林白葡萄酒",
-   "en": "Familia Torres Torre Penelas Pazo das Bruxas",
-   "var": "阿尔巴利诺",
-   "var_raw": "阿尔巴利诺（Albariño）",
-   "comps": [
-    "阿尔巴利诺"
-   ],
-   "cty": "西班牙",
-   "reg": "西班牙-下海湾产区-孔特苗尔德萨尔特",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
    "idx": "T96",
    "typ": "白",
    "cn": "乔瓦尼酒庄罗埃罗阿内斯白葡萄酒",
@@ -4059,46 +3701,6 @@
    ],
    "cty": "澳大利亚",
    "reg": "澳大利亚-库纳瓦拉",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T103",
-   "typ": "红",
-   "cn": "埃尔顿庄园系列巴罗莎峡谷赤霞珠红葡萄酒",
-   "en": "El Estate Series Valley Cabernet Sauvignon Red Wine",
-   "var": "赤霞珠",
-   "var_raw": "赤霞珠（Cabernet Sauvignon）",
-   "comps": [
-    "赤霞珠"
-   ],
-   "cty": "澳大利亚",
-   "reg": "澳大利亚-巴罗萨谷",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T104",
-   "typ": "红",
-   "cn": "巴罗萨谷赤霞珠红葡萄酒",
-   "en": "Barossa Valley Estate Cabernet Sauvignon Red Wine",
-   "var": "赤霞珠",
-   "var_raw": "赤霞珠（Cabernet Sauvignon）",
-   "comps": [
-    "赤霞珠"
-   ],
-   "cty": "澳大利亚",
-   "reg": "澳大利亚-巴罗萨谷",
    "vin": "",
    "cnt": 0,
    "sites": "",
@@ -4790,27 +4392,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T139",
-   "typ": "红",
-   "cn": "续梦之旅·启航 干红葡萄酒",
-   "en": "",
-   "var": "赤霞珠",
-   "var_raw": "赤霞珠",
-   "comps": [
-    "赤霞珠"
-   ],
-   "cty": "中国",
-   "reg": "中国-宁夏",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T140",
@@ -5908,11 +5491,11 @@
    "reg": "西班牙-里奥哈",
    "vin": "",
    "cnt": 0,
-   "sites": "",
+   "sites": "无锡",
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "contest"
   },
   {
    "idx": "T195",
@@ -6249,26 +5832,6 @@
    "sameWinery": true
   },
   {
-   "idx": "T212",
-   "typ": "白",
-   "cn": "塔瑞塞拉灰皮诺白葡萄酒",
-   "en": "Torresella Pinot Grigio",
-   "var": "灰皮诺",
-   "var_raw": "灰皮诺",
-   "comps": [
-    "灰皮诺"
-   ],
-   "cty": "意大利",
-   "reg": "意大利-弗留利",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
    "idx": "T213",
    "typ": "白",
    "cn": "塔明酒庄灰皮诺干白葡萄酒",
@@ -6526,7 +6089,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T226",
@@ -7687,26 +7251,6 @@
    "src": "tiku"
   },
   {
-   "idx": "T284",
-   "typ": "红",
-   "cn": "博罗利酒庄巴罗洛干红葡萄酒",
-   "en": "Boroli – Barolo",
-   "var": "内比奥罗",
-   "var_raw": "内比奥罗",
-   "comps": [
-    "内比奥罗"
-   ],
-   "cty": "意大利",
-   "reg": "意大利-皮埃蒙特",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
    "idx": "T285",
    "typ": "红",
    "cn": "合作社巴巴莱斯科干",
@@ -7958,26 +7502,6 @@
    ],
    "cty": "美国",
    "reg": "美国-俄勒冈州/加利福尼亚州待核对",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T298",
-   "typ": "红",
-   "cn": "桃乐丝奥托斯伊贝利克里奥哈红葡萄酒",
-   "en": "Torres Altos Ibéricos Crianza",
-   "var": "丹魄",
-   "var_raw": "丹魄（Tempranillo）为主混酿",
-   "comps": [
-    "丹魄"
-   ],
-   "cty": "西班牙",
-   "reg": "西班牙-里奥哈",
    "vin": "",
    "cnt": 0,
    "sites": "",
@@ -8520,27 +8044,6 @@
    "src": "tiku"
   },
   {
-   "idx": "T325",
-   "typ": "白",
-   "cn": "利诗之星干白葡萄酒",
-   "en": "R de Rieussec (Château Rieussec) Blanc Sec",
-   "var": "长相思、赛美蓉",
-   "var_raw": "Sauvignon Blanc / Sémillon",
-   "comps": [
-    "长相思",
-    "赛美蓉"
-   ],
-   "cty": "法国",
-   "reg": "法国-波尔多-苏玳",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
    "idx": "T326",
    "typ": "白",
    "cn": "拜瑞庄园白 葡萄酒",
@@ -8702,27 +8205,6 @@
    "src": "tiku"
   },
   {
-   "idx": "T334",
-   "typ": "白",
-   "cn": "百祺黑标长相思",
-   "en": "Babich Black Lable Marl Sauvignon Blanc",
-   "var": "长相思",
-   "var_raw": "Sauvignon Blanc",
-   "comps": [
-    "长相思"
-   ],
-   "cty": "新西兰",
-   "reg": "新西兰-马尔堡",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku",
-   "sameWinery": true
-  },
-  {
    "idx": "T335",
    "typ": "白",
    "cn": "白色天堂蔻白堤马尔堡长相思白葡萄酒",
@@ -8796,11 +8278,11 @@
    "reg": "新西兰-马尔堡",
    "vin": "",
    "cnt": 0,
-   "sites": "",
+   "sites": "无锡",
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "contest"
   },
   {
    "idx": "T339",
@@ -9392,7 +8874,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T368",
@@ -9755,7 +9238,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T386",
@@ -9876,7 +9360,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T392",
@@ -10680,26 +10165,6 @@
    "src": "tiku"
   },
   {
-   "idx": "T430",
-   "typ": "红",
-   "cn": "勃艮第徽章马孔干红葡萄酒",
-   "en": "Blason de Bourgogne Macon Rouge",
-   "var": "佳美",
-   "var_raw": "Gamay",
-   "comps": [
-    "佳美"
-   ],
-   "cty": "法国",
-   "reg": "法国-勃艮第-马孔",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
    "idx": "T431",
    "typ": "红",
    "cn": "杜龙庄园佳美干红葡萄酒",
@@ -11157,27 +10622,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T454",
-   "typ": "白",
-   "cn": "约瑟夫杜鲁安夏布利村干白葡萄酒",
-   "en": "Maison Joseph Drouhin Chablis",
-   "var": "霞多丽",
-   "var_raw": "Chardonnay",
-   "comps": [
-    "霞多丽"
-   ],
-   "cty": "法国",
-   "reg": "法国-勃艮第-夏布利",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T455",
@@ -11480,27 +10926,6 @@
    "src": "tiku"
   },
   {
-   "idx": "T470",
-   "typ": "白",
-   "cn": "百祺霍克湾霞多丽",
-   "en": "Babich Hawke's Bay Chardonnay",
-   "var": "霞多丽",
-   "var_raw": "Chardonnay",
-   "comps": [
-    "霞多丽"
-   ],
-   "cty": "新西兰",
-   "reg": "新西兰-霍克斯湾",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku",
-   "sameWinery": true
-  },
-  {
    "idx": "T471",
    "typ": "白",
    "cn": "三圣山酒庄吉布利砾石区霞多丽干白",
@@ -11532,26 +10957,6 @@
    ],
    "cty": "新西兰",
    "reg": "新西兰-马尔堡",
-   "vin": "",
-   "cnt": 0,
-   "sites": "",
-   "alc": "",
-   "imp": "",
-   "note": "",
-   "src": "tiku"
-  },
-  {
-   "idx": "T473",
-   "typ": "白",
-   "cn": "屹诺山霞多丽干白",
-   "en": "Escarpment Chardonnay",
-   "var": "霞多丽",
-   "var_raw": "Chardonnay",
-   "comps": [
-    "霞多丽"
-   ],
-   "cty": "新西兰",
-   "reg": "新西兰-马丁堡",
    "vin": "",
    "cnt": 0,
    "sites": "",
@@ -11759,7 +11164,8 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "tiku"
+   "src": "tiku",
+   "sameWinery": true
   },
   {
    "idx": "T484",
