@@ -1297,22 +1297,6 @@ function modeOk(x){
   if(MODE==="all")return x.src!=="non_tiku";
   return x.src==="contest"||x.src==="non_tiku";
 }
-// 动态统计（随模式重算，chips 数字与当前视图一致）
-function calcStats(){
-  var arr=CARDS.filter(modeOk);
-  var t={},v={},c={},w={},tv={},tc={},wc={};
-  arr.forEach(function(x){
-    t[x.typ]=(t[x.typ]||0)+1;
-    if(x.comps)for(var i=0;i<x.comps.length;i++){v[x.comps[i]]=(v[x.comps[i]]||0)+1;(tv[x.typ]=tv[x.typ]||{})[x.comps[i]]=(tv[x.typ][x.comps[i]]||0)+1;}
-    if(x.cty){c[x.cty]=(c[x.cty]||0)+1;(tc[x.typ]=tc[x.typ]||{})[x.cty]=(tc[x.typ][x.cty]||0)+1;}
-    w[x.world]=(w[x.world]||0)+1;(wc[x.world]=wc[x.world]||{})[x.cty]=(wc[x.world][x.cty]||0)+1;
-  });
-  function desc(o){return Object.keys(o).sort(function(a,b){return o[b]-o[a];});}
-  return {total:arr.length,typ_cnt:t,var_cnt:v,cty_cnt:c,world_cnt:w,
-          typ_varieties:tv,typ_countries:tc,world_countries:wc,
-          varieties:desc(v),cty_order:desc(c)};
-}
-
 // ---- 静态 DOM 数据源(JS 可用时以此重建视图,支持排序) ----
 function collectCards(){
   return Array.prototype.slice.call(document.querySelectorAll("#masterView .card")).map(function(c){
@@ -1345,7 +1329,6 @@ function collectRows(){
   });
 }
 var CARDS=collectCards(), ROWS=collectRows();
-var STATS=calcStats();
 
 function matches(x){
   if(!modeOk(x))return false;
@@ -1435,8 +1418,7 @@ var drawer=document.getElementById("drawer"), mask=document.getElementById("mask
   document.getElementById("resetBtn").addEventListener("click",function(){
     state.q="";state.typ="全部";state.var2Arr=[];state.world="全部";state.ctyArr=[];
     document.getElementById("q").value="";
-    STATS=calcStats();
-    buildTypeChips();buildVarChips();buildWorldChips();buildCtyChips();
+    rebuildAll();
     apply();
   });
   // ---- 抽屉滚动到顶后继续下拉/下滚 → 收起 ----
@@ -1451,35 +1433,61 @@ var drawer=document.getElementById("drawer"), mask=document.getElementById("mask
 })();
 // ---- 搜索 ----
 document.getElementById("q").addEventListener("input",function(e){state.q=e.target.value.trim().toLowerCase();apply();});
-// ---- 级联筛选: 类型(一级) → 品种(二级,随类型联动) ----
-function varietyList(){
-  // 品种列表 = 类型 × 新旧世界 × 已选国家 × 当前模式 共同作用的结果（按款数降序）
+// ---- 分面筛选（faceted search）：各维度可选值随其他维度选择动态收缩 ----
+function facetCnt(dim){
+  // dim: 'typ'|'world'|'cty'|'var2' —— 统计时排除 dim 自身约束（否则已选项是唯一剩余项，无法取消）
   var arr = CARDS.filter(function(x){
     if(!modeOk(x))return false;
-    if(state.typ!=="全部"&&x.typ!==state.typ)return false;
-    if(state.world!=="全部"&&x.world!==state.world)return false;
-    if(state.ctyArr.length&&state.ctyArr.indexOf(x.cty)<0)return false;
+    if(dim!=="typ"&&state.typ!=="全部"&&x.typ!==state.typ)return false;
+    if(dim!=="world"&&state.world!=="全部"&&x.world!==state.world)return false;
+    if(dim!=="cty"&&state.ctyArr.length&&state.ctyArr.indexOf(x.cty)<0)return false;
+    if(dim!=="var2"&&state.var2Arr.length){
+      var hit=false;
+      for(var i=0;i<state.var2Arr.length;i++){if((x.comps||[]).indexOf(state.var2Arr[i])>=0){hit=true;break;}}
+      if(!hit)return false;
+    }
     return true;
   });
-  var v={};
-  arr.forEach(function(x){(x.comps||[]).forEach(function(c){if(c)v[c]=(v[c]||0)+1;});});
-  return Object.keys(v).sort(function(a,b){return v[b]-v[a];}).map(function(k){return [k,v[k]];});
+  var cnt={};
+  arr.forEach(function(x){
+    if(dim==="typ")cnt[x.typ]=(cnt[x.typ]||0)+1;
+    else if(dim==="world")cnt[x.world]=(cnt[x.world]||0)+1;
+    else if(dim==="cty"){if(x.cty)cnt[x.cty]=(cnt[x.cty]||0)+1;}
+    else{(x.comps||[]).forEach(function(c){if(c)cnt[c]=(cnt[c]||0)+1;});}
+  });
+  return cnt;
 }
+function facetList(dim){
+  var cnt=facetCnt(dim);
+  return Object.keys(cnt).sort(function(a,b){return cnt[b]-cnt[a];}).map(function(k){return [k,cnt[k]];});
+}
+// 清除因其他维度变化而失效的已选项（两轮保证收敛）
+function pruneInvalid(){
+  for(var round=0;round<2;round++){
+    var cf=facetCnt("cty");
+    state.ctyArr=state.ctyArr.filter(function(c){return cf[c];});
+    var vf=facetCnt("var2");
+    state.var2Arr=state.var2Arr.filter(function(v){return vf[v];});
+  }
+}
+function rebuildAll(){buildTypeChips();buildVarChips();buildWorldChips();buildCtyChips();}
+
 function buildTypeChips(){
   var box=document.getElementById("chipsT");
   box.innerHTML="";
-  var arr=[["全部",0]].concat(TYPE_ORDER.map(function(t){return [t,STATS.typ_cnt[t]||0];}));
-  arr.forEach(function(x){
+  var d0=document.createElement("div");
+  d0.className="chip"+(state.typ==="全部"?" on":"");
+  d0.textContent="全部";
+  d0.addEventListener("click",function(){state.typ="全部";pruneInvalid();rebuildAll();apply();});
+  box.appendChild(d0);
+  var cnt=facetCnt("typ");
+  TYPE_ORDER.forEach(function(t){
+    var n=cnt[t]||0;
+    if(n<=0)return;   // 0 计数直接隐藏（用户选定）
     var d=document.createElement("div");
-    d.className="chip"+(x[0]===state.typ?" on":"");
-    d.innerHTML = x[0]==="全部" ? x[0] : (x[0]+'<span class="n">'+x[1]+'</span>');
-    d.addEventListener("click",function(){
-      state.typ=x[0];
-      state.var2Arr=[];          // 切换类型→重置品种多选(级联)
-      Array.prototype.slice.call(box.children).forEach(function(c){c.classList.toggle("on",c===d);});
-      buildVarChips();
-      apply();
-    });
+    d.className="chip"+(t===state.typ?" on":"");
+    d.innerHTML=t+'<span class="n">'+n+'</span>';
+    d.addEventListener("click",function(){state.typ=t;pruneInvalid();rebuildAll();apply();});
     box.appendChild(d);
   });
 }
@@ -1487,17 +1495,12 @@ function buildVarChips(){
   var box=document.getElementById("chipsV");
   box.innerHTML="";
   document.getElementById("lblV").textContent = state.typ==="全部" ? "品种" : ("品种 · "+state.typ);
-  var d=document.createElement("div");
-  d.className="chip"+(state.var2Arr.length===0?" on":"");
-  d.textContent="全部";
-  d.addEventListener("click",function(){
-    state.var2Arr=[];
-    Array.prototype.slice.call(box.children).forEach(function(c){c.classList.remove("on");});
-    d.classList.add("on");
-    apply();
-  });
-  box.appendChild(d);
-  varietyList().forEach(function(x){
+  var d0=document.createElement("div");
+  d0.className="chip"+(state.var2Arr.length===0?" on":"");
+  d0.textContent="全部";
+  d0.addEventListener("click",function(){state.var2Arr=[];pruneInvalid();rebuildAll();apply();});
+  box.appendChild(d0);
+  facetList("var2").forEach(function(x){
     var d=document.createElement("div");
     d.className="chip"+(state.var2Arr.indexOf(x[0])>=0?" on":"");
     d.innerHTML=x[0]+'<span class="n">'+x[1]+'</span>';
@@ -1507,52 +1510,27 @@ function buildVarChips(){
       d.classList.toggle("on",i<0);
       var allChip=box.children[0];
       if(state.var2Arr.length===0)allChip.classList.add("on");else allChip.classList.remove("on");
-      apply();
+      pruneInvalid();rebuildAll();apply();
     });
     box.appendChild(d);
   });
 }
-buildTypeChips();
-buildVarChips();
-// ---- 视图模式切换（抽屉顶部）----
-document.getElementById("modeAll").innerHTML='全题库酒 <i>'+META.quan_n+'</i>';
-document.getElementById("modeSai").innerHTML='赛区酒 <i>'+META.sai_n+'</i>';
-function setMode(m){
-  MODE=m;
-  document.getElementById("modeAll").classList.toggle("on",m==="all");
-  document.getElementById("modeSai").classList.toggle("on",m==="contest");
-  // 保留现有筛选（搜索/类型/品种/新旧世界/国家），只重算当前模式统计并重建 chips
-  STATS=calcStats();
-  buildTypeChips();buildVarChips();buildWorldChips();buildCtyChips();
-  apply();
-}
-document.getElementById("modeAll").addEventListener("click",function(){setMode("all");});
-document.getElementById("modeSai").addEventListener("click",function(){setMode("contest");});
-// ---- 新旧世界(一级) → 国家(二级) 级联筛选 ----
-function countryList(){
-  // 返回当前世界下的国家列表 [[name,n],...] 按款数降序
-  if(state.world==="全部"){
-    return STATS.cty_order.map(function(c){return [c,STATS.cty_cnt[c]||0];});
-  }
-  var wc=STATS.world_countries[state.world]||{};
-  return Object.keys(wc).map(function(k){return [k,wc[k]];});
-}
 function buildWorldChips(){
   var box=document.getElementById("chipsW");
   box.innerHTML="";
-  var arr=[["全部",0]].concat(META.world_order.map(function(w){return [w,STATS.world_cnt[w]||0];}));
-  arr.forEach(function(x){
+  var d0=document.createElement("div");
+  d0.className="chip"+(state.world==="全部"?" on":"");
+  d0.textContent="全部";
+  d0.addEventListener("click",function(){state.world="全部";pruneInvalid();rebuildAll();apply();});
+  box.appendChild(d0);
+  var cnt=facetCnt("world");
+  META.world_order.forEach(function(w){
+    var n=cnt[w]||0;
+    if(n<=0)return;
     var d=document.createElement("div");
-    d.className="chip"+(x[0]===state.world?" on":"");
-    d.innerHTML = x[0]==="全部" ? x[0] : (x[0]+'<span class="n">'+x[1]+'</span>');
-    d.addEventListener("click",function(){
-      state.world=x[0];
-      state.ctyArr=[];          // 切换世界→重置国家多选(级联)
-      Array.prototype.slice.call(box.children).forEach(function(c){c.classList.toggle("on",c===d);});
-      buildCtyChips();
-      buildVarChips();          // 国家清空→品种列表联动
-      apply();
-    });
+    d.className="chip"+(w===state.world?" on":"");
+    d.innerHTML=w+'<span class="n">'+n+'</span>';
+    d.addEventListener("click",function(){state.world=w;pruneInvalid();rebuildAll();apply();});
     box.appendChild(d);
   });
 }
@@ -1560,18 +1538,12 @@ function buildCtyChips(){
   var box=document.getElementById("chipsC");
   box.innerHTML="";
   document.getElementById("lblC").textContent = state.world==="全部" ? "国家" : ("国家 · "+state.world);
-  var d=document.createElement("div");
-  d.className="chip"+(state.ctyArr.length===0?" on":"");
-  d.textContent="全部";
-  d.addEventListener("click",function(){
-    state.ctyArr=[];
-    Array.prototype.slice.call(box.children).forEach(function(c){c.classList.remove("on");});
-    d.classList.add("on");
-    buildVarChips();          // 国家变化→品种列表联动
-    apply();
-  });
-  box.appendChild(d);
-  countryList().forEach(function(x){
+  var d0=document.createElement("div");
+  d0.className="chip"+(state.ctyArr.length===0?" on":"");
+  d0.textContent="全部";
+  d0.addEventListener("click",function(){state.ctyArr=[];pruneInvalid();rebuildAll();apply();});
+  box.appendChild(d0);
+  facetList("cty").forEach(function(x){
     var d=document.createElement("div");
     d.className="chip"+(state.ctyArr.indexOf(x[0])>=0?" on":"");
     d.innerHTML=x[0]+'<span class="n">'+x[1]+'</span>';
@@ -1581,14 +1553,24 @@ function buildCtyChips(){
       d.classList.toggle("on",i<0);
       var allChip=box.children[0];
       if(state.ctyArr.length===0)allChip.classList.add("on");else allChip.classList.remove("on");
-      buildVarChips();          // 国家变化→品种列表联动
-      apply();
+      pruneInvalid();rebuildAll();apply();
     });
     box.appendChild(d);
   });
 }
-buildWorldChips();
-buildCtyChips();
+// ---- 视图模式切换（抽屉顶部）----
+document.getElementById("modeAll").innerHTML='全题库酒 <i>'+META.quan_n+'</i>';
+document.getElementById("modeSai").innerHTML='赛区酒 <i>'+META.sai_n+'</i>';
+function setMode(m){
+  MODE=m;
+  document.getElementById("modeAll").classList.toggle("on",m==="all");
+  document.getElementById("modeSai").classList.toggle("on",m==="contest");
+  // 保留现有筛选，只重算分面统计并重建 chips（失效选择自动清除）
+  pruneInvalid();rebuildAll();apply();
+}
+document.getElementById("modeAll").addEventListener("click",function(){setMode("all");});
+document.getElementById("modeSai").addEventListener("click",function(){setMode("contest");});
+rebuildAll();
 // ---- 排序 ----
 document.getElementById("sortField").addEventListener("change",function(e){state.field=e.target.value;apply();});
 function setDir(d){
