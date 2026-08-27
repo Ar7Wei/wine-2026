@@ -1,12 +1,12 @@
 {
  "meta": {
   "total": 547,
-  "contest": 89,
+  "contest": 86,
   "non_tiku": 0,
-  "tiku": 458,
+  "tiku": 461,
   "quan_n": 547,
-  "sai_n": 89,
-  "same_n": 45,
+  "sai_n": 86,
+  "same_n": 43,
   "types": {
    "白": 194,
    "红": 313,
@@ -439,7 +439,7 @@
    "imp": "",
    "note": "",
    "t_cnt": 1,
-   "src": "contest",
+   "src": "tiku",
    "var_raw": "雷司令 Riesling",
    "comps": [
     "雷司令"
@@ -1246,7 +1246,7 @@
    "alc": "",
    "imp": "",
    "note": "",
-   "src": "contest",
+   "src": "tiku",
    "var_raw": "西拉 Shiraz",
    "comps": [
     "西拉"
@@ -1364,7 +1364,7 @@
    "imp": "",
    "note": "",
    "t_cnt": 1,
-   "src": "contest",
+   "src": "tiku",
    "var_raw": "赤霞珠/梅洛 Cabernet/Merlot",
    "comps": [
     "赤霞珠",
@@ -11025,7 +11025,6 @@
    "imp": "",
    "note": "",
    "src": "tiku",
-   "sameWinery": true,
    "records": []
   },
   {
@@ -12285,7 +12284,6 @@
    "imp": "",
    "note": "",
    "src": "tiku",
-   "sameWinery": true,
    "records": []
   },
   {
